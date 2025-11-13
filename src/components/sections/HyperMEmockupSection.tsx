@@ -40,7 +40,7 @@ export const HyperMEMockupSection: React.FC = () => {
           }}
         >
           <img
-            src="./hyperme.jpg"
+            src="https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/hyperme.jpg"
             alt="avatar"
             style={{
               width: "100%",

@@ -256,17 +256,18 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos del Servicio"
   },
-  "ourStory": {
-    "title": "Nuestra Historia",
-    "subtitle": "De una habitación de 5 m² en Saigón a construir una plataforma de IA con espíritu vietnamita.",
-    "p1": "HYPER ONE nació en una habitación de 5 m² en Nguyen Hue, Saigón, con cinco personas y una gran convicción: la IA debe existir para ayudar a las personas.",
-    "p2": "Sin comienzos grandiosos ni milagros de una noche. Solo largas jornadas, conversaciones sinceras y una pregunta constante: ¿qué debe hacer la IA por Vietnam?",
-    "p3": "Creemos que la IA debe resolver problemas reales: mejorar operaciones, acercar conocimiento y liberar tiempo para lo que importa. Por eso construimos el ecosistema paso a paso — Hyper Bot, Hyper ME, Hyper Cloud, Hyper Lab.",
-    "p4": "Nos preguntamos: ¿pueden los productos vietnamitas llegar al mundo? Sí, si son responsables, honestos y realmente valiosos.",
-    "p5": "El mundo reconoce tres cosas sobre los vietnamitas: aprenden rápido, trabajan con resiliencia y mantienen humildad. Ese es también el espíritu de HYPER ONE.",
-    "p6": "De 5 m² al presente, seguimos avanzando. Esto no es una historia de éxito, sino el comienzo de un largo camino.",
-    "quote": "No perseguimos lo que la IA puede hacer. Elegimos lo que la IA debe hacer."
-  },
+ "ourStory": {
+  "title": "Nuestra Historia",
+  "subtitle": "El viaje desde un pequeño espacio en Saigón hasta construir una plataforma de IA centrada en las personas, inspirada en el espíritu vietnamita.",
+  "p1": "HYPER ONE comenzó en un modesto espacio de trabajo en el 68 de la calle Nguyen Hue, Distrito 1 —hoy Barrio Saigón, Ciudad Ho Chi Minh. Un pequeño equipo, unos pocos escritorios y una convicción compartida: la IA existe para empoderar a las personas, no para reemplazarlas.",
+  "p2": "No hubo un lanzamiento espectacular ni una historia de éxito inmediata. Solo días de trabajo intensos, conversaciones profundas y una pregunta constante: ¿qué debe hacer realmente la IA por las empresas y por la gente de Vietnam?",
+  "p3": "Creemos que la IA debe resolver problemas reales. Debe ayudar a las empresas a operar mejor, facilitar el acceso al conocimiento y permitir que las personas se concentren en lo que realmente importa. Por eso HYPER ONE construyó su ecosistema pieza por pieza: HYPER BOT, HYPER ME, HYPER CLOUD, HYPER LAB —cada producto creado con intención y paciencia.",
+  "p4": "Otra pregunta guía nuestro camino: ¿pueden los productos vietnamitas llegar al mundo? La respuesta es sí, si se construyen con ética, excelencia y perseverancia. Vietnam es hogar de personas inteligentes, adaptables y resilientes. Cuando el valor es auténtico, el mundo lo reconoce.",
+  "p5": "El mundo puede ver a Vietnam de distintas maneras, pero tres cualidades son indiscutibles: aprendemos rápido, trabajamos duro y mantenemos la humildad. Este es el espíritu que sigue HYPER ONE. No perseguimos tendencias; avanzamos con firmeza, intención y autenticidad.",
+  "p6": "Aquel pequeño espacio y aquel pequeño equipo fueron solo el comienzo. Hoy seguimos construyendo una plataforma vietnamita de IA que sea simple, resistente y centrada en las personas. Aún no es una historia de éxito; es apenas el inicio de un largo camino.",
+  "quote": "No lo que la IA puede hacer, sino lo que la IA debe hacer."
+}
+,
   "coreValues": {
     "title": "Valores Fundamentales",
     "subtitle": "Los principios que forman el ADN de HYPER ONE: honestidad, innovación, empatía y conexión auténtica.",

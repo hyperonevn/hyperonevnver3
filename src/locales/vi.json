@@ -256,17 +256,19 @@
     "privacy": "Chính Sách Bảo Mật",
     "terms": "Điều Khoản Dịch Vụ"
   },
-  "ourStory": {
-    "title": "Câu chuyện của chúng tôi",
-    "subtitle": "Hành trình từ một căn phòng 5m² đến việc xây dựng nền tảng AI mang tinh thần Việt.",
-    "p1": "Hyper One bắt đầu từ một căn phòng 5m² ở 68 Nguyễn Huệ, Bến Nghé, Quận 1 – nay là Phường Sài Gòn. Chúng tôi chỉ có vài chiếc bàn và một niềm tin rằng AI sinh ra để hỗ trợ con người.",
-    "p2": "Không có màn khởi đầu hoành tráng. Chỉ có những ngày làm việc dài, những buổi thảo luận chen chúc trong một căn phòng nhỏ và một câu hỏi lặp lại mỗi ngày: AI nên làm gì cho doanh nghiệp Việt?",
-    "p3": "Chúng tôi tin rằng AI phải giải quyết vấn đề thật. Vì vậy Hyper One được xây dựng từng phần, từng lớp: Hyper Bot, Hyper ME, Hyper Cloud, Hyper Lab… mỗi sản phẩm đều có mục đích rõ ràng.",
-    "p4": "Chúng tôi tin sản phẩm Việt có thể bước ra thế giới nếu nó được làm đủ tốt, đủ tử tế và đủ sâu.",
-    "p5": "Thế giới có thể nhìn Việt Nam theo nhiều cách, nhưng ba điều được công nhận: người Việt học nhanh, làm bền và sống khiêm tốn. Đó là tinh thần của Hyper One.",
-    "p6": "Từ 5m² và 5 con người, hành trình mới chỉ bắt đầu. Chúng tôi xây nền tảng AI mang tinh thần Việt: giản dị, bền bỉ và hướng về con người.",
-    "quote": "Không chạy theo điều AI có thể làm mà kiên định với điều AI nên làm."
-  },
+"ourStory": {
+  "title": "Câu chuyện của chúng tôi",
+  "subtitle": "Hành trình từ một góc nhỏ ở Nguyễn Huệ đến việc xây nền tảng AI mang tinh thần Việt.",
+  "p1": "Hyper One bắt đầu từ một phòng làm việc nhỏ tại 68 Nguyễn Huệ, Bến Nghé, Quận 1 – nay là Phường Sài Gòn. Một nơi đủ để năm con người ngồi lại, cùng chia sẻ khát vọng về một tương lai AI của Việt Nam.",
+  "p2": "Chúng tôi không có bệ phóng, cũng không có lễ ra mắt hoành tráng. Chỉ có những ngày làm việc dài và những cuộc trò chuyện không dứt về một câu hỏi: AI thật sự nên làm gì cho doanh nghiệp Việt?",
+  "p3": "Tại căn phòng đó, Hyper Bot được thử nghiệm lần đầu. Hyper ME có những dòng mô tả đầu tiên. Hyper Cloud và Hyper Lab được phác thảo từ những ý tưởng còn rất thô ráp.",
+  "p4": "Chúng tôi trưởng thành theo đúng cách người Việt vẫn làm: bền bỉ, tập trung, và không bao giờ than khó.",
+  "p5": "Cho đến bây giờ, nguyên tắc ngày đầu vẫn không thay đổi: làm tốt trước, mở rộng sau.",
+  "p6": "Hành trình ấy chỉ mới bắt đầu. Chúng tôi tiếp tục xây nền tảng AI mang tinh thần Việt: giản dị, bền bỉ và hướng về con người.",
+  "quote": "Không chạy theo điều AI có thể làm, mà kiên định với điều AI nên làm."
+}
+
+
   "coreValues": {
     "title": "Giá trị cốt lõi",
     "subtitle": "Những nguyên tắc hình thành DNA của Hyper One.",
@@ -383,7 +385,7 @@
   "honorary": {
     "title": "Vinh Danh Đóng Góp",
     "name": "Trương Nhật Linh",
-    "role": "Honorary Co-Founder HYPER ME – Đồng Sáng Lập Danh Dự - cảm hứng sáng lập",
+    "role": "Honorary Co-Founder HYPER ME – Đồng Sáng Lập Danh Dự - cảm hứng sáng lập HYPER ME",
     "quote": "“Không phải ai cũng đồng hành từ ngày đầu, nhưng những người ở lại đã tạo nên Hyper One hôm nay.”",
     "shortQuote": "Biến điều nhỏ bé thành giá trị lớn.",
     "bio1": "Một trong những nguồn cảm hứng quan trọng giúp Hyper ME định hình bản sắc: giản dị, đúng chất Việt và thực tế.",

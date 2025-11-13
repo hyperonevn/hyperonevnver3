@@ -256,17 +256,18 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   },
-  "ourStory": {
-    "title": "Our Story",
-    "subtitle": "The journey from a five square meter room in Saigon to building an AI-centered business platform shaped by Vietnamese spirit.",
-    "p1": "HYPER ONE began in a five square meter room at 68 Nguyen Hue, Ben Nghe, District 1, now Sai Gon Ward, Ho Chi Minh City. We had only five people, a few desks and a strong belief that AI was created to support people, not replace them.",
-    "p2": "There was no glamorous start and no overnight success story. Only long working days, intense discussions in a small room and one question repeated constantly: what should AI do for Vietnamese businesses and Vietnamese people?",
-    "p3": "We believe AI must solve real problems. It must help businesses operate better, help Vietnamese people access knowledge more easily and help humans save time for meaningful things. This is why HYPER ONE built the ecosystem piece by piece with patience. HYPER BOT, HYPER ME, HYPER CLOUD, HYPER LAB. Each product was created with care.",
-    "p4": "The second question we constantly ask ourselves: can Vietnamese products go global? The answer is yes if we do things right, ethically and to completion. Vietnam is home to smart, adaptable and resilient people. If the product has real value, the world will accept it.",
-    "p5": "The world sees Vietnam in many ways, but three things are consistently recognized: Vietnamese people learn fast, work hard and stay humble. This is the spirit HYPER ONE follows. We do not chase trends. We choose to move a little slower, a little steadier and much more real.",
-    "p6": "From five square meters and five people, we continue building a Vietnamese AI platform that is simple, resilient and people-centered. This is not yet a success story. It is only the beginning of a long journey.",
-    "quote": "Not what AI can do but what AI should do."
-  },
+"ourStory": {
+  "title": "Our Story",
+  "subtitle": "The journey from a small corner in Saigon to building a human-centered AI platform shaped by Vietnamese spirit.",
+  "p1": "HYPER ONE began in a modest room at 68 Nguyen Hue, Ben Nghe, District 1 — now Saigon Ward, Ho Chi Minh City. Five people, a few desks, and one shared belief: AI exists to empower people, not replace them.",
+  "p2": "There was no glamorous launch and no overnight success. Only long working days, intense discussions, and one question repeated over and over: what should AI truly do for Vietnamese businesses and Vietnamese people?",
+  "p3": "We believe AI must solve real problems. It must help businesses operate better, help Vietnamese people access knowledge more easily, and free humans to focus on meaningful work. That is why HYPER ONE built its ecosystem piece by piece — HYPER BOT, HYPER ME, HYPER CLOUD, HYPER LAB — each crafted with patience and intention.",
+  "p4": "Another question guides us: can Vietnamese products go global? The answer is yes — if we build with ethics, excellence, and persistence. Vietnam is home to smart, adaptable, and resilient people. If the value is real, the world will embrace it.",
+  "p5": "The world may see Vietnam in many ways, but three traits are undeniable: we learn fast, we work hard, and we stay humble. This is the spirit HYPER ONE follows. We don’t chase trends; we choose to move steadily, intentionally, and genuinely.",
+  "p6": "From a small room and a small team, we continue building a Vietnamese AI platform that is simple, resilient, and human-centered. This is not yet a success story — it is only the beginning of a long journey.",
+  "quote": "Not what AI can do, but what AI should do."
+}
+,
   "coreValues": {
     "title": "Core Values",
     "subtitle": "The principles that shape the DNA of HYPER ONE. Integrity, innovation, empathy and authentic connection.",
