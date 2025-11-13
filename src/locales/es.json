@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "HYPER ONE - Centro de Innovación en IA de Nueva Generación en Vietnam",
+    "description": "HYPER ONE es el centro de innovación en IA de nueva generación de Vietnam. Defendemos una visión de IA centrada en el ser humano y desarrollamos tecnología con propósito. No perseguimos lo que la IA puede hacer, sino lo que la IA debe hacer."
+  },
+  "nav": {
+    "vision": "Visión",
+    "about": "Acerca de HYPER ONE",
+    "solutions": "Soluciones",
+    "milestones": "Hitos",
+    "ecosystem": "Ecosistema",
+    "hyperme": "HYPER ME",
+    "philosophy": "Valores",
+    "founder": "Fundador",
+    "partners": "Socios",
+    "career": "Carreras",
+    "media": "Medios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tagline": "El centro vietnamita de innovación en IA de nueva generación.",
+    "subtitle": "HYPER ONE sigue un camino sostenible: soluciones de IA aplicadas, accesibles y con valor real. Acompañamos a empresas, emprendedores y organizaciones en la creación de productos responsables, humanos y significativos.",
+    "learnMore": "Saber Más",
+    "contactUs": "Contacto",
+    "scrollDown": "Desplazar"
+  },
+  "about": {
+    "title": "Acerca de HYPER ONE",
+    "description": "HYPER ONE nació con un deseo sencillo pero firme: ayudar a las empresas vietnamitas a entrar en la era de la IA con confianza y responsabilidad. Construimos plataformas que permiten a las PYMEs automatizar, operar mejor y mejorar su competitividad.",
+    "innovation": {
+      "title": "Innovación",
+      "description": "Experimentamos, probamos y mejoramos constantemente para encontrar la solución más adecuada para cada caso real."
+    },
+    "humanity": {
+      "title": "Humanidad",
+      "description": "Siempre comenzamos con una pregunta esencial: ¿esta tecnología beneficia realmente a las personas?"
+    },
+    "vision": {
+      "title": "Visión",
+      "description": "Construir una infraestructura de IA sostenible en Vietnam, donde el ser humano sea siempre el centro."
+    },
+    "quote": "Nos esforzamos por construir una IA ética, con visión y al servicio de las personas."
+  },
+  "solutions": {
+    "title": "Soluciones y Servicios",
+    "description": "Soluciones de IA diseñadas para empresas vietnamitas: fáciles de usar, efectivas y listas para implementar.",
+    "learnMore": "Saber Más",
+    "consulting": {
+      "title": "Hyper Bot – Asistente de IA Empresarial",
+      "description": "Automatiza atención al cliente, ventas y tareas internas con tono y contexto personalizados según cada empresa."
+    },
+    "automation": {
+      "title": "Hyper Brain HB1 – Inteligencia Multinúcleo",
+      "description": "El cerebro que coordina los agentes de IA de HYPER ONE, aprendiendo de datos reales para responder de manera natural y precisa."
+    },
+    "cloud": {
+      "title": "Hyper Cloud – Almacenamiento y Automatización",
+      "description": "Plataforma de almacenamiento inteligente conectada con Drive, Zalo, Gmail y APIs empresariales."
+    },
+    "product": {
+      "title": "Hyper One Smart Home",
+      "description": "Soluciones de hogar inteligente con estilo vietnamita, enfocadas en comodidad y emociones."
+    },
+    "geo": {
+      "title": "Hyper One Academy",
+      "description": "Formación en IA aplicada para empresas y profesionales, orientada a resultados inmediatos."
+    },
+    "education": {
+      "title": "Hyper Lab – Investigación e Innovación",
+      "description": "Investigación sobre el impacto social de la IA y desarrollo tecnológico responsable."
+    }
+  },
+  "milestones": {
+    "title": "Nuestro Camino",
+    "description": "HYPER ONE crece día a día mediante proyectos reales y la confianza de nuestros socios.",
+    "projects": "Proyectos de IA Implementados",
+    "engineers": "Ingenieros y Colaboradores",
+    "years": "Años de Experiencia",
+    "clients": "La satisfacción del cliente es nuestra prioridad"
+  },
+  "ecosystem": {
+    "title": "Ecosistema – Hyper Galaxy",
+    "description": "Estamos construyendo un ecosistema de plataformas de IA para empresas y usuarios vietnamitas, diseñado con enfoque de sostenibilidad y valor real.",
+    "hyperCloud": "Hyper Cloud – Plataforma inteligente para IA y automatización",
+    "hyperMe": "Hyper ME – Identidad digital en profile.io.vn",
+    "hyperLabs": "Hyper Lab – Investigación ética en IA",
+    "hyperAcademy": "Hyper Academy – Formación práctica en IA",
+    "hyperAI": "Hyper Bot – Asistente multiplataforma",
+    "hyperPartners": "Hyper Partners – Red de colaboración",
+    "hyperVentures": "Hyper Ventures – Acompañamiento a proyectos de IA"
+  },
+  "hyperme": {
+    "title": "Hyper ME – Tarjeta Digital Vietnamita",
+    "description": "Crea gratuitamente tu tarjeta digital con <nombre>.profile.io.vn. Simple, profesional y con identidad vietnamita.",
+    "visitButton": "Visitar profile.io.vn",
+    "identity": {
+      "title": "Simple",
+      "description": "Crea tu tarjeta en pocos minutos sin complicaciones."
+    },
+    "security": {
+      "title": "Profesional",
+      "description": "Presenta tu información de forma clara, ordenada y confiable."
+    },
+    "control": {
+      "title": "Destacado",
+      "description": "Diseño moderno para causar una excelente primera impresión."
+    },
+    "status": "Estado",
+    "verified": "Verificado",
+    "type": "Tipo",
+    "individual": "Individual",
+    "ctaLine1": "Crea tu tarjeta digital gratuita en <nombre>.profile.io.vn",
+    "ctaLine2": "Simple. Profesional. Memorable.",
+    "mock": {
+      "name": "HYPER ME",
+      "verified": "Identidad Verificada",
+      "subtitle": "Digital Identity • profile.io.vn",
+      "powered": "Desarrollado por",
+      "scan": "Escanea para ver el perfil",
+      "company": "HYPER ONE CO., LTD",
+      "address": "68 Nguyen Hue, Distrito 1, Ciudad Ho Chi Minh, Vietnam",
+      "website": "hyperme.profile.io.vn",
+      "email": "info@hyperonevn.com",
+      "phone": "0352608068",
+      "location": "Ciudad Ho Chi Minh – Vietnam",
+      "socials": {
+        "facebook": "facebook.com",
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "youtube": "youtube.com",
+        "tiktok": "tiktok.com",
+        "zalo": "zalo.me"
+      },
+      "footer": {
+        "poweredBy": "Desarrollado por HYPER ONE",
+        "copyright": "© 2025 HYPER ME · Digital Card",
+        "companyName": "HYPER ONE CO., LTD · Todos los derechos reservados."
+      }
+    }
+  },
+  "philosophy": {
+    "title": "Filosofía y Valores",
+    "manifesto": "Creemos que la IA no es solo tecnología, sino una responsabilidad. Todas las decisiones tecnológicas deben inspirarse en ética, propósito y humanidad.",
+    "values": {
+      "humanity": {
+        "title": "Honestidad y Humanidad",
+        "description": "Transparencia, empatía y decisiones centradas en las personas."
+      },
+      "intelligence": {
+        "title": "Innovación y Creatividad",
+        "description": "Aprender continuamente y mejorar para crear valor real."
+      },
+      "vision": {
+        "title": "Pensamiento Sistémico",
+        "description": "Construir plataformas replicables, escalables y sostenibles."
+      },
+      "purpose": {
+        "title": "Humanidad Primero",
+        "description": "La IA debe servir a las personas, no reemplazarlas."
+      }
+    }
+  },
+  "founder": {
+    "title": "Conoce al Fundador",
+    "position": "CEO & Fundador",
+    "quote": "“Creo que el futuro pertenece a quienes persisten en los valores correctos. HYPER ONE trabaja para construir una IA ética, responsable y verdaderamente útil para las personas.”",
+    "shortQuote": "IA ética, al servicio de las personas.",
+    "bio1": "Lữ Minh Trí fundó HYPER ONE con el deseo de acercar la IA práctica, humana y accesible a las empresas vietnamitas.",
+    "bio2": "Ha desempeñado múltiples roles en operaciones, diseño, automatización y aplicaciones de IA, formando la filosofía central: 'IA para las personas'."
+  },
+  "partners": {
+    "title": "Socios y Clientes",
+    "description": "Valoramos profundamente la confianza de cada empresa que camina con nosotros. Cada proyecto es una oportunidad para crecer juntos.",
+    "becomePartner": "Convertirse en Socio"
+  },
+  "career": {
+    "title": "Carreras — Únete al Viaje",
+    "description": "HYPER ONE busca personas creativas, curiosas y comprometidas con el futuro de la IA en Vietnam.",
+    "positions": {
+      "engineer": {
+        "title": "Ingeniero de IA",
+        "description": "Desarrollar sistemas de IA seguros y útiles."
+      },
+      "researcher": {
+        "title": "Investigador de IA",
+        "description": "Contribuir a la investigación en IA aplicada y ética."
+      },
+      "designer": {
+        "title": "Diseñador UX/UI",
+        "description": "Crear experiencias humanas, fluidas y significativas."
+      },
+      "manager": {
+        "title": "Gerente de Proyectos",
+        "description": "Coordinar equipos y garantizar la ejecución alineada con la visión."
+      }
+    },
+    "applyNow": "Aplicar Ahora",
+    "joinTeam": {
+      "title": "¿No encuentras un rol adecuado?",
+      "description": "Envíanos tu CV. Siempre estamos abiertos a nuevas personas talentosas.",
+      "button": "Contactar Equipo"
+    }
+  },
+  "media": {
+    "title": "Medios y Eventos",
+    "description": "Conversaciones estratégicas, actividades clave y momentos significativos en el camino de HYPER ONE.",
+    "viewMore": "Ver Más",
+    "gallery": {
+      "event1": "Liderazgo de HYPER ONE en diálogo estratégico con Guillaume Rondan — CEO de MoveToAsia",
+      "tech1": "HYPER ONE discute transformación digital con Nguyễn Đình Thắng — Expresidente de LienVietPostBank",
+      "team1": "HYPER ONE conversa con Nguyễn Xuân Hoàn — Vicepresidente de MISA sobre ecosistemas empresariales",
+      "conference1": "HYPER ONE participa en C&I Roadshow 2025 — IA y soluciones energéticas (CEO Lữ Minh Trí, mesa VIP)",
+      "team2": "HYPER ONE comparte perspectivas en AI Demo Day — HoneyCrush x Shinhan Bank",
+      "office1": "HYPER ONE en Global Sourcing Outlook 2025 conectando con socios internacionales"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Si estás interesado en colaborar o explorar soluciones, estaremos encantados de escucharte.",
+    "getInTouch": "Contactar",
+    "sendMessage": "Enviar Mensaje",
+    "location": {
+      "title": "Ubicación",
+      "address": "68 Nguyen Hue, Distrito 1, Ciudad Ho Chi Minh, Vietnam"
+    },
+    "email": {
+      "title": "Correo",
+      "address": "info@hyperonevn.com"
+    },
+    "phone": {
+      "title": "Línea Directa",
+      "number": "+84 352 608 068 | +84 342 608 068"
+    },
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Correo",
+      "subject": "Asunto",
+      "selectSubject": "Seleccionar Asunto",
+      "subjects": {
+        "general": "Consulta General",
+        "service": "Servicios y Soluciones",
+        "partnership": "Oportunidad de Colaboración",
+        "career": "Información de Carrera"
+      },
+      "message": "Tu Mensaje",
+      "send": "Enviar",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Te responderemos lo antes posible."
+    }
+  },
+  "footer": {
+    "description": "HYPER ONE — donde la tecnología se encuentra con la humanidad.",
+    "links": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "rights": "© 2025 HYPER ONE CO., LTD. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos del Servicio"
+  },
+  "ourStory": {
+    "title": "Nuestra Historia",
+    "subtitle": "De una habitación de 5 m² en Saigón a construir una plataforma de IA con espíritu vietnamita.",
+    "p1": "HYPER ONE nació en una habitación de 5 m² en Nguyen Hue, Saigón, con cinco personas y una gran convicción: la IA debe existir para ayudar a las personas.",
+    "p2": "Sin comienzos grandiosos ni milagros de una noche. Solo largas jornadas, conversaciones sinceras y una pregunta constante: ¿qué debe hacer la IA por Vietnam?",
+    "p3": "Creemos que la IA debe resolver problemas reales: mejorar operaciones, acercar conocimiento y liberar tiempo para lo que importa. Por eso construimos el ecosistema paso a paso — Hyper Bot, Hyper ME, Hyper Cloud, Hyper Lab.",
+    "p4": "Nos preguntamos: ¿pueden los productos vietnamitas llegar al mundo? Sí, si son responsables, honestos y realmente valiosos.",
+    "p5": "El mundo reconoce tres cosas sobre los vietnamitas: aprenden rápido, trabajan con resiliencia y mantienen humildad. Ese es también el espíritu de HYPER ONE.",
+    "p6": "De 5 m² al presente, seguimos avanzando. Esto no es una historia de éxito, sino el comienzo de un largo camino.",
+    "quote": "No perseguimos lo que la IA puede hacer. Elegimos lo que la IA debe hacer."
+  },
+  "coreValues": {
+    "title": "Valores Fundamentales",
+    "subtitle": "Los principios que forman el ADN de HYPER ONE: honestidad, innovación, empatía y conexión auténtica.",
+    "integrity": "Honestidad y Transparencia",
+    "integrityDesc": "Coherencia y claridad en palabras, acciones y compromisos.",
+    "innovation": "Innovación y Creatividad",
+    "innovationDesc": "Crear no solo productos, sino mejores maneras de hacer las cosas.",
+    "empathy": "Empatía",
+    "empathyDesc": "Escuchar y comprender antes de ofrecer soluciones.",
+    "connection": "Conexión Auténtica",
+    "connectionDesc": "Relaciones sostenibles basadas en respeto y beneficio mutuo."
+  },
+  "culture": {
+    "title": "Cultura",
+    "subtitle": "Los fundamentos que definen cómo trabaja y crece HYPER ONE.",
+    "partner": "Los clientes son socios. Los socios también son clientes.",
+    "partnerDesc": "Cada proyecto es una construcción conjunta.",
+    "employee": "El equipo es nuestro mayor activo",
+    "employeeDesc": "Invertimos primero en las personas, luego en los sistemas.",
+    "human": "Centrado en las Personas",
+    "humanDesc": "Todas las decisiones comienzan con el valor humano."
+  },
+  "work": {
+    "title": "Cómo Trabajamos",
+    "subtitle": "El modelo Hyper Flow de cinco pasos — claro, transparente y orientado al impacto.",
+    "step1": "Escuchar y Comprender",
+    "step1Desc": "Profundizamos en el contexto, procesos y necesidades reales de la empresa.",
+    "step2": "Análisis y Diseño",
+    "step2Desc": "Proponemos soluciones simples, efectivas y sin imponer tecnología innecesaria.",
+    "step3": "Construcción e Integración",
+    "step3Desc": "Implementación rápida, transparente y bien documentada.",
+    "step4": "Acompañamiento Operativo",
+    "step4Desc": "Caminamos juntos, ajustando según la realidad del negocio.",
+    "step5": "Optimización y Escalado",
+    "step5Desc": "Actualizamos y ampliamos las soluciones según el crecimiento del cliente."
+  },
+  "tech": {
+    "title": "Arquitectura Tecnológica",
+    "subtitle": "Desarrollada paso a paso con pensamiento sistémico y propósito claro.",
+    "core1": {
+      "title": "HyperID — Capa de Identidad Inteligente",
+      "desc": "Gestión de usuarios multinivel para respuestas más contextualizadas."
+    },
+    "core2": {
+      "title": "HyperReply — Tono por Rol",
+      "desc": "Genera respuestas naturales y consistentes según la identidad de cada empresa."
+    },
+    "core3": {
+      "title": "HyperKAIRO — Orquestación de Comportamiento",
+      "desc": "Ayuda a la IA a actuar correctamente en el momento adecuado."
+    },
+    "core4": {
+      "title": "Capa de Registro — Aprendizaje del Mundo Real",
+      "desc": "Registro de interacciones para mejorar continuamente el rendimiento."
+    },
+    "core5": {
+      "title": "Capa de Contexto — Comprensión Profunda",
+      "desc": "Entiende intención, propósito y matices más allá del texto."
+    },
+    "core6": {
+      "title": "Orquestación de Agentes",
+      "desc": "Coordinación de múltiples agentes de IA para resolver tareas complejas."
+    }
+  },
+  "membership": {
+    "title": "Membresías y Reconocimientos",
+    "subtitle": "Vínculos que reflejan la responsabilidad y el compromiso social de HYPER ONE.",
+    "hcmreaTitle": "Miembro Oficial — Asociación de Energía Renovable de Ciudad Ho Chi Minh (HCMREA)",
+    "hcmreaDesc": "HYPER ONE está orgulloso de ser miembro oficial de HCMREA, colaborando para promover energía verde y desarrollo sostenible en Vietnam.",
+    "official": "Membresía Aprobada"
+  },
+  "coreBusiness": {
+    "title": "Áreas de Negocio Clave",
+    "subtitle": "Bases estratégicas que sostienen el crecimiento sostenible de HYPER ONE.",
+    "items": [
+      {
+        "title": "IA Integrada para PYMEs",
+        "description": "Soluciones de IA aplicadas, rentables y fáciles de operar para pequeñas y medianas empresas de Vietnam."
+      },
+      {
+        "title": "Desarrollo del Ecosistema",
+        "description": "Construcción de Hyper Galaxy — Hyper Bot, Hyper Cloud, Hyper ME, Hyper Lab — para crear sinergias a largo plazo."
+      },
+      {
+        "title": "Distribución y Colaboración Global",
+        "description": "Cooperación con socios de Japón, Oriente Medio, Asia Central y Asia Meridional mediante modelos de partnership multinivel."
+      },
+      {
+        "title": "Co-Founder y Tech Partner",
+        "description": "Acompañamiento tecnológico para startups y empresas en transformación digital."
+      },
+      {
+        "title": "Investigación y Desarrollo de Productos Digitales",
+        "description": "Enfoque en tecnologías éticas, transparentes y con verdadero impacto humano."
+      },
+      {
+        "title": "Formación y Transferencia de Capacidades",
+        "description": "Desarrollar capacidades internas de IA mediante el modelo HF5 — pensamiento, proceso, datos y operación."
+      }
+    ]
+  },
+  "why": {
+    "title": "¿Por qué elegir HYPER ONE?",
+    "subtitle": "Construimos sistemas, no tendencias. Y ahí nace la diferencia.",
+    "reason1": "Resolver el problema correcto",
+    "reason1Desc": "No hacemos IA por moda. Identificamos el origen del problema y construimos lo que genera valor real.",
+    "reason2": "Arquitectura correcta desde el inicio",
+    "reason2Desc": "Diseñamos cada solución como si mañana debiera escalar globalmente.",
+    "reason3": "IA con identidad vietnamita",
+    "reason3Desc": "Optimizada para lenguaje, cultura y experiencia vietnamita.",
+    "reason4": "Acompañamiento como socio",
+    "reason4Desc": "No solo entregamos tecnología: pensamos y crecemos junto a ti."
+  },
+  "honorary": {
+    "title": "Reconocimiento Honorario",
+    "name": "Trương Nhật Linh",
+    "role": "Honorary Co-Founder de HYPER ME – Inspiración y Soporte Fundacional",
+    "quote": "“No todos acompañan desde el primer día, pero quienes permanecen construyen lo que somos hoy.”",
+    "shortQuote": "Convertir lo pequeño en valor significativo.",
+    "bio1": "Una de las inspiraciones centrales que ayudó a definir la identidad sencilla, auténtica y vietnamita de HYPER ME.",
+    "bio2": "Su apoyo silencioso pero constante ha mantenido a HYPER ONE firme, humano y en la dirección correcta.",
+    "bio3": "El título honorario reconoce su contribución espiritual y su impacto como fuente de inspiración."
+  }
+}

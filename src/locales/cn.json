@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "HYPER ONE - 越南新一代 AI 创新中心",
+    "description": "HYPER ONE 是越南新一代 AI 创新平台。我们坚持“以人为本”的技术方向，专注于有意义、有责任的 AI 发展。与其追随 AI 能做什么，我们更在乎 AI 应该做什么。"
+  },
+  "nav": {
+    "vision": "愿景",
+    "about": "关于我们",
+    "solutions": "解决方案",
+    "milestones": "重要历程",
+    "ecosystem": "生态系统",
+    "hyperme": "HYPER ME",
+    "philosophy": "价值观",
+    "founder": "创始人",
+    "partners": "合作伙伴",
+    "career": "加入我们",
+    "media": "媒体",
+    "contact": "联系"
+  },
+  "hero": {
+    "tagline": "越南新一代 AI 创新中心",
+    "subtitle": "HYPER ONE 致力于可持续且以人为本的 AI 应用，为企业和创作者提供简单易用、务实可靠的解决方案。我们与合作伙伴携手，共同打造有责任、有温度的 AI 产品。",
+    "learnMore": "了解更多",
+    "contactUs": "联系我们",
+    "scrollDown": "向下滚动"
+  },
+  "about": {
+    "title": "关于 HYPER ONE",
+    "description": "HYPER ONE 的初心简单而坚定——帮助越南企业以更可靠、更自信的方式进入 AI 时代。我们为中小企业打造实用的工具，让运营更高效、竞争力更强。",
+    "innovation": {
+      "title": "创新",
+      "description": "持续实验与改进，只为找到最贴近现实需求的解决方案。"
+    },
+    "humanity": {
+      "title": "人本",
+      "description": "所有技术决策都从一个问题开始：这是否真正帮助了人？"
+    },
+    "vision": {
+      "title": "愿景",
+      "description": "构建越南可持续的 AI 基础设施，让“人”成为所有技术的中心。"
+    },
+    "quote": "我们致力于打造有伦理、有远见、以人为本的 AI。"
+  },
+  "solutions": {
+    "title": "解决方案与服务",
+    "description": "简单易用、能立即落地、专为越南企业设计的 AI 应用方案。",
+    "learnMore": "了解更多",
+    "consulting": {
+      "title": "Hyper Bot — 企业 AI 助理",
+      "description": "自动化客服、销售支持及内部流程，完全符合企业语气与文化。"
+    },
+    "automation": {
+      "title": "Hyper Brain HB1 — 多核心智能系统",
+      "description": "HYPER ONE 的核心 AI 调度系统，通过真实场景学习回应更自然精准。"
+    },
+    "cloud": {
+      "title": "Hyper Cloud — 文件与自动化",
+      "description": "可连接 Drive、Zalo、Gmail 与企业 API 的智能云平台。"
+    },
+    "product": {
+      "title": "Hyper One 智慧家庭",
+      "description": "融合越南生活情感与便利性的智能家居解决方案。"
+    },
+    "geo": {
+      "title": "Hyper One Academy",
+      "description": "提供“能立即上手”的实用 AI 教育课程。"
+    },
+    "education": {
+      "title": "Hyper Lab — 研究与创新",
+      "description": "研究 AI 对社会的影响，并探索更负责任的技术方向。"
+    }
+  },
+  "milestones": {
+    "title": "发展历程",
+    "description": "HYPER ONE 的成长源自真实项目与长期合作伙伴的信任。",
+    "projects": "已上线 AI 项目",
+    "engineers": "优秀工程师与团队成员",
+    "years": "团队经验",
+    "clients": "客户满意是首要目标"
+  },
+  "ecosystem": {
+    "title": "生态系统 — Hyper Galaxy",
+    "description": "我们正在构建一个面向企业与用户的 AI 生态，每一部分都强调可持续性与真实价值。",
+    "hyperCloud": "Hyper Cloud — AI 与自动化云平台",
+    "hyperMe": "Hyper ME — 数字身份 profile.io.vn",
+    "hyperLabs": "Hyper Lab — 负责任的 AI 研究机构",
+    "hyperAcademy": "Hyper Academy — 实用 AI 教育",
+    "hyperAI": "Hyper Bot — 多平台 AI 助理",
+    "hyperPartners": "Hyper Partners — 合作伙伴网络",
+    "hyperVentures": "Hyper Ventures — AI 项目支持"
+  },
+  "hyperme": {
+    "title": "Hyper ME — 越南数字名片",
+    "description": "免费生成属于你的数字名片。使用 <名字>.profile.io.vn，打造简洁、专业、有识别度的个人身份。",
+    "visitButton": "访问 profile.io.vn",
+    "identity": {
+      "title": "简单",
+      "description": "几分钟即可创建属于你的数字名片。"
+    },
+    "security": {
+      "title": "专业",
+      "description": "清晰可信地呈现你的个人信息。"
+    },
+    "control": {
+      "title": "突出",
+      "description": "现代化设计，让你一眼被记住。"
+    },
+    "status": "状态",
+    "verified": "已认证",
+    "type": "类型",
+    "individual": "个人",
+    "ctaLine1": "在 <名字>.profile.io.vn 免费创建数字名片",
+    "ctaLine2": "简洁 · 专业 · 出众",
+    "mock": {
+      "name": "HYPER ME",
+      "verified": "身份认证",
+      "subtitle": "Digital Identity • profile.io.vn",
+      "powered": "技术支持",
+      "scan": "扫码查看个人主页",
+      "company": "HYPER ONE CO., LTD",
+      "address": "越南胡志明市 西贡坊 Nguyen Hue 68",
+      "website": "hyperme.profile.io.vn",
+      "email": "info@hyperonevn.com",
+      "phone": "0352608068",
+      "location": "胡志明市 · 越南",
+      "socials": {
+        "facebook": "facebook.com",
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "youtube": "youtube.com",
+        "tiktok": "tiktok.com",
+        "zalo": "zalo.me"
+      },
+      "footer": {
+        "poweredBy": "由 HYPER ONE 提供支持",
+        "copyright": "© 2025 HYPER ME · Digital Card",
+        "companyName": "HYPER ONE CO., LTD · 版权所有"
+      }
+    }
+  },
+  "philosophy": {
+    "title": "理念与价值",
+    "manifesto": "我们相信 AI 不只是技术，更是一份责任。所有的技术选择都应基于伦理、善意与清晰的目标。",
+    "values": {
+      "humanity": {
+        "title": "诚实与人文",
+        "description": "透明、真诚，把“人”放在利润之前。"
+      },
+      "intelligence": {
+        "title": "创新与创造力",
+        "description": "持续学习，持续优化，为真实价值而创新。"
+      },
+      "vision": {
+        "title": "系统思维",
+        "description": "构建可复制、可扩展、可长期发展的技术能力。"
+      },
+      "purpose": {
+        "title": "以人为本",
+        "description": "AI 的使命不是取代人，而是成就人。"
+      }
+    }
+  },
+  "founder": {
+    "title": "创始人介绍",
+    "position": "CEO & 创始人",
+    "quote": "“未来属于那些坚持正确价值的人。HYPER ONE 致力于构建负责任、有伦理、真正服务人的 AI。”",
+    "shortQuote": "伦理 AI，为人而生。",
+    "bio1": "Lữ Minh Trí 创立 HYPER ONE，期望将实用、温暖、贴近生活的 AI 带入越南企业。",
+    "bio2": "他曾从事运营、设计、自动化、AI 应用等多种角色，这些经历形成了他坚定的‘以人为本的 AI’哲学。"
+  },
+  "partners": {
+    "title": "合作伙伴",
+    "description": "我们珍视每一份信任。每一次合作都是共同成长的机会。",
+    "becomePartner": "成为合作伙伴"
+  },
+  "career": {
+    "title": "加入 HYPER ONE",
+    "description": "我们欢迎渴望学习、具有创造力、愿意为越南 AI 未来贡献力量的人才。",
+    "positions": {
+      "engineer": {
+        "title": "AI 工程师",
+        "description": "开发实用、安全、值得信赖的 AI 系统。"
+      },
+      "researcher": {
+        "title": "AI 研究员",
+        "description": "研究 AI 应用与伦理方向。"
+      },
+      "designer": {
+        "title": "UX/UI 设计师",
+        "description": "打造温暖、自然、以用户为核心的体验。"
+      },
+      "manager": {
+        "title": "项目经理",
+        "description": "协调团队，让项目向正确方向推进。"
+      }
+    },
+    "applyNow": "立即申请",
+    "joinTeam": {
+      "title": "没有适合你的职位？",
+      "description": "欢迎提交你的简历。HYPER ONE 永远期待新的伙伴加入。",
+      "button": "联系团队"
+    }
+  },
+  "media": {
+    "title": "媒体与活动",
+    "description": "记录 HYPER ONE 旅程中的对话、思想和重要时刻。",
+    "viewMore": "查看更多",
+    "gallery": {
+      "event1": "HYPER ONE 与 MoveToAsia CEO Guillaume Rondan 深度交流",
+      "tech1": "HYPER ONE 与前 LienVietPostBank 董事长 Nguyễn Đình Thắng 探讨数字化转型",
+      "team1": "HYPER ONE 与 MISA 副主席 Nguyễn Xuân Hoàn 讨论企业生态合作",
+      "conference1": "HYPER ONE 出席 C&I Roadshow 2025 —— AI 与能源解决方案 VIP 研讨",
+      "team2": "HYPER ONE 在 HoneyCrush x Shinhan Bank AI Demo Day 分享洞见",
+      "office1": "HYPER ONE 出席 Global Sourcing Outlook 2025，与国际伙伴交流"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "如您有合作、解决方案或交流意向，我们非常乐意倾听。",
+    "getInTouch": "联系",
+    "sendMessage": "发送信息",
+    "location": {
+      "title": "地点",
+      "address": "越南胡志明市 西贡坊 Nguyen Hue 68"
+    },
+    "email": {
+      "title": "邮箱",
+      "address": "info@hyperonevn.com"
+    },
+    "phone": {
+      "title": "热线",
+      "number": "+84 352 608 068 | +84 342 608 068"
+    },
+    "form": {
+      "name": "您的姓名",
+      "email": "您的邮箱",
+      "subject": "主题",
+      "selectSubject": "选择主题",
+      "subjects": {
+        "general": "一般咨询",
+        "service": "服务与解决方案",
+        "partnership": "合作机会",
+        "career": "招聘信息"
+      },
+      "message": "您的留言",
+      "send": "发送",
+      "sending": "发送中…",
+      "success": "感谢您的联系！我们将尽快回复。"
+    }
+  },
+  "footer": {
+    "description": "HYPER ONE —— 一个让科技与人文相互融合的越南新一代 AI 创新中心。",
+    "links": "快速链接",
+    "contact": "联系方式",
+    "rights": "© 2025 HYPER ONE CO., LTD. 版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "ourStory": {
+    "title": "我们的故事",
+    "subtitle": "从西贡 5㎡ 小房间起步，走向打造具有越南精神的 AI 平台。",
+    "p1": "HYPER ONE 始于胡志明市 Nguyen Hue 的一间不足 5㎡ 的小房间。只有五个人，一张小桌子，以及一个信念：AI 应当是“帮助人”的力量。",
+    "p2": "没有辉煌的起点，也没有一夜成名的传奇。只有一次次深夜的讨论，一次次反复推敲的问题：AI 应该为越南人解决什么？",
+    "p3": "我们相信，AI 必须解决真实的问题：帮助企业更好地运作、帮助人更快获取知识、让生活更有意义。因此，我们一步一步构建生态系统——Hyper Bot、Hyper ME、Hyper Cloud、Hyper Lab……",
+    "p4": "我们始终问自己：越南的产品能走向世界吗？答案是肯定的——只要我们做得足够真诚、足够扎实、足够有价值。",
+    "p5": "全世界普遍认可越南人三件事：学习快、韧性强、谦逊沉稳。这也是 HYPER ONE 的精神内核。",
+    "p6": "从 5㎡ 到今天，我们仍在前行。这不是成功故事，而是一段漫长旅程的开始。",
+    "quote": "不是追随 AI 能做什么，而是坚持 AI 应该做什么。"
+  },
+  "coreValues": {
+    "title": "核心价值",
+    "subtitle": "构成 HYPER ONE DNA 的根本原则：诚实、创新、共情、真实连接。",
+    "integrity": "诚实与透明",
+    "integrityDesc": "在承诺、沟通与行动中保持真实。",
+    "innovation": "创新与创造",
+    "innovationDesc": "不仅创造产品，更创造更好的方式。",
+    "empathy": "共情",
+    "empathyDesc": "理解在解决方案之前。",
+    "connection": "真实连接",
+    "connectionDesc": "打造双赢、可持续、互相尊重的关系。"
+  },
+  "culture": {
+    "title": "公司文化",
+    "subtitle": "构成 HYPER ONE 工作方式与身份的基石。",
+    "partner": "客户是合作伙伴 · 合作伙伴也是客户",
+    "partnerDesc": "我们将每一位客户视为共同建设者。",
+    "employee": "员工是公司资产",
+    "employeeDesc": "每个成员都是不可或缺的一部分，公司先投资“人”，再投资“系统”。",
+    "human": "以人为中心",
+    "humanDesc": "所有决策与产品都围绕人的价值展开。"
+  },
+  "work": {
+    "title": "工作方式",
+    "subtitle": "Hyper Flow 五步模型 —— 清晰、透明、务实。",
+    "step1": "倾听与理解",
+    "step1Desc": "深入理解企业背景与真实问题。",
+    "step2": "分析与设计",
+    "step2Desc": "技术不是目的，坚持提出最简单有效、易落地的方案。",
+    "step3": "构建与集成",
+    "step3Desc": "快速透明地实施，并提供完善文档支持。",
+    "step4": "陪伴与运营",
+    "step4Desc": "与企业共同运行，根据实际反馈持续优化。",
+    "step5": "优化与扩展",
+    "step5Desc": "根据企业发展需求不断升级、扩展系统。"
+  },
+  "tech": {
+    "title": "技术架构",
+    "subtitle": "从实际需求出发，以系统思维逐层构建的 AI 架构。",
+    "core1": {
+      "title": "HyperID — 智能身份层",
+      "desc": "多层级身份模型，使 AI 回应更具个性化与语境理解。"
+    },
+    "core2": {
+      "title": "HyperReply — 角色语气系统",
+      "desc": "根据企业风格生成自然、熟悉且一致的回应方式。"
+    },
+    "core3": {
+      "title": "HyperKAIRO — 行为调度系统",
+      "desc": "帮助 AI 在合适的情境做出恰当的行动。"
+    },
+    "core4": {
+      "title": "Logging Layer — 从实践中学习",
+      "desc": "记录行为与事件，持续提升 AI 的表现。"
+    },
+    "core5": {
+      "title": "Context Layer — 深度语境理解",
+      "desc": "不仅理解文字，更理解目的、情绪与意图。"
+    },
+    "core6": {
+      "title": "Agent Orchestration — 多智能体协作",
+      "desc": "让多个具有不同能力的 AI 智能体协同解决复杂任务。"
+    }
+  },
+  "membership": {
+    "title": "资质与会员身份",
+    "subtitle": "HYPER ONE 对社会责任与行业贡献的正式认可。",
+    "hcmreaTitle": "胡志明市可再生能源协会正式会员（HCMREA）",
+    "hcmreaDesc": "HYPER ONE 自豪成为 HCMREA 的正式会员，与各组织共同推动绿色能源与可持续发展。",
+    "official": "已正式认证"
+  },
+  "coreBusiness": {
+    "title": "核心业务",
+    "subtitle": "支撑 HYPER ONE 长期发展的战略基础。",
+    "items": [
+      {
+        "title": "中小企业 AI 整合",
+        "description": "以最低成本、最高效率为越南 SME 提供实用易用的 AI 解决方案。"
+      },
+      {
+        "title": "生态系统建设",
+        "description": "构建 Hyper Galaxy，包括 Hyper Bot、Hyper Cloud、Hyper ME、Hyper Lab 等平台，形成长期协同效应。"
+      },
+      {
+        "title": "国际合作与解决方案输出",
+        "description": "与日本、中东、中亚、南亚等地区企业合作，通过多层级（授权、优选、VIP）伙伴模式，将解决方案带向全球。"
+      },
+      {
+        "title": "技术合伙与共同创业",
+        "description": "为创业项目或转型企业提供产品设计、系统架构、运营优化等技术共创服务。"
+      },
+      {
+        "title": "数字产品研究与开发",
+        "description": "专注开发有伦理、透明、人文价值的 AI 产品，坚持“AI 不止能做，更要应该做”的理念。"
+      },
+      {
+        "title": "AI 教育与能力转移",
+        "description": "基于 HF5 模型培训企业团队，使其真正掌握内部 AI 能力，实现自主管理与自主创新。"
+      }
+    ]
+  },
+  "why": {
+    "title": "为什么选择 HYPER ONE？",
+    "subtitle": "我们构建“系统”，而不是追逐“潮流”。",
+    "reason1": "找到真正的问题",
+    "reason1Desc": "不是为了“有 AI 而做 AI”，而是抽丝剥茧，解决企业最核心的痛点。",
+    "reason2": "从第一天起就按国际标准设计",
+    "reason2Desc": "每个系统都按“明天必须能全球扩展”的标准构建，节省时间、成本和错误。",
+    "reason3": "理解越南文化的 AI",
+    "reason3Desc": "语言、行为、语气、体验全面本地化，技术真正贴近人。",
+    "reason4": "像合作伙伴一样同行",
+    "reason4Desc": "我们不仅交付产品，更共同思考、共同执行、共同成长。"
+  },
+  "honorary": {
+    "title": "荣誉共同创办人",
+    "name": "Trương Nhật Linh",
+    "role": "HYPER ME 荣誉共同创办人 · 灵感支持者",
+    "quote": "“不是所有人都会从第一天陪你，但愿意陪你走下去的人塑造了今天的 HYPER ONE。”",
+    "shortQuote": "把小事做到极致，就是伟大的价值。",
+    "bio1": "他是 HYPER ME 初始精神的重要灵感来源——简约、真实、富有越南气质。",
+    "bio2": "他低调但坚定的陪伴，让 HYPER ONE 始终保持人文、清醒与方向感。",
+    "bio3": "荣誉共同创办人头衔，是对其精神价值与启发的正式致谢。"
+  }
+}

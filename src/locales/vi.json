@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Hyper One - Vietnam’s Next-Gen AI Innovation Hub",
+    "description": "Hyper One là trung tâm đổi mới AI thế hệ mới của Việt Nam, theo đuổi hướng đi bền vững: công nghệ có mục đích, AI vì con người. Chúng tôi không chạy theo điều AI có thể làm, mà tập trung vào điều AI nên làm."
+  },
+  "nav": {
+    "vision": "Tầm Nhìn",
+    "about": "Về Hyper One",
+    "solutions": "Giải Pháp",
+    "milestones": "Dự Án",
+    "ecosystem": "Hệ Sinh Thái",
+    "hyperme": "HYPER ME",
+    "philosophy": "Giá Trị & Văn Hóa",
+    "founder": "Nhà Sáng Lập",
+    "partners": "Đối Tác",
+    "career": "Tuyển Dụng",
+    "media": "Truyền Thông",
+    "contact": "Liên Hệ"
+  },
+  "hero": {
+    "tagline": "Trung tâm đổi mới AI thế hệ mới của Việt Nam.",
+    "subtitle": "Chúng tôi tạo ra các giải pháp AI ứng dụng, dễ tiếp cận, bền vững và mang giá trị thực. Hyper One đồng hành cùng doanh nghiệp và nhà sáng lập để xây dựng sản phẩm có trách nhiệm, có chiều sâu và có ý nghĩa.",
+    "learnMore": "Tìm Hiểu Thêm",
+    "contactUs": "Liên Hệ",
+    "scrollDown": "Cuộn Xuống"
+  },
+  "about": {
+    "title": "Về Hyper One",
+    "description": "Hyper One được xây dựng từ niềm tin rằng AI phải phục vụ con người. Chúng tôi phát triển các nền tảng giúp doanh nghiệp Việt tự động hóa, vận hành hiệu quả hơn và nâng cao năng lực cạnh tranh bằng công nghệ phù hợp.",
+    "innovation": {
+      "title": "Đổi Mới",
+      "description": "Không ngừng thử nghiệm, đo lường và cải tiến để tạo ra giá trị thật cho từng bài toán."
+    },
+    "humanity": {
+      "title": "Nhân Văn",
+      "description": "Mọi sản phẩm đều bắt đầu bằng câu hỏi: công nghệ này có giúp ích cho con người hay không?"
+    },
+    "vision": {
+      "title": "Tầm Nhìn",
+      "description": "Xây dựng nền tảng AI bền vững của Việt Nam, nơi con người là trung tâm của mọi quyết định."
+    },
+    "quote": "Chúng tôi theo đuổi AI có đạo đức, có mục đích và có trách nhiệm."
+  },
+  "solutions": {
+    "title": "Giải Pháp & Dịch Vụ",
+    "description": "Các giải pháp AI được thiết kế cho doanh nghiệp Việt: dễ dùng, hiệu quả và triển khai nhanh.",
+    "learnMore": "Tìm Hiểu Thêm",
+    "consulting": {
+      "title": "Hyper Bot – Trợ lý AI doanh nghiệp",
+      "description": "Tự động hóa CSKH, bán hàng và tác vụ nội bộ với tông giọng, hành vi và ngữ cảnh riêng của doanh nghiệp."
+    },
+    "automation": {
+      "title": "Hyper Brain HB1 – Hệ trí tuệ đa lõi",
+      "description": "Bộ não điều phối tác tử AI của Hyper One, học từ thực tế để phản hồi chính xác và tự nhiên hơn."
+    },
+    "cloud": {
+      "title": "Hyper Cloud – Lưu trữ & Tự động hóa",
+      "description": "Hạ tầng đám mây thông minh kết nối Drive, Zalo, Gmail và API doanh nghiệp."
+    },
+    "product": {
+      "title": "Hyper One Smart Home",
+      "description": "Giải pháp nhà thông minh mang tinh thần Việt: tiện nghi, an toàn và giàu cảm xúc."
+    },
+    "geo": {
+      "title": "Hyper One Academy",
+      "description": "Đào tạo AI ứng dụng theo hướng thực chiến: học để hiểu và làm được ngay."
+    },
+    "education": {
+      "title": "Hyper Lab – Nghiên cứu & Đổi mới",
+      "description": "Nghiên cứu tác động của AI và phát triển công nghệ có trách nhiệm."
+    }
+  },
+  "milestones": {
+    "title": "Hành Trình Của Chúng Tôi",
+    "description": "Hyper One trưởng thành từ những dự án thực tế và sự tin tưởng của các đối tác.",
+    "projects": "Các dự án AI triển khai",
+    "engineers": "Đội ngũ kỹ sư và cộng sự",
+    "years": "Kinh nghiệm",
+    "clients": "Sự hài lòng của khách hàng là ưu tiên hàng đầu"
+  },
+  "ecosystem": {
+    "title": "Hệ Sinh Thái - Hyper Galaxy",
+    "description": "Hệ sinh thái AI được xây dựng đồng bộ, ưu tiên khả năng mở rộng và ứng dụng thực tiễn.",
+    "hyperCloud": "Hyper Cloud – Hạ tầng đám mây cho AI và tự động hóa.",
+    "hyperMe": "Hyper ME – Nhận dạng số tại profile.io.vn.",
+    "hyperLabs": "Hyper Lab – Nghiên cứu AI đạo đức.",
+    "hyperAcademy": "Hyper Academy – Đào tạo AI ứng dụng.",
+    "hyperAI": "Hyper Bot – Trợ lý AI đa nền tảng.",
+    "hyperPartners": "Hyper Partners – Mạng lưới đối tác AI.",
+    "hyperVentures": "Hyper Ventures – Đồng hành cùng các dự án AI."
+  },
+  "hyperme": {
+    "title": "Hyper ME - Danh Thiếp Điện Tử Cho Người Việt",
+    "description": "Danh thiếp điện tử miễn phí giúp bạn định danh trong thế giới số và xây dựng thương hiệu cá nhân với domain .io.vn. Tạo hồ sơ trong vài phút – đơn giản, chuyên nghiệp và nổi bật.",
+    "visitButton": "Truy cập profile.io.vn",
+    "identity": {
+      "title": "Đơn Giản",
+      "description": "Tạo danh thiếp trong vài phút, không rào cản."
+    },
+    "security": {
+      "title": "Chuyên Nghiệp",
+      "description": "Trình bày thông tin rõ ràng, chuẩn chỉ và đáng tin cậy."
+    },
+    "control": {
+      "title": "Nổi Bật",
+      "description": "Thiết kế hiện đại giúp bạn gây ấn tượng ngay lập tức."
+    },
+    "status": "Trạng Thái",
+    "verified": "Đã Xác Minh",
+    "type": "Loại",
+    "individual": "Cá Nhân",
+    "ctaLine1": "Tạo danh thiếp tại <tên>.profile.io.vn",
+    "ctaLine2": "Nổi bật. Đơn giản. Chuyên nghiệp.",
+    "mock": {
+      "name": "HYPER ME",
+      "verified": "Verified Identity",
+      "subtitle": "Digital Identity • profile.io.vn",
+      "powered": "Powered by",
+      "scan": "Quét để xem hồ sơ",
+      "company": "HYPER ONE CO., LTD",
+      "address": "68 Nguyễn Huệ, Phường Sài Gòn, TP Hồ Chí Minh, Việt Nam",
+      "website": "hyperme.profile.io.vn",
+      "email": "info@hyperonevn.com",
+      "phone": "0352608068",
+      "location": "TP.HCM – VN",
+      "socials": {
+        "facebook": "facebook.com",
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "youtube": "youtube.com",
+        "tiktok": "tiktok.com",
+        "zalo": "zalo.me"
+      },
+      "footer": {
+        "poweredBy": "Powered by HYPER ONE",
+        "copyright": "© 2025 HYPER ME · Digital Card",
+        "companyName": "HYPER ONE CO., LTD · All rights reserved."
+      }
+    }
+  },
+  "philosophy": {
+    "title": "Triết Lý & Giá Trị Cốt Lõi",
+    "manifesto": "Chúng tôi tin rằng công nghệ không chỉ là năng lực, mà là trách nhiệm. AI phải được dẫn dắt bởi đạo đức, mục đích và sự tử tế.",
+    "values": {
+      "humanity": {
+        "title": "Trung Thực & Nhân Văn",
+        "description": "Minh bạch, tử tế và đặt con người lên trước lợi nhuận."
+      },
+      "intelligence": {
+        "title": "Đổi Mới & Sáng Tạo",
+        "description": "Liên tục học hỏi để tạo ra giá trị thật."
+      },
+      "vision": {
+        "title": "Tư Duy Hệ Thống",
+        "description": "Xây nền tảng có thể nhân bản và bền vững."
+      },
+      "purpose": {
+        "title": "Hướng Tới Con Người",
+        "description": "AI sinh ra để phục vụ con người."
+      }
+    }
+  },
+  "founder": {
+    "title": "Gặp Gỡ Nhà Sáng Lập",
+    "position": "CEO & Founder",
+    "quote": "“Tôi tin rằng tương lai thuộc về những người kiên định với giá trị đúng đắn. Hyper One theo đuổi AI có đạo đức, có trách nhiệm và mang lại giá trị thật cho con người.”",
+    "shortQuote": "AI có đạo đức – vì con người.",
+    "bio1": "Lữ Minh Trí sáng lập Hyper One với mong muốn đưa AI ứng dụng đến gần hơn với doanh nghiệp Việt.",
+    "bio2": "Trải nghiệm đa lĩnh vực giúp anh định hình triết lý 'AI vì con người' – nền tảng của Hyper One."
+  },
+  "partners": {
+    "title": "Đối Tác & Khách Hàng",
+    "description": "Mỗi dự án là một hành trình học hỏi và kiến tạo giá trị. Chúng tôi trân trọng sự tin tưởng từ các đối tác.",
+    "becomePartner": "Trở Thành Đối Tác"
+  },
+  "career": {
+    "title": "Tuyển Dụng - Tham Gia Hành Trình",
+    "description": "Hyper One tìm kiếm những con người sáng tạo, ham học hỏi và muốn đóng góp cho tương lai AI Việt.",
+    "positions": {
+      "engineer": {
+        "title": "Kỹ Sư AI",
+        "description": "Phát triển hệ thống AI ứng dụng và an toàn."
+      },
+      "researcher": {
+        "title": "Nhà Nghiên Cứu AI",
+        "description": "Nghiên cứu AI ứng dụng và đạo đức AI."
+      },
+      "designer": {
+        "title": "Nhà Thiết Kế UX/UI",
+        "description": "Tạo trải nghiệm liền mạch, tinh tế và nhân văn."
+      },
+      "manager": {
+        "title": "Quản Lý Dự Án",
+        "description": "Điều phối đội ngũ triển khai dự án theo tầm nhìn."
+      }
+    },
+    "applyNow": "Ứng Tuyển Ngay",
+    "joinTeam": {
+      "title": "Không thấy vai trò phù hợp?",
+      "description": "Hãy gửi CV của bạn. Chúng tôi luôn chào đón tài năng mới.",
+      "button": "Liên Hệ Đội Ngũ"
+    }
+  },
+  "media": {
+    "title": "Truyền Thông & Sự Kiện",
+    "description": "Những cuộc trò chuyện chiến lược và khoảnh khắc ý nghĩa trong hành trình xây dựng HYPER ONE.",
+    "viewMore": "Xem Thêm",
+    "gallery": {
+      "event1": "Lãnh đạo HYPER ONE trao đổi chiến lược cùng ông Guillaume Rondan – CEO MoveToAsia",
+      "tech1": "Lãnh đạo HYPER ONE thảo luận với ông Nguyễn Đình Thắng – Nguyên Chủ tịch LienVietPostBank",
+      "team1": "HYPER ONE gặp gỡ ông Nguyễn Xuân Hoàn – Phó Chủ tịch MISA",
+      "conference1": "HYPER ONE tại C&I Roadshow 2025 – Bàn về AI và năng lượng (CEO Lữ Minh Trí, ghế VIP)",
+      "team2": "HYPER ONE chia sẻ tại AI Demo Day – HoneyCrush x Shinhan Bank",
+      "office1": "HYPER ONE tham dự Global Sourcing Outlook 2025"
+    }
+  },
+  "contact": {
+    "title": "Liên Hệ - Kết Nối",
+    "description": "Quan tâm đến hợp tác, giải pháp hoặc cơ hội cùng đồng hành? Hyper One luôn sẵn sàng.",
+    "getInTouch": "Liên Lạc",
+    "sendMessage": "Gửi Tin Nhắn",
+    "location": {
+      "title": "Địa Điểm",
+      "address": "68 Nguyễn Huệ, phường Sài Gòn, TP. Hồ Chí Minh, Việt Nam"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@hyperonevn.com"
+    },
+    "phone": {
+      "title": "Hotline",
+      "number": "+84 352 608 068 | +84 342 608 068"
+    },
+    "form": {
+      "name": "Tên Của Bạn",
+      "email": "Email Của Bạn",
+      "subject": "Chủ Đề",
+      "selectSubject": "Chọn chủ đề",
+      "subjects": {
+        "general": "Yêu Cầu Chung",
+        "service": "Dịch Vụ & Giải Pháp",
+        "partnership": "Cơ Hội Hợp Tác",
+        "career": "Thông Tin Tuyển Dụng"
+      },
+      "message": "Tin Nhắn Của Bạn",
+      "send": "Gửi Tin Nhắn",
+      "sending": "Đang Gửi...",
+      "success": "Cảm ơn bạn! Chúng tôi sẽ phản hồi trong thời gian sớm nhất."
+    }
+  },
+  "footer": {
+    "description": "Hyper One – trung tâm đổi mới AI thế hệ mới của Việt Nam.",
+    "links": "Liên Kết Nhanh",
+    "contact": "Thông Tin Liên Hệ",
+    "rights": "© 2025 HYPER ONE CO., LTD. Tất cả quyền được bảo lưu.",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ"
+  },
+  "ourStory": {
+    "title": "Câu chuyện của chúng tôi",
+    "subtitle": "Hành trình từ một căn phòng 5m² đến việc xây dựng nền tảng AI mang tinh thần Việt.",
+    "p1": "Hyper One bắt đầu từ một căn phòng 5m² ở 68 Nguyễn Huệ, Bến Nghé, Quận 1 – nay là Phường Sài Gòn. Chúng tôi chỉ có vài chiếc bàn và một niềm tin rằng AI sinh ra để hỗ trợ con người.",
+    "p2": "Không có màn khởi đầu hoành tráng. Chỉ có những ngày làm việc dài, những buổi thảo luận chen chúc trong một căn phòng nhỏ và một câu hỏi lặp lại mỗi ngày: AI nên làm gì cho doanh nghiệp Việt?",
+    "p3": "Chúng tôi tin rằng AI phải giải quyết vấn đề thật. Vì vậy Hyper One được xây dựng từng phần, từng lớp: Hyper Bot, Hyper ME, Hyper Cloud, Hyper Lab… mỗi sản phẩm đều có mục đích rõ ràng.",
+    "p4": "Chúng tôi tin sản phẩm Việt có thể bước ra thế giới nếu nó được làm đủ tốt, đủ tử tế và đủ sâu.",
+    "p5": "Thế giới có thể nhìn Việt Nam theo nhiều cách, nhưng ba điều được công nhận: người Việt học nhanh, làm bền và sống khiêm tốn. Đó là tinh thần của Hyper One.",
+    "p6": "Từ 5m² và 5 con người, hành trình mới chỉ bắt đầu. Chúng tôi xây nền tảng AI mang tinh thần Việt: giản dị, bền bỉ và hướng về con người.",
+    "quote": "Không chạy theo điều AI có thể làm mà kiên định với điều AI nên làm."
+  },
+  "coreValues": {
+    "title": "Giá trị cốt lõi",
+    "subtitle": "Những nguyên tắc hình thành DNA của Hyper One.",
+    "integrity": "Trung thực & Minh bạch",
+    "integrityDesc": "Rõ ràng trong lời nói, hành động và cam kết.",
+    "innovation": "Đổi mới & Sáng tạo",
+    "innovationDesc": "Không chỉ tạo ra sản phẩm mà tạo ra cách làm tốt hơn.",
+    "empathy": "Đồng cảm",
+    "empathyDesc": "Lắng nghe để thấu hiểu trước khi giải quyết.",
+    "connection": "Kết nối chân thật",
+    "connectionDesc": "Quan hệ win-win, bền vững và tôn trọng."
+  },
+  "culture": {
+    "title": "Văn hóa công ty",
+    "subtitle": "Bản sắc và cách Hyper One làm việc cùng nhau.",
+    "partner": "Đối tác là khách hàng – Khách hàng là đối tác",
+    "partnerDesc": "Mỗi dự án là một hành trình xây dựng chung.",
+    "employee": "Nhân viên là tài sản",
+    "employeeDesc": "Chúng tôi đầu tư vào con người trước hệ thống.",
+    "human": "Con người là trung tâm",
+    "humanDesc": "Mọi quyết định đều hướng đến giá trị con người."
+  },
+  "work": {
+    "title": "Cách chúng tôi làm việc",
+    "subtitle": "Hyper Flow 5 bước – minh bạch, rõ ràng, hiệu quả.",
+    "step1": "Lắng nghe & Hiểu đúng",
+    "step1Desc": "Hiểu vấn đề thật của doanh nghiệp.",
+    "step2": "Phân tích & Thiết kế giải pháp",
+    "step2Desc": "Tối giản hóa, chọn giải pháp phù hợp nhất.",
+    "step3": "Xây dựng & Tích hợp",
+    "step3Desc": "Triển khai nhanh, minh bạch, có tài liệu.",
+    "step4": "Vận hành cùng doanh nghiệp",
+    "step4Desc": "Tối ưu theo phản hồi thực tế.",
+    "step5": "Tối ưu & Mở rộng",
+    "step5Desc": "Mở rộng theo nhu cầu phát triển."
+  },
+  "tech": {
+    "title": "Kiến trúc công nghệ",
+    "subtitle": "Hệ thống phát triển theo nhu cầu thực tế.",
+    "core1": {
+      "title": "HyperID – Lớp định danh thông minh",
+      "desc": "Giúp AI phản hồi chính xác theo ngữ cảnh."
+    },
+    "core2": {
+      "title": "HyperReply – Tông giọng theo vai",
+      "desc": "AI phản hồi tự nhiên và phù hợp với thương hiệu."
+    },
+    "core3": {
+      "title": "HyperKAIRO – Điều phối hành vi AI",
+      "desc": "Chọn đúng hành động, đúng thời điểm."
+    },
+    "core4": {
+      "title": "Logging Layer – Học từ thực tế",
+      "desc": "Ghi nhận hành vi để tối ưu hiệu suất."
+    },
+    "core5": {
+      "title": "Context Layer – Ngữ cảnh sâu",
+      "desc": "Hiểu mục đích thật sự của người dùng."
+    },
+    "core6": {
+      "title": "Agent Orchestration – Điều phối tác tử",
+      "desc": "Giải quyết bài toán phức tạp theo từng vai trò."
+    }
+  },
+  "membership": {
+    "title": "Tư cách & Thành viên",
+    "subtitle": "Cam kết với cộng đồng và xã hội.",
+    "hcmreaTitle": "Thành viên chính thức – HCMREA",
+    "hcmreaDesc": "Hyper One tự hào là thành viên chính thức của Hiệp hội Năng lượng Tái tạo TP.HCM, cùng thúc đẩy phát triển năng lượng xanh.",
+    "official": "Tư cách thành viên chính thức"
+  },
+  "coreBusiness": {
+    "title": "Hoạt Động Kinh Doanh Cốt Lõi",
+    "subtitle": "Nền tảng giúp Hyper One phát triển bền vững.",
+    "items": [
+      {
+        "title": "AI Tích Hợp Cho SME",
+        "description": "Giải pháp phù hợp với doanh nghiệp nhỏ và vừa tại Việt Nam."
+      },
+      {
+        "title": "Phát Triển Hệ Sinh Thái",
+        "description": "Xây dựng Hyper Galaxy gồm Hyper Bot, Hyper Cloud, Hyper ME, Hyper Lab."
+      },
+      {
+        "title": "Phân Phối & Cung Ứng Giải Pháp",
+        "description": "Hợp tác mở rộng giải pháp Hyper One ra Nhật Bản, Trung Đông, Trung Á và Nam Á."
+      },
+      {
+        "title": "Co-Founder & Tech Partner",
+        "description": "Đồng sáng lập công nghệ, xây dựng sản phẩm và tối ưu vận hành."
+      },
+      {
+        "title": "Nghiên Cứu & Sản Xuất Sản Phẩm Số",
+        "description": "Tập trung vào AI nhân văn, minh bạch và có trách nhiệm."
+      },
+      {
+        "title": "Đào Tạo & Chuyển Giao Năng Lực AI",
+        "description": "HL5 – mô hình huấn luyện để doanh nghiệp tự làm chủ AI nội bộ."
+      }
+    ]
+  },
+  "why": {
+    "title": "Tại sao chọn Hyper One?",
+    "subtitle": "Chúng tôi xây hệ thống, không chạy theo trào lưu.",
+    "reason1": "Chọn đúng vấn đề",
+    "reason1Desc": "Không làm AI để 'cho có'. Chúng tôi bóc tách vấn đề gốc và tập trung vào giá trị thật.",
+    "reason2": "Kiến trúc chuẩn từ đầu",
+    "reason2Desc": "Mọi sản phẩm đều được xây như thể ngày mai phải scale toàn cầu.",
+    "reason3": "AI mang bản sắc Việt",
+    "reason3Desc": "Tối ưu tông giọng, hành vi và trải nghiệm cho người Việt.",
+    "reason4": "Đồng hành như đối tác",
+    "reason4Desc": "Không chỉ bàn giao sản phẩm. Chúng tôi tư duy cùng bạn, tối ưu cùng bạn."
+  },
+  "honorary": {
+    "title": "Vinh Danh Đóng Góp",
+    "name": "Trương Nhật Linh",
+    "role": "Honorary Co-Founder HYPER ME – Đồng Sáng Lập Danh Dự - cảm hứng sáng lập",
+    "quote": "“Không phải ai cũng đồng hành từ ngày đầu, nhưng những người ở lại đã tạo nên Hyper One hôm nay.”",
+    "shortQuote": "Biến điều nhỏ bé thành giá trị lớn.",
+    "bio1": "Một trong những nguồn cảm hứng quan trọng giúp Hyper ME định hình bản sắc: giản dị, đúng chất Việt và thực tế.",
+    "bio2": "Sự đồng hành bền bỉ của ông giúp Hyper One giữ được sự nhân văn và định hướng rõ ràng.",
+    "bio3": "Danh vị Đồng Sáng Lập Danh Dự được trao để ghi nhận những đóng góp tinh thần và giá trị cảm hứng."
+  }
+}

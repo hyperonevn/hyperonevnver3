@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "HYPER ONE - ベトナム次世代AIイノベーションハブ",
+    "description": "HYPER ONE は、ベトナムにおける次世代AIイノベーションの中心地です。私たちは人のためのAI、目的あるテクノロジーを追求しています。AI ができることではなく、AI がなすべきことに忠実でありたいと考えています。"
+  },
+  "nav": {
+    "vision": "ビジョン",
+    "about": "HYPER ONE について",
+    "solutions": "ソリューション",
+    "milestones": "実績",
+    "ecosystem": "エコシステム",
+    "hyperme": "HYPER ME",
+    "philosophy": "価値観と文化",
+    "founder": "創業者",
+    "partners": "パートナー",
+    "career": "採用情報",
+    "media": "メディア",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "tagline": "ベトナム次世代AIイノベーションハブ。",
+    "subtitle": "私たちは、持続可能で人に寄り添うAIのあり方を追求しています。誰もが使いやすく、実用的で、意味のあるAIソリューションを提供し、企業や創業者、組織が責任あるプロダクトを共に創り上げられるよう伴走します。",
+    "learnMore": "さらに詳しく",
+    "contactUs": "お問い合わせ",
+    "scrollDown": "スクロール"
+  },
+  "about": {
+    "title": "HYPER ONE について",
+    "description": "HYPER ONE は、ベトナム企業がAI時代へ安全かつ確信をもって進むための支えとなることを目的に生まれました。中小企業が自動化し、運営効率を高め、競争力を強めるための実用的なプラットフォームを開発しています。",
+    "innovation": {
+      "title": "イノベーション",
+      "description": "常に試行錯誤を重ね、実際の課題に最適な解決策を探求し続けています。"
+    },
+    "humanity": {
+      "title": "人間性",
+      "description": "すべては「この技術は人の役に立つか」という問いから始まります。"
+    },
+    "vision": {
+      "title": "ビジョン",
+      "description": "人を中心に据えた、持続可能なベトナム発のAI基盤を構築することです。"
+    },
+    "quote": "倫理と視点を備え、人に寄り添うAIをつくることを目指しています。"
+  },
+  "solutions": {
+    "title": "ソリューションとサービス",
+    "description": "誰でも使いやすく、効果的で、すぐに導入できる実用的なAIソリューションをベトナム企業向けに提供しています。",
+    "learnMore": "さらに詳しく",
+    "consulting": {
+      "title": "HYPER BOT 企業向けAIアシスタント",
+      "description": "カスタマーサポート、営業活動、社内業務を企業固有の文脈とトーンに合わせて自動化します。"
+    },
+    "automation": {
+      "title": "HYPER BRAIN HB1 マルチインテリジェンス",
+      "description": "HYPER ONE のAIエージェントを調整する中核であり、実データから学習しより自然で正確な応答を実現します。"
+    },
+    "cloud": {
+      "title": "HYPER CLOUD ストレージと自動化",
+      "description": "Drive、Zalo、Gmail、各種APIとシームレスに連携するスマートストレージシステムです。"
+    },
+    "product": {
+      "title": "HYPER ONE スマートホーム",
+      "description": "ベトナムらしさを大切にしたスマートホームソリューションです。快適さと心地よさを重視しています。"
+    },
+    "geo": {
+      "title": "HYPER ONE アカデミー",
+      "description": "すぐに使える実践型のAI教育を企業や個人へ提供します。"
+    },
+    "education": {
+      "title": "HYPER LAB 研究とイノベーション",
+      "description": "AIが社会に与える影響を研究し、責任ある技術開発の方向性を探っています。"
+    }
+  },
+  "milestones": {
+    "title": "私たちの歩み",
+    "description": "HYPER ONE は、実際のプロジェクトとパートナーからの信頼に支えられ成長してきました。",
+    "projects": "AIプロジェクト実績",
+    "engineers": "献身的なエンジニアとメンバー",
+    "years": "チームの経験年数",
+    "clients": "お客様の満足が最優先"
+  },
+  "ecosystem": {
+    "title": "エコシステム HYPER Galaxy",
+    "description": "企業とユーザーのためのAIプラットフォームを連携させたエコシステムを構築しています。すべての要素は、長期的価値と実用性を重視して丁寧につくられています。",
+    "hyperCloud": "HYPER CLOUD AI と自動化のクラウド基盤",
+    "hyperMe": "HYPER ME デジタルアイデンティティ profile.io.vn",
+    "hyperLabs": "HYPER LAB 倫理的AIの研究と革新",
+    "hyperAcademy": "HYPER Academy 実践型AI教育",
+    "hyperAI": "HYPER BOT マルチプラットフォームAIアシスタント",
+    "hyperPartners": "HYPER Partners AI共創パートナーネットワーク",
+    "hyperVentures": "HYPER Ventures AIプロジェクト支援"
+  },
+  "hyperme": {
+    "title": "HYPER ME ベトナム人のためのデジタル名刺",
+    "description": "無料で作成できるデジタル名刺。あなたのオンラインアイデンティティを .io.vn ドメインで表現できます。数分で作成でき、シンプルでプロフェッショナルです。",
+    "visitButton": "profile.io.vn を見る",
+    "identity": {
+      "title": "シンプル",
+      "description": "数分で名刺を作成できます。複雑さも障壁もありません。"
+    },
+    "security": {
+      "title": "プロフェッショナル",
+      "description": "あなたの情報を正確かつ信頼性のある形で表示します。"
+    },
+    "control": {
+      "title": "印象的",
+      "description": "洗練されたデザインで第一印象を高めます。"
+    },
+    "status": "ステータス",
+    "verified": "認証済み",
+    "type": "タイプ",
+    "individual": "個人",
+    "ctaLine1": "無料のデジタル名刺を <名前>.profile.io.vn で作成",
+    "ctaLine2": "印象的。シンプル。プロフェッショナル。",
+    "mock": {
+      "name": "HYPER ME",
+      "verified": "Verified Identity",
+      "subtitle": "Digital Identity • profile.io.vn",
+      "powered": "Powered by",
+      "scan": "スキャンしてプロフィールを見る",
+      "company": "HYPER ONE CO., LTD",
+      "address": "68 Nguyen Hue Sai Gon Ward Ho Chi Minh City Vietnam",
+      "website": "hyperme.profile.io.vn",
+      "email": "info@hyperonevn.com",
+      "phone": "0352608068",
+      "location": "HCMC Vietnam",
+      "socials": {
+        "facebook": "facebook.com",
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "youtube": "youtube.com",
+        "tiktok": "tiktok.com",
+        "zalo": "zalo.me"
+      },
+      "footer": {
+        "poweredBy": "Powered by HYPER ONE",
+        "copyright": "© 2025 HYPER ME Digital Card",
+        "companyName": "HYPER ONE CO., LTD All rights reserved"
+      }
+    }
+  },
+  "philosophy": {
+    "title": "理念と価値観",
+    "manifesto": "AIは技術である前に、責任であると私たちは考えています。倫理、誠実さそして明確な目的によって導かれるテクノロジーを追求しています。",
+    "values": {
+      "humanity": {
+        "title": "誠実さと人間性",
+        "description": "透明性と誠実さを大切にし、人より利益を優先しません。"
+      },
+      "intelligence": {
+        "title": "革新と創造性",
+        "description": "学び続け、試し続け、本物の価値を生み出します。"
+      },
+      "vision": {
+        "title": "システム思考",
+        "description": "長期的にスケールし持続可能な基盤を構築します。"
+      },
+      "purpose": {
+        "title": "人を中心にした設計",
+        "description": "AIは人を支えるために存在し、人を置き換えるためではありません。"
+      }
+    }
+  },
+  "founder": {
+    "title": "創業者紹介",
+    "position": "CEO Founder",
+    "quote": "未来は正しい価値を追い続ける人の手に委ねられます。HYPER ONE は、責任と倫理を伴うAIを通じて、人にとって本当に価値ある未来をつくりたいと願っています。",
+    "shortQuote": "倫理あるAIを人のために。",
+    "bio1": "ルー ミン チーは、AIをもっと身近で実践的、そして人に優しい形でベトナム企業に届けたいという思いで HYPER ONE を創業しました。",
+    "bio2": "運営、デザイン、自動化、応用AIなど多様な経験があり、これらの経験が「人のためのAI」という HYPER ONE の理念を支えています。"
+  },
+  "partners": {
+    "title": "パートナーとお客様",
+    "description": "共に歩んでくださる企業や創業者の皆様からの信頼を大切にしています。すべてのプロジェクトが学びと成長の機会です。",
+    "becomePartner": "パートナーになる"
+  },
+  "career": {
+    "title": "採用情報 仲間を募集しています",
+    "description": "HYPER ONE は、創造的で学び続ける姿勢を持ち、ベトナムのAI未来づくりに貢献したい方を歓迎します。",
+    "positions": {
+      "engineer": {
+        "title": "AIエンジニア",
+        "description": "安全で応用可能なAIシステムを開発します。"
+      },
+      "researcher": {
+        "title": "AIリサーチャー",
+        "description": "応用AIとAI倫理の研究に参加します。"
+      },
+      "designer": {
+        "title": "UX/UIデザイナー",
+        "description": "人に寄り添ったシームレスな体験をデザインします。"
+      },
+      "manager": {
+        "title": "プロジェクトマネージャー",
+        "description": "ビジョンに沿ったプロジェクトを調整し推進します。"
+      }
+    },
+    "applyNow": "応募する",
+    "joinTeam": {
+      "title": "適したポジションが見つからない場合",
+      "description": "ぜひ履歴書をお送りください。HYPER ONE は新しい才能を歓迎します。",
+      "button": "チームに連絡"
+    }
+  },
+  "media": {
+    "title": "メディアとイベント",
+    "description": "HYPER ONE が歩む中での大切な対話、取り組み、学びの瞬間を紹介します。",
+    "viewMore": "もっと見る",
+    "gallery": {
+      "event1": "HYPER ONE 経営陣が MoveToAsia CEO Guillaume Rondan 氏と戦略について意見交換",
+      "tech1": "HYPER ONE 経営陣が元LienVietPostBank会長 Nguyen Dinh Thang 氏とデジタル変革について議論",
+      "team1": "HYPER ONE 経営陣が MISA 副会長 Nguyen Xuan Hoan 氏と企業エコシステムについて対話",
+      "conference1": "HYPER ONE が C and I Roadshow 2025 に参加 AI とエネルギーソリューションをテーマに意見交換 CEO ルー ミン チー VIP席",
+      "team2": "HYPER ONE が HoneyCrush と Shinhan Bank 主催の AI Demo Day でAIの視点を共有",
+      "office1": "HYPER ONE が Global Sourcing Outlook 2025 に参加し国際パートナーと連携"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "協業、ソリューション、パートナーシップにご関心がありましたら、どうぞお気軽にご連絡ください。HYPER ONE は常に耳を傾けています。",
+    "getInTouch": "お問い合わせ",
+    "sendMessage": "メッセージ送信",
+    "location": {
+      "title": "所在地",
+      "address": "68 Nguyen Hue Sai Gon Ward Ho Chi Minh City Vietnam"
+    },
+    "email": {
+      "title": "メール",
+      "address": "info@hyperonevn.com"
+    },
+    "phone": {
+      "title": "ホットライン",
+      "number": "+84 352 608 068 | +84 342 608 068"
+    },
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "subject": "件名",
+      "selectSubject": "件名を選択",
+      "subjects": {
+        "general": "一般のお問い合わせ",
+        "service": "サービスとソリューション",
+        "partnership": "パートナーシップ",
+        "career": "採用情報"
+      },
+      "message": "メッセージ内容",
+      "send": "送信",
+      "sending": "送信中...",
+      "success": "ありがとうございます。できるだけ早くご返信いたします。"
+    }
+  },
+  "footer": {
+    "description": "HYPER ONE は、テクノロジーと人間性が調和するベトナム次世代AIイノベーションハブです。",
+    "links": "クイックリンク",
+    "contact": "お問い合わせ情報",
+    "rights": "© 2025 HYPER ONE CO., LTD. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "ourStory": {
+    "title": "私たちのストーリー",
+    "subtitle": "サイゴンの五平方メートルの小さな部屋から始まり ベトナムの精神を宿したAIプラットフォームを築くまでの歩み。",
+    "p1": "HYPER ONE の始まりは ホーチミン市 Nguyen Hue 通りの小さな部屋でした。五平方メートルの空間 机が数台 そして「AIは人のためにある」という強い信念だけでした。",
+    "p2": "派手なスタートでも 一夜で成功した物語でもありません。長い作業時間 小さな部屋での議論 そして問い続ける日々でした。「AIはベトナム企業と人々のために何をすべきか」。",
+    "p3": "AIは現実の課題を解決すべき存在です。企業の運営を助け ベトナムの人々の知識へのアクセスを支え 人が大切なことへ時間を使えるようにする。だからこそ HYPER ONE は一つ一つ丁寧にエコシステムを築いてきました。HYPER BOT HYPER ME HYPER CLOUD HYPER LAB すべて人を想って作られています。",
+    "p4": "二つ目の問いがあります。「ベトナム発のプロダクトは世界へ羽ばたけるか」。答えは「はい」です。正しく誠実に作り上げれば 世界は必ず受け入れてくれます。",
+    "p5": "世界はベトナムをさまざまに見ていますが 三つのことはよく語られます。ベトナム人は学ぶのが早い 踏ん張りが強い 謙虚である。これは HYPER ONE が大切にしている精神そのものです。私たちは流行を追いません。少しゆっくりでも 確かに 本質的に進みます。",
+    "p6": "五平方メートルと五人から始まり 私たちは今も 人を中心に据えたAI基盤を丁寧に作り続けています。これはまだ成功物語ではありません。長い旅の始まりです。",
+    "quote": "AIができることではなく AIは何を成すべきか。"
+  },
+  "coreValues": {
+    "title": "コアバリュー",
+    "subtitle": "HYPER ONE のDNAを形づくる原則 誠実 革新 共感 そして真摯なつながり。",
+    "integrity": "誠実と透明性",
+    "integrityDesc": "言葉 行動 約束のすべてに誠実であること。",
+    "innovation": "革新と創造性",
+    "innovationDesc": "プロダクトだけでなく より良い方法そのものを生み出します。",
+    "empathy": "共感",
+    "empathyDesc": "解決策を示す前に相手を深く理解すること。",
+    "connection": "真摯なつながり",
+    "connectionDesc": "互いが成長できる持続的で尊重に基づく関係。"
+  },
+  "culture": {
+    "title": "企業文化",
+    "subtitle": "HYPER ONE の働き方とアイデンティティの基盤。",
+    "partner": "パートナーは顧客 顧客はパートナー",
+    "partnerDesc": "私たちはお客様を共に歩む仲間と考えています。一つのプロジェクトは共同の旅です。",
+    "employee": "人こそ会社の財産",
+    "employeeDesc": "すべてのメンバーが重要な役割を担っています。私たちはシステムより人に投資します。",
+    "human": "人を中心に",
+    "humanDesc": "すべての決定とプロダクトは人の価値を中心に据えています。"
+  },
+  "work": {
+    "title": "私たちの働き方",
+    "subtitle": "Hyper Flow 5ステップ 明確 透明 実践的。",
+    "step1": "傾聴と理解",
+    "step1Desc": "企業の背景 プロセス 本質的な課題を丁寧に理解します。",
+    "step2": "分析と設計",
+    "step2Desc": "技術を押しつけず 最も適切でシンプルで運用しやすい解決策を提案します。",
+    "step3": "構築と統合",
+    "step3Desc": "スピーディかつ透明性のある実装 明確なドキュメント提供を徹底します。",
+    "step4": "伴走と運用",
+    "step4Desc": "お客様と共に運用し 現場の声を反映させ改善します。",
+    "step5": "最適化と拡張",
+    "step5Desc": "企業の成長に合わせてソリューションを継続的に強化します。"
+  },
+  "tech": {
+    "title": "テクノロジーアーキテクチャ",
+    "subtitle": "現実のニーズとシステム思考に基づき 一層ずつ丁寧に積み上げられた仕組みです。",
+    "core1": {
+      "title": "HYPER ID インテリジェントIDレイヤー",
+      "desc": "多層構造でユーザーを管理し AIがより適切な文脈で応答できるようにします。"
+    },
+    "core2": {
+      "title": "HYPER REPLY ロールベース応答",
+      "desc": "企業に合わせた自然で親しみやすい表現を実現します。"
+    },
+    "core3": {
+      "title": "HYPER KAIRO AI行動調整",
+      "desc": "状況に応じてAIが正しい行動を選択することを支えます。"
+    },
+    "core4": {
+      "title": "Logging Layer 実データによる学習",
+      "desc": "実際の行動と応答を蓄積し 継続的に向上します。"
+    },
+    "core5": {
+      "title": "Context Layer 深い文脈理解",
+      "desc": "文章だけに依存せず 本当の意図を理解します。"
+    },
+    "core6": {
+      "title": "Agent Orchestration マルチエージェント協調",
+      "desc": "専門的な役割を持つ複数のエージェントで複雑な課題を解決します。"
+    }
+  },
+  "membership": {
+    "title": "加盟と認証",
+    "subtitle": "HYPER ONE の責任と社会へのコミットメントを示す正式な連携です。",
+    "hcmreaTitle": "ホーチミン市再生可能エネルギー協会 正式会員 (HCMREA)",
+    "hcmreaDesc": "HYPER ONE は HCMREA の正式会員として ベトナムにおけるグリーンエネルギーと持続可能な発展を共に推進できることを誇りに思います。",
+    "official": "正式会員認証"
+  },
+  "coreBusiness": {
+    "title": "主要事業",
+    "subtitle": "HYPER ONE が持続的に成長し ベトナム企業へ価値を届けるための基盤です。",
+    "items": [
+      {
+        "title": "中小企業向け統合AI",
+        "description": "最適なコストで導入しやすく ベトナムのSMEに適したAIソリューションを提供します。"
+      },
+      {
+        "title": "エコシステム開発",
+        "description": "HYPER Galaxy を構築。HYPER BOT HYPER CLOUD HYPER ME HYPER LAB の連携により長期的な相乗効果を生み出します。"
+      },
+      {
+        "title": "国際展開とソリューション提供",
+        "description": "日本 中東 中央アジア 南アジアの企業と協力し HYPER ONE の技術を展開します。Authorized Premium VIP の三段階でパートナーシップを構築し グローバルなAIエコシステムを共に拡大します。"
+      },
+      {
+        "title": "共同創業と技術パートナー",
+        "description": "スタートアップやデジタル変革企業の技術共同創業者として アーキテクチャ設計 プロダクト開発 運用最適化 事業モデルの共創を行います。"
+      },
+      {
+        "title": "研究とデジタル製品開発",
+        "description": "倫理 透明性 目的を重視した人間中心のAIプロダクトを開発します。理念は「AIができることではなく AIがなすべきこと」。"
+      },
+      {
+        "title": "AI教育と能力移転",
+        "description": "HF5モデルを用いて企業がAIを自立運用できるよう訓練します。思考 プロセス データ エージェント運用まで一貫した教育で 内製化を実現します。"
+      }
+    ]
+  },
+  "why": {
+    "title": "HYPER ONE が選ばれる理由",
+    "subtitle": "私たちは流行ではなく 仕組みをつくります。そこに違いがあります。",
+    "reason1": "本質的な課題を捉える",
+    "reason1Desc": "形式的なAI開発ではありません。課題の根本を見極め プロセスを簡素化し 本当に価値を生むものだけを作ります。",
+    "reason2": "初日からグローバル基準の設計",
+    "reason2Desc": "すべてのソリューションは 明日世界へ展開しても耐えられる設計です。この思想が時間 コスト ミスを削減します。",
+    "reason3": "ベトナム文化に最適化されたAI",
+    "reason3Desc": "言語 行動 トーン 体験を徹底的にローカライズ。動くだけでなく 文化に馴染むAIを追求します。",
+    "reason4": "真のパートナーとして伴走",
+    "reason4Desc": "単なるプロダクト提供ではありません。考え 共に最適化し 共に成長します。HYPER ONE は技術面の共同創業者として長期的成功を支えます。"
+  },
+  "honorary": {
+    "title": "名誉顧問のご紹介",
+    "name": "Truong Nhat Linh",
+    "role": "HYPER ME 名誉共同創業者 創造のインスピレーション",
+    "quote": "初日から共に歩む人は多くありません。しかし共に歩んだ人が今の HYPER ONE を形づくりました。",
+    "shortQuote": "小さな価値を 大きな意味へ。",
+    "bio1": "HYPER ME のアイデンティティを形づくった重要なインスピレーションの一人。シンプル ベトナムらしさ 本質的価値 という精神は初期からの大きな支えでした。",
+    "bio2": "静かでありながら揺るぎない支援は HYPER ONE が人に寄り添い続けるための心の礎となっています。",
+    "bio3": "名誉共同創業者という称号は 精神的貢献とインスピレーションへの感謝を示すものです。小さな価値を大きな意味へという彼の哲学を象徴しています。"
+  }
+}
