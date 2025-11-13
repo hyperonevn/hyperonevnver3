@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { Fingerprint, Shield, UserIcon } from 'lucide-react';
-import { HyperMEMockupSection } from './HyperMEMockupSection';
+import { HyperMEMockupSection } from './HyperMEmockupSection';
 
 export const HyperMESection: React.FC = () => {
   const { t } = useLanguage();
@@ -91,7 +91,13 @@ export const HyperMESection: React.FC = () => {
   );
 };
 
-const Feature = ({ icon, title, desc }) => (
+interface FeatureProps {
+  icon: React.ReactNode;
+  title: string;
+  desc: string;
+}
+
+const Feature: React.FC<FeatureProps> = ({ icon, title, desc }) => (
   <div className="flex items-start space-x-4">
     <div className="bg-[#00E0FF]/10 p-2 rounded-lg text-[#00E0FF]">
       {icon}
@@ -102,3 +108,4 @@ const Feature = ({ icon, title, desc }) => (
     </div>
   </div>
 );
+
