@@ -201,19 +201,19 @@
       "button": "チームに連絡"
     }
   },
-  "media": {
-    "title": "メディアとイベント",
-    "description": "HYPER ONE が歩む中での大切な対話、取り組み、学びの瞬間を紹介します。",
-    "viewMore": "もっと見る",
-    "gallery": {
-      "event1": "HYPER ONE 経営陣が MoveToAsia CEO Guillaume Rondan 氏と戦略について意見交換",
-      "tech1": "HYPER ONE 経営陣が元LienVietPostBank会長 Nguyen Dinh Thang 氏とデジタル変革について議論",
-      "team1": "HYPER ONE 経営陣が MISA 副会長 Nguyen Xuan Hoan 氏と企業エコシステムについて対話",
-      "conference1": "HYPER ONE が C and I Roadshow 2025 に参加 AI とエネルギーソリューションをテーマに意見交換 CEO ルー ミン チー VIP席",
-      "team2": "HYPER ONE が HoneyCrush と Shinhan Bank 主催の AI Demo Day でAIの視点を共有",
-      "office1": "HYPER ONE が Global Sourcing Outlook 2025 に参加し国際パートナーと連携"
-    }
-  },
+ "media": {
+  "title": "メディア・イベント",
+  "description": "AI、マネジメント、そしてテクノロジーの未来について──HYPER ONE と共に思想が形づくられる戦略的対話の場。",
+  "viewMore": "もっと見る",
+  "gallery": {
+    "event1": "MoveToAsia CEO ギヨーム・ロンダン氏と意見交換：AI は企業の “DNA” であり、単なるツールではないという視点を共有。",
+    "tech1": "LienVietPostBank 元会長 グエン・ディン・タン氏と、テクノロジーの存在意義と AI 倫理について深く議論。",
+    "team1": "MISA 副会長 グエン・スアン・ホアン氏と、エンタープライズ級セキュリティ基準とデジタル基盤の未来を協議。",
+    "conference1": "C&I Roadshow 2025 にて、HYPER ONE が AI とエネルギーの交差点について議論。CEO ルー・ミン・チーが VIP シートで参加。",
+    "team2": "AI Demo Day（HoneyCrush × Shinhan Bank）にて、HYPER ONE が “実戦的 AI 運用” の知見を共有。",
+    "office1": "Global Sourcing Outlook 2025 にて、AI がサプライチェーンとグローバル戦略にもたらす影響を分析。"
+  }
+},
   "contact": {
     "title": "お問い合わせ",
     "description": "協業、ソリューション、パートナーシップにご関心がありましたら、どうぞお気軽にご連絡ください。HYPER ONE は常に耳を傾けています。",
