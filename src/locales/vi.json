@@ -201,19 +201,19 @@
       "button": "Liên Hệ Đội Ngũ"
     }
   },
-  "media": {
-    "title": "Truyền Thông & Sự Kiện",
-    "description": "Những cuộc trò chuyện chiến lược và khoảnh khắc ý nghĩa trong hành trình xây dựng HYPER ONE.",
-    "viewMore": "Xem Thêm",
-    "gallery": {
-      "event1": "Lãnh đạo HYPER ONE trao đổi chiến lược cùng ông Guillaume Rondan – CEO MoveToAsia",
-      "tech1": "Lãnh đạo HYPER ONE thảo luận với ông Nguyễn Đình Thắng – Nguyên Chủ tịch LienVietPostBank",
-      "team1": "HYPER ONE gặp gỡ ông Nguyễn Xuân Hoàn – Phó Chủ tịch MISA",
-      "conference1": "HYPER ONE tại C&I Roadshow 2025 – Bàn về AI và năng lượng (CEO Lữ Minh Trí, ghế VIP)",
-      "team2": "HYPER ONE chia sẻ tại AI Demo Day – HoneyCrush x Shinhan Bank",
-      "office1": "HYPER ONE tham dự Global Sourcing Outlook 2025"
-    }
-  },
+"media": {
+  "title": "Truyền Thông & Sự Kiện",
+  "description": "Những cuộc đối thoại chiến lược – nơi tư tưởng về AI, quản trị và tương lai công nghệ được định hình cùng HYPER ONE.",
+  "viewMore": "Xem Thêm",
+  "gallery": {
+    "event1": "HYPER ONE trao đổi cùng ông Guillaume Rondan – CEO MoveToAsia: AI như một phần của DNA doanh nghiệp khu vực Đông Nam Á, không phải công cụ.",
+    "tech1": "Ông Nguyễn Đình Thắng – Nguyên Chủ tịch LienVietPostBank bàn về hiện sinh công nghệ và đạo đức AI cùng lãnh đạo HYPER ONE.",
+    "team1": "Phó Chủ tịch MISA – ông Nguyễn Xuân Hoàn chia sẻ về tiêu chuẩn bảo mật cấp doanh nghiệp và tương lai hạ tầng số.",
+    "conference1": "HYPER ONE tại C&I Roadshow 2025 – đối thoại về giao điểm giữa AI và năng lượng, với CEO Lữ Minh Trí tại ghế VIP.",
+    "team2": "HYPER ONE tại AI Demo Day – HoneyCrush x Shinhan Bank: AI vận hành thực chiến trong doanh nghiệp Việt.",
+    "office1": "HYPER ONE tại Global Sourcing Outlook 2025 – phân tích vai trò AI trong chuỗi cung ứng và chiến lược toàn cầu."
+  }
+},
   "contact": {
     "title": "Liên Hệ - Kết Nối",
     "description": "Quan tâm đến hợp tác, giải pháp hoặc cơ hội cùng đồng hành? Hyper One luôn sẵn sàng.",
