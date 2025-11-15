@@ -6,15 +6,13 @@ export const HonoraryCoFounderSection: React.FC = () => {
 
   return (
     <section id="honorary-cofounder" className="py-20 relative">
-      {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(0,224,255,0.1),transparent_70%)]"></div>
 
       <div className="container mx-auto px-4 relative z-10">
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
           {/* LEFT CONTENT */}
-          <div className="order-2 lg:order-1">
+          <div className="order-1">
 
             <h2 className="text-3xl md:text-4xl font-bold mb-6 
                            bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
@@ -31,7 +29,6 @@ export const HonoraryCoFounderSection: React.FC = () => {
               {t('honorary.role')}
             </p>
 
-            {/* ⭐ THÊM DÒNG HYPER ME + LINK — GIỮ NGUYÊN 100% CẤU TRÚC ⭐ */}
             <p className="text-gray-300 mb-6">
               <span className="text-[#00E0FF] font-semibold">HYPER ME</span> —{' '}
               <a
@@ -43,7 +40,6 @@ export const HonoraryCoFounderSection: React.FC = () => {
                 truongnhatlinh.profile.io.vn
               </a>
             </p>
-            {/* ⭐ HẾT PHẦN THÊM ⭐ */}
 
             <blockquote className="text-lg text-gray-300 mb-8 italic">
               "{t('honorary.quote')}"
@@ -58,41 +54,9 @@ export const HonoraryCoFounderSection: React.FC = () => {
               </p>
             </div>
 
-            {/* HOẶC CHỮ KÝ NẾU CÓ */}
-            
           </div>
 
-          {/* RIGHT IMAGE */}
-          <div className="order-1 lg:order-2 relative">
-
-            <div className="bg-gradient-to-br from-[#00E0FF]/20 to-[#FFD166]/20 rounded-2xl p-1">
-              <div className="aspect-[3/4] rounded-xl overflow-hidden relative">
-
-                <img
-                  src="https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/honorary.jpg"
-                  alt={t('honorary.name')}
-                  className="object-cover w-full h-full"
-                />
-
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <blockquote className="text-white/90 text-lg italic font-light">
-                    "{t('honorary.shortQuote')}"
-                  </blockquote>
-                </div>
-
-              </div>
-            </div>
-
-            {/* Glow */}
-            <div className="absolute -bottom-6 -right-6 h-24 w-24 rounded-full 
-                            bg-gradient-to-r from-[#00E0FF] to-[#FFD166] blur-2xl opacity-30"></div>
-
-            <div className="absolute -top-6 -left-6 h-24 w-24 rounded-full 
-                            bg-gradient-to-r from-[#00E0FF] to-[#FFD166] blur-2xl opacity-30"></div>
-
-          </div>
+          {/* RIGHT IMAGE — REMOVED */}
 
         </div>
       </div>
