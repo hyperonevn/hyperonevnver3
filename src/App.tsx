@@ -82,8 +82,7 @@ export function App() {
             <SolutionsSection />
             <EcosystemSection />
 
-            <HyperMESection />
-            <HonoraryCoFounderSection />   {/* New */}
+
 
 
 
@@ -93,6 +92,8 @@ export function App() {
 
             <CareerSection />
             <MediaSection />
+            <HyperMESection />
+            <HonoraryCoFounderSection />   {/* New */}
             <ContactSection />
           </main>
 
