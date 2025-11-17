@@ -1,50 +1,24 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 
 export const AiCloud: React.FC = () => {
-  const cloudRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const cloud = cloudRef.current;
-    if (!cloud) return;
-
-    let x = window.innerWidth / 2;
-    let y = window.innerHeight / 2;
-
-    let t = 0;
-
-    const animate = () => {
-      t += 0.015;
-
-      const offsetX = Math.sin(t) * 18;
-      const offsetY = Math.cos(t * 1.2) * 12;
-
-      cloud.style.transform = `translate(${x + offsetX}px, ${y + offsetY}px)`;
-
-      requestAnimationFrame(animate);
-    };
-
-    animate();
-  }, []);
-
   return (
     <div
-      ref={cloudRef}
       style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: 180,
-        height: 180,
+        position: "absolute",
+        top: "92%", // dưới nút Enter
+        left: "50%",
+        transform: "translate(-50%, -50%)",
+        width: 220,
+        height: 220,
         borderRadius: "50%",
         background:
-          "radial-gradient(circle at 50% 50%, #00eaffaa, #0088aa55, transparent)",
-        filter: "blur(35px)",
-        opacity: 0.55,
-        mixBlendMode: "screen",
-        animation: "cloudPulse 2.8s ease-in-out infinite",
+          "radial-gradient(circle, #00eaffdd 0%, #0090c077 40%, transparent 70%)",
+        filter: "blur(45px)",
+        opacity: 0.85,
+        animation: "aiPulseStrong 1.8s ease-in-out infinite",
         pointerEvents: "none",
-        zIndex: 999999,
-        transform: "translate(-50%, -50%)",
+        zIndex: 2, // dưới nút
+        mixBlendMode: "screen",
       }}
     />
   );
