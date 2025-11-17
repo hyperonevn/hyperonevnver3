@@ -32,9 +32,6 @@ export default function Intro({ onFinish }: IntroProps) {
   const [qIdx, setQIdx] = useState(0);
   const [goIdx, setGoIdx] = useState(0);
 
-  /* ================================
-        HYPER MATRIX HACKER EFFECT 
-     ================================ */
   useEffect(() => {
     const canvas = matrixCanvasRef.current;
     if (!canvas) return;
@@ -44,43 +41,35 @@ export default function Intro({ onFinish }: IntroProps) {
 
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
-
     const fontSize = 18;
     const columns = Math.floor(width / fontSize);
-    const drops: number[] = Array(columns).fill(1);
+    const drops = Array(columns).fill(1);
 
     const draw = () => {
-      ctx.fillStyle = "rgba(0, 0, 0, 0.08)";
+      ctx.fillStyle = "rgba(0,0,0,0.08)";
       ctx.fillRect(0, 0, width, height);
-
       ctx.fillStyle = "#00eaff";
       ctx.font = fontSize + "px monospace";
 
-      for (let i = 0; i < drops.length; i++) {
+      drops.forEach((y, i) => {
         const char = characters[Math.floor(Math.random() * characters.length)];
-        ctx.fillText(char, i * fontSize, drops[i] * fontSize);
-
-        if (drops[i] * fontSize > height && Math.random() > 0.95) {
-          drops[i] = 0;
-        }
+        ctx.fillText(char, i * fontSize, y * fontSize);
+        if (y * fontSize > height && Math.random() > 0.95) drops[i] = 0;
         drops[i]++;
-      }
+      });
 
       requestAnimationFrame(draw);
     };
-
     draw();
 
     const resize = () => {
       width = canvas.width = window.innerWidth;
       height = canvas.height = window.innerHeight;
     };
-
     window.addEventListener("resize", resize);
     return () => window.removeEventListener("resize", resize);
   }, []);
 
-  /* ===== QUOTES ===== */
   useEffect(() => {
     const t = setInterval(() => {
       setQIdx((i) => (i + 1) % QUOTES.length);
@@ -88,7 +77,6 @@ export default function Intro({ onFinish }: IntroProps) {
     return () => clearInterval(t);
   }, []);
 
-  /* ===== GO LABEL ===== */
   useEffect(() => {
     const t = setInterval(() => {
       setGoIdx((i) => (i + 1) % GO_LABELS.length);
@@ -97,10 +85,10 @@ export default function Intro({ onFinish }: IntroProps) {
   }, []);
 
   const handleGo = () => {
-    const sound = new Audio(
+    const s = new Audio(
       "https://cdn.pixabay.com/download/audio/2023/03/15/audio_50e1c4c0b0.mp3?filename=ui-confirmation-alert-147389.mp3"
     );
-    sound.play();
+    s.play();
     setActive(false);
     document.body.style.overflow = "auto";
     setTimeout(onFinish, 1000);
@@ -109,19 +97,16 @@ export default function Intro({ onFinish }: IntroProps) {
   return (
     <div id="intro" style={{ opacity: active ? 1 : 0 }}>
 
-      {/* AI CLOUD FOLLOWER */}
-      <AiCloud />
-
-      {/* MATRIX EFFECT */}
+      {/* MATRIX */}
       <canvas id="hyper-matrix" ref={matrixCanvasRef} />
 
-      {/* BACKGROUND EFFECTS */}
+      {/* BACKGROUND */}
       <div id="smoke" />
       <canvas id="particles" ref={particlesRef} />
       <canvas id="meteors" ref={meteorsRef} />
       <div id="flash" ref={flashRef} />
 
-      {/* MAIN CONTENT */}
+      {/* MAIN */}
       <div id="terminal">
         <h1 className="logo">
           <span className="hyper">HYPER</span> <span className="one">ONE</span>
@@ -140,6 +125,9 @@ export default function Intro({ onFinish }: IntroProps) {
             {GO_LABELS[goIdx].text}
           </span>
         </button>
+
+        {/* AI CLOUD — nằm dưới nút */}
+        <AiCloud />
       </div>
 
       <audio
