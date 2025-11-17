@@ -26,36 +26,10 @@
   background: transparent;
 }
 
-/* ========================================================= */
-/* ================= JAPANESE MATRIX FALL (OLD) ============= */
-/* ========================================================= */
-/* (Không dùng nữa nếu đã dùng HYPER MATRIX bằng canvas) */
-
-#matrix {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  opacity: 0.18;
-  pointer-events: none;
-  background: transparent;
-  font-family: monospace;
-  overflow: hidden;
-}
-
+/* (Old matrix kept for fallback but unused) */
+#matrix,
 .matrix-char {
-  color: #00e1ff;
-  font-size: 16px;
-  font-weight: 700;
-  opacity: 0;
-  position: absolute;
-  animation: matrixRain 2.4s linear infinite;
-}
-
-@keyframes matrixRain {
-  0% { transform: translateY(-40px); opacity: 0; }
-  10% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { transform: translateY(110vh); opacity: 0; }
+  display: none !important;
 }
 
 /* ========================================================= */
@@ -70,6 +44,7 @@
   );
   opacity: 0.35;
   filter: blur(40px);
+  z-index: 1;
 }
 
 #particles,
@@ -97,7 +72,9 @@
   100% { opacity: 0; }
 }
 
-/* ===== TERMINAL CONTENT ===== */
+/* ========================================================= */
+/* ===================== TERMINAL UI ======================== */
+/* ========================================================= */
 
 #terminal {
   position: relative;
@@ -146,7 +123,9 @@
   transition: opacity 0.5s ease;
 }
 
-/* GO BUTTON */
+/* ========================================================= */
+/* ======================== GO BUTTON ======================= */
+/* ========================================================= */
 
 #goBtn {
   margin-top: 18px;
@@ -161,6 +140,8 @@
   letter-spacing: 1px;
   box-shadow: 0 0 16px rgba(0, 190, 255, 0.35);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  z-index: 10; /* đảm bảo nằm TRÊN đám khói */
 }
 
 #goBtn:hover {
@@ -173,26 +154,18 @@
   margin-right: 4px;
 }
 
-/* ===== TERMINAL LOGS ===== */
+/* ========================================================= */
+/* ================== AI CLOUD (GPT SMOKE) ================= */
+/* ========================================================= */
 
-#logs {
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
-  font-family: "Menlo", monospace;
-  color: #8bdcff;
-  font-size: 12px;
-  opacity: 0.65;
-  z-index: 4;
-}
-
-.logline {
-  margin-bottom: 4px;
-  white-space: nowrap;
+@keyframes aiPulseStrong {
+  0% { opacity: 0.45; transform: translate(-50%, -50%) scale(0.9); }
+  50% { opacity: 1; transform: translate(-50%, -50%) scale(1.45); }
+  100% { opacity: 0.45; transform: translate(-50%, -50%) scale(0.9); }
 }
 
 /* ========================================================= */
-/* ===== MOBILE OPTIMIZATION: HYPER ONE DÀY HƠN (SAFE) ==== */
+/* ============= MOBILE OPTIMIZATION: LOGO BOLD ============= */
 /* ========================================================= */
 
 @media (max-width: 640px) {
