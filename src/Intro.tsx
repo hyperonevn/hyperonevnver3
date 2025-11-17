@@ -8,7 +8,7 @@ const QUOTES = [
   { lang: "🇯🇵", text: "私たちはAIが「できること」を追いかけない。AIが「すべきこと」を追求する。" },
   { lang: "🇻🇳", text: "Chúng tôi không chạy theo điều AI có thể làm mà kiên định với điều AI nên làm." },
   { lang: "🇨🇳", text: "我们不追逐AI能做什么，而是坚持AI该做什么。" },
-  { lang: "🇰🇷", text: "우리는 AI가 할 수 있는 일을 쫓지 않는다. AIが 해야 하는 일을 추구한다。" },
+  { lang: "🇰🇷", text: "우리는 AI가 할 수 있는 일을 쫓지 않는다. AI가 해야 하는 일을 추구한다。" },
   { lang: "🇪🇸", text: "No perseguimos lo que la IA puede hacer, sino lo que la IA debe hacer." },
 ];
 
@@ -21,86 +21,135 @@ const GO_LABELS = [
   { lang: "🇪🇸", text: "Entrar" },
 ];
 
-const MATRIX_CHARS = "アカサタナハマヤラワンシツソリモミキヒホ"; // ký tự Nhật
-
 export default function Intro({ onFinish }: IntroProps) {
   const particlesRef = useRef<HTMLCanvasElement>(null);
   const meteorsRef = useRef<HTMLCanvasElement>(null);
+  const matrixCanvasRef = useRef<HTMLCanvasElement>(null);
   const flashRef = useRef<HTMLDivElement>(null);
-
-  const matrixRef = useRef<HTMLDivElement>(null);   // ← THÊM 1 REF
 
   const [logs, setLogs] = useState<string[]>([]);
   const [active, setActive] = useState(true);
   const [qIdx, setQIdx] = useState(0);
   const [goIdx, setGoIdx] = useState(0);
 
-  /* ====== MA TRẬN NHẬT ====== */
+  /* ================================
+        HYPER MATRIX HACKER EFFECT 
+     ================================ */
   useEffect(() => {
-    const root = matrixRef.current;
-    if (!root) return;
+    const canvas = matrixCanvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d")!;
+    const katakana = "アカサタナハマヤラワンシツソリモミキヒホ0123456789";
+    const characters = katakana.split("");
 
-    const spawn = () => {
-      const el = document.createElement("div");
-      el.className = "matrix-char";
-      el.textContent = MATRIX_CHARS[Math.floor(Math.random() * MATRIX_CHARS.length)];
+    let width = (canvas.width = window.innerWidth);
+    let height = (canvas.height = window.innerHeight);
 
-      const x = Math.random() * window.innerWidth;
-      el.style.left = x + "px";
-      el.style.top = "-40px";
-      el.style.animationDuration = 2 + Math.random() * 2 + "s";
-      el.style.fontSize = 12 + Math.random() * 10 + "px";
-      el.style.opacity = (0.2 + Math.random() * 0.6).toString();
+    const fontSize = 18;
+    const columns = Math.floor(width / fontSize);
+    const drops: number[] = Array(columns).fill(1);
 
-      root.appendChild(el);
+    const draw = () => {
+      ctx.fillStyle = "rgba(0, 0, 0, 0.08)";
+      ctx.fillRect(0, 0, width, height);
 
-      setTimeout(() => el.remove(), 4000);
+      ctx.fillStyle = "#00eaff";
+      ctx.font = fontSize + "px monospace";
+
+      for (let i = 0; i < drops.length; i++) {
+        const char = characters[Math.floor(Math.random() * characters.length)];
+        ctx.fillText(char, i * fontSize, drops[i] * fontSize);
+
+        // reset randomly to create variation
+        if (drops[i] * fontSize > height && Math.random() > 0.95) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+
+      requestAnimationFrame(draw);
     };
 
-    const timer = setInterval(spawn, 120);
-    return () => clearInterval(timer);
+    draw();
+
+    const resize = () => {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+    };
+
+    window.addEventListener("resize", resize);
+    return () => window.removeEventListener("resize", resize);
   }, []);
 
-  /* ====== CODE KHÁC CỦA BẠN GIỮ NGUYÊN 100% ====== */
-  /* (đã rút gọn lại ở đây để không chiếm chỗ) */
+  /* ===== QUOTES ===== */
+  useEffect(() => {
+    const t = setInterval(() => {
+      setQIdx((i) => (i + 1) % QUOTES.length);
+    }, 3000);
+    return () => clearInterval(t);
+  }, []);
+
+  /* ===== GO LABEL ===== */
+  useEffect(() => {
+    const t = setInterval(() => {
+      setGoIdx((i) => (i + 1) % GO_LABELS.length);
+    }, 1200);
+    return () => clearInterval(t);
+  }, []);
+
+  /* ===== LOGS ===== */
+  useEffect(() => {
+    if (!active) return;
+    const t = setInterval(() => {
+      const now = new Date();
+      const hh = String(now.getHours()).padStart(2, "0");
+      const mm = String(now.getMinutes()).padStart(2, "0");
+      const ss = String(now.getSeconds()).padStart(2, "0");
+      const l = `[${hh}:${mm}:${ss}]  SYSTEM::READY`;
+      setLogs((p) => [l, ...p].slice(0, 6));
+    }, 800);
+    return () => clearInterval(t);
+  }, [active]);
 
   const handleGo = () => {
-    const goSound = new Audio(
+    const sound = new Audio(
       "https://cdn.pixabay.com/download/audio/2023/03/15/audio_50e1c4c0b0.mp3?filename=ui-confirmation-alert-147389.mp3"
     );
-    goSound.play();
+    sound.play();
     setActive(false);
-    document.documentElement.style.overflow = "auto";
     document.body.style.overflow = "auto";
-    setTimeout(onFinish, 900);
+    setTimeout(onFinish, 1000);
   };
 
   return (
-    <div id="intro" style={{ opacity: active ? 1 : 0, transition: "opacity 1s ease" }}>
+    <div id="intro" style={{ opacity: active ? 1 : 0 }}>
       
-      {/* === MA TRẬN NHẬT === */}
-      <div id="matrix" ref={matrixRef} />
+      {/* HYPER MATRIX */}
+      <canvas id="hyper-matrix" ref={matrixCanvasRef} />
 
+      {/* Background */}
       <div id="smoke" />
       <canvas id="particles" ref={particlesRef} />
       <canvas id="meteors" ref={meteorsRef} />
       <div id="flash" ref={flashRef} />
 
-      {/* MAIN */}
+      {/* MAIN TERMINAL CONTENT */}
       <div id="terminal">
         <h1 className="logo">
           <span className="hyper">HYPER</span> <span className="one">ONE</span>
         </h1>
+
         <div id="sub">Vietnam’s Next-Gen AI Innovation Hub</div>
 
-        <div id="tagline" className="quote-swap">
-          <span className="lang">{QUOTES[qIdx].lang}</span>
-          <span className="qt">{QUOTES[qIdx].text}</span>
+        <div id="tagline">
+          <span className="lang">{QUOTES[qIdx].lang}</span>{" "}
+          <span>{QUOTES[qIdx].text}</span>
         </div>
 
         <button id="goBtn" onClick={handleGo}>
           <span className="go-label">
-            <span className="lang">{GO_LABELS[goIdx].lang}</span> {GO_LABELS[goIdx].text}
+            <span className="lang">{GO_LABELS[goIdx].lang}</span>{" "}
+            {GO_LABELS[goIdx].text}
           </span>
         </button>
       </div>
@@ -108,7 +157,7 @@ export default function Intro({ onFinish }: IntroProps) {
       {/* LOGS */}
       <div id="logs">
         {logs.map((l, i) => (
-          <div className="logline" key={i}>{l}</div>
+          <div key={i} className="logline">{l}</div>
         ))}
       </div>
 
