@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./intro.css";
+import { AiCloud } from "./components/AiCloud";
 
 type IntroProps = { onFinish: () => void };
 
@@ -27,7 +28,6 @@ export default function Intro({ onFinish }: IntroProps) {
   const matrixCanvasRef = useRef<HTMLCanvasElement>(null);
   const flashRef = useRef<HTMLDivElement>(null);
 
-  const [logs, setLogs] = useState<string[]>([]);
   const [active, setActive] = useState(true);
   const [qIdx, setQIdx] = useState(0);
   const [goIdx, setGoIdx] = useState(0);
@@ -60,7 +60,6 @@ export default function Intro({ onFinish }: IntroProps) {
         const char = characters[Math.floor(Math.random() * characters.length)];
         ctx.fillText(char, i * fontSize, drops[i] * fontSize);
 
-        // reset randomly to create variation
         if (drops[i] * fontSize > height && Math.random() > 0.95) {
           drops[i] = 0;
         }
@@ -97,20 +96,6 @@ export default function Intro({ onFinish }: IntroProps) {
     return () => clearInterval(t);
   }, []);
 
-  /* ===== LOGS ===== */
-  useEffect(() => {
-    if (!active) return;
-    const t = setInterval(() => {
-      const now = new Date();
-      const hh = String(now.getHours()).padStart(2, "0");
-      const mm = String(now.getMinutes()).padStart(2, "0");
-      const ss = String(now.getSeconds()).padStart(2, "0");
-      const l = `[${hh}:${mm}:${ss}]  SYSTEM::READY`;
-      setLogs((p) => [l, ...p].slice(0, 6));
-    }, 800);
-    return () => clearInterval(t);
-  }, [active]);
-
   const handleGo = () => {
     const sound = new Audio(
       "https://cdn.pixabay.com/download/audio/2023/03/15/audio_50e1c4c0b0.mp3?filename=ui-confirmation-alert-147389.mp3"
@@ -123,17 +108,20 @@ export default function Intro({ onFinish }: IntroProps) {
 
   return (
     <div id="intro" style={{ opacity: active ? 1 : 0 }}>
-      
-      {/* HYPER MATRIX */}
+
+      {/* AI CLOUD FOLLOWER */}
+      <AiCloud />
+
+      {/* MATRIX EFFECT */}
       <canvas id="hyper-matrix" ref={matrixCanvasRef} />
 
-      {/* Background */}
+      {/* BACKGROUND EFFECTS */}
       <div id="smoke" />
       <canvas id="particles" ref={particlesRef} />
       <canvas id="meteors" ref={meteorsRef} />
       <div id="flash" ref={flashRef} />
 
-      {/* MAIN TERMINAL CONTENT */}
+      {/* MAIN CONTENT */}
       <div id="terminal">
         <h1 className="logo">
           <span className="hyper">HYPER</span> <span className="one">ONE</span>
@@ -152,13 +140,6 @@ export default function Intro({ onFinish }: IntroProps) {
             {GO_LABELS[goIdx].text}
           </span>
         </button>
-      </div>
-
-      {/* LOGS */}
-      <div id="logs">
-        {logs.map((l, i) => (
-          <div key={i} className="logline">{l}</div>
-        ))}
       </div>
 
       <audio
