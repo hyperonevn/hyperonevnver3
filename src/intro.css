@@ -1,177 +1,178 @@
-/* intro.css */
-/* SEO-friendly + AI smoke glow + giữ full content React */
+/* ===== BACKGROUND LAYERS ===== */
 
-/* ----- Root layout ----- */
 #intro {
   position: fixed;
   inset: 0;
-  background: radial-gradient(circle at center, #01030a 0%, #000 100%);
-  color: #fff;
-  overflow: hidden;
-  font-family: "Inter", system-ui, sans-serif;
+  background: #000;
   z-index: 9999;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: auto;
   transition: opacity 1s ease;
 }
 
-/* ----- Canvas layers ----- */
-#matrix, #particles, #meteors {
+#smoke {
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 150, 255, 0.12),
+    rgba(0, 0, 0, 1)
+  );
+  opacity: 0.35;
+  filter: blur(40px);
 }
 
-/* scan light effect */
-#scan {
+#particles,
+#meteors {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 0%, rgba(0,255,255,0.1) 50%, transparent 100%);
-  mix-blend-mode: screen;
-  animation: scanMove 7s linear infinite;
-}
-@keyframes scanMove {
-  0% { transform: translateY(-100%); }
-  100% { transform: translateY(100%); }
+  z-index: 1;
 }
 
-/* flash pulse */
 #flash {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle, rgba(0,255,255,0.2), transparent 70%);
+  background: white;
   opacity: 0;
-  transition: opacity 0.4s ease;
-}
-#flash.flash-on { opacity: 1; }
-
-/* ----- SMOKE AI effect ----- */
-#intro::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/fog-729509_1280.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.15;
-  filter: blur(8px);
-  mix-blend-mode: lighten;
-  animation: smokeFlow 45s ease-in-out infinite;
-}
-@keyframes smokeFlow {
-  0% { transform: translate3d(-10%, -5%, 0) scale(1.05); opacity: 0.1; }
-  50% { transform: translate3d(10%, 10%, 0) scale(1.2); opacity: 0.18; }
-  100% { transform: translate3d(-10%, -5%, 0) scale(1.05); opacity: 0.1; }
+  z-index: 3;
+  pointer-events: none;
 }
 
-/* ----- Content center ----- */
+.flash-on {
+  animation: flashAnim 0.25s ease-out;
+}
+
+@keyframes flashAnim {
+  0% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+
+/* ===== TERMINAL CONTENT ===== */
+
 #terminal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  z-index: 5;
   text-align: center;
-  z-index: 10;
-  animation: fadeIn 1.6s ease-out;
+  max-width: 90%;
 }
 
-/* logo */
-.logo {
-  font-size: 3rem;
+#terminal .logo {
+  font-size: 48px;
+  font-weight: 800;
   letter-spacing: 2px;
-  margin-bottom: 0.3rem;
-  text-transform: uppercase;
-  text-shadow: 0 0 25px rgba(0,255,255,0.4);
-}
-.logo .hyper {
-  color: #00eaff;
-  animation: hyperGlow 3s infinite alternate;
-}
-.logo .one {
+  margin-bottom: 8px;
   color: #fff;
+}
+
+#terminal .hyper {
+  color: #00c8ff;
+}
+
+#terminal .one {
+  color: #ffffff;
+}
+
+#sub {
+  font-size: 16px;
+  opacity: 0.8;
+  color: #b8e7ff;
+  margin-bottom: 32px;
+}
+
+/* Quotes */
+#tagline {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 32px;
   opacity: 0.9;
 }
 
-/* sub tagline */
-#sub {
-  font-size: 1rem;
-  opacity: 0.85;
-  letter-spacing: 0.5px;
-  color: #b5faff;
-  margin-bottom: 1.3rem;
-}
-
-/* rotating quote */
-#tagline {
-  font-size: 1.1rem;
-  max-width: 680px;
-  margin: 0 auto;
-  line-height: 1.6;
-  color: #e6faff;
-  text-shadow: 0 0 10px rgba(0,255,255,0.25);
-  animation: fadeSwap 3s infinite ease-in-out;
-}
-.lang {
-  font-size: 1.3rem;
-  opacity: 0.8;
-  margin-right: 0.25rem;
-}
-
-/* GO button */
-#goBtn {
-  margin-top: 2.2rem;
-  background: linear-gradient(90deg, #00aaff, #00ffff);
-  border: none;
-  padding: 0.7rem 2.4rem;
-  border-radius: 30px;
-  cursor: pointer;
-  color: #00141a;
+#tagline .lang {
   font-weight: 700;
-  font-size: 1.1rem;
-  letter-spacing: 0.5px;
-  box-shadow: 0 0 25px rgba(0,255,255,0.3);
-  transition: all 0.35s ease;
-}
-#goBtn:hover {
-  box-shadow: 0 0 35px rgba(0,255,255,0.6);
-  transform: scale(1.06);
-}
-.go-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
+  margin-right: 4px;
 }
 
-/* system logs */
+.quote-swap {
+  transition: opacity 0.5s ease;
+}
+
+/* GO BUTTON */
+
+#goBtn {
+  margin-top: 18px;
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  letter-spacing: 1px;
+  box-shadow: 0 0 16px rgba(0, 190, 255, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#goBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px rgba(0, 190, 255, 0.55);
+}
+
+.go-label .lang {
+  font-weight: 900;
+  margin-right: 4px;
+}
+
+/* ===== TERMINAL LOGS ===== */
+
 #logs {
   position: absolute;
   bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: monospace;
-  font-size: 0.75rem;
-  color: #8ef;
-  opacity: 0.8;
-  text-align: left;
-  width: 90%;
-  max-width: 850px;
-  z-index: 5;
-}
-.logline {
-  text-shadow: 0 0 8px rgba(0,255,255,0.2);
+  left: 24px;
+  font-family: "Menlo", monospace;
+  color: #8bdcff;
+  font-size: 12px;
+  opacity: 0.65;
+  z-index: 4;
 }
 
-/* ----- Animations ----- */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translate(-50%, -55%); }
-  to { opacity: 1; transform: translate(-50%, -50%); }
+.logline {
+  margin-bottom: 4px;
+  white-space: nowrap;
 }
-@keyframes hyperGlow {
-  0% { text-shadow: 0 0 12px #00eaff, 0 0 25px #00ffff; }
-  100% { text-shadow: 0 0 25px #00ffff, 0 0 55px #00ffff; }
-}
-@keyframes fadeSwap {
-  0%,100% { opacity: 1; }
-  50% { opacity: 0.5; }
+
+/* ========================================================= */
+/* ===== MOBILE OPTIMIZATION: HYPER ONE DÀY HƠN  (SAFE) ==== */
+/* ========================================================= */
+/* Không ảnh hưởng Hero vì CHỈ áp dụng trong #intro */
+
+@media (max-width: 640px) {
+  #intro .logo .hyper,
+  #intro .logo .one {
+    font-weight: 900 !important;
+    letter-spacing: 0.6px;
+    -webkit-text-stroke: 0.4px rgba(255, 255, 255, 0.4);
+  }
+
+  #intro .logo {
+    font-size: 40px;
+    transform: scale(1.12);
+  }
+
+  #sub {
+    font-size: 14px;
+  }
+
+  #tagline {
+    font-size: 14px;
+  }
+
+  #goBtn {
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
 }
