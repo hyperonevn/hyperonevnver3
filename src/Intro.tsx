@@ -44,7 +44,6 @@ export default function Intro({ onFinish }: IntroProps) {
   const [qIdx, setQIdx] = useState(0);
   const [goIdx, setGoIdx] = useState(0);
 
-  // Lock scroll while intro is visible
   useEffect(() => {
     const html = document.documentElement;
     const body = document.body;
@@ -58,7 +57,6 @@ export default function Intro({ onFinish }: IntroProps) {
     };
   }, []);
 
-  // Rotate Quote (every 3s)
   useEffect(() => {
     const t = setInterval(() => {
       setQIdx((i) => (i + 1) % QUOTES.length);
@@ -66,7 +64,6 @@ export default function Intro({ onFinish }: IntroProps) {
     return () => clearInterval(t);
   }, []);
 
-  // Rotate GO label (every 1200ms)
   useEffect(() => {
     const t = setInterval(() => {
       setGoIdx((i) => (i + 1) % GO_LABELS.length);
@@ -74,7 +71,6 @@ export default function Intro({ onFinish }: IntroProps) {
     return () => clearInterval(t);
   }, []);
 
-  // Floating particles
   useEffect(() => {
     const canvas = particlesRef.current!;
     const ctx = canvas.getContext("2d")!;
@@ -116,11 +112,11 @@ export default function Intro({ onFinish }: IntroProps) {
     };
   }, []);
 
-  // Meteors
   useEffect(() => {
     const canvas = meteorsRef.current!;
     const ctx = canvas.getContext("2d")!;
     let W = 0, H = 0;
+
     const resize = () => {
       W = canvas.width = window.innerWidth;
       H = canvas.height = window.innerHeight;
@@ -128,7 +124,16 @@ export default function Intro({ onFinish }: IntroProps) {
     resize();
     window.addEventListener("resize", resize);
 
-    type M = { x: number; y: number; len: number; speed: number; ang: number; color: string; life: number };
+    type M = {
+      x: number;
+      y: number;
+      len: number;
+      speed: number;
+      ang: number;
+      color: string;
+      life: number;
+    };
+
     const meteors: M[] = [];
 
     const spawn = () => {
@@ -141,6 +146,7 @@ export default function Intro({ onFinish }: IntroProps) {
         color: ["#00aaff", "#00ffff", "#66ccff", "#ffffff"][(Math.random() * 4) | 0],
         life: 0,
       });
+
       const el = flashRef.current;
       if (el) {
         el.classList.remove("flash-on");
@@ -182,7 +188,6 @@ export default function Intro({ onFinish }: IntroProps) {
     };
   }, []);
 
-  // Logs
   useEffect(() => {
     if (!active) return;
     const itv = setInterval(() => {
@@ -213,18 +218,23 @@ export default function Intro({ onFinish }: IntroProps) {
   };
 
   return (
-    <div id="intro" style={{ opacity: active ? 1 : 0, transition: "opacity 1s ease" }}>
-      {/* Background smoke effect */}
+    <div
+      id="intro"
+      style={{ opacity: active ? 1 : 0, transition: "opacity 1s ease" }}
+    >
+      <div id="matrix"></div> {/* ← ONLY ONE NEW LINE */}
+
       <div id="smoke" />
       <canvas id="particles" ref={particlesRef} />
       <canvas id="meteors" ref={meteorsRef} />
       <div id="flash" ref={flashRef} />
 
-      {/* Main content */}
       <div id="terminal">
         <h1 className="logo">
-          <span className="hyper">HYPER</span> <span className="one">ONE</span>
+          <span className="hyper">HYPER</span>{" "}
+          <span className="one">ONE</span>
         </h1>
+
         <div id="sub">Vietnam’s Next-Gen AI Innovation Hub</div>
 
         <div id="tagline" className="quote-swap">
@@ -234,19 +244,20 @@ export default function Intro({ onFinish }: IntroProps) {
 
         <button id="goBtn" onClick={handleGo}>
           <span className="go-label">
-            <span className="lang">{GO_LABELS[goIdx].lang}</span> {GO_LABELS[goIdx].text}
+            <span className="lang">{GO_LABELS[goIdx].lang}</span>{" "}
+            {GO_LABELS[goIdx].text}
           </span>
         </button>
       </div>
 
-      {/* Logs */}
       <div id="logs">
         {logs.map((l, i) => (
-          <div className="logline" key={i}>{l}</div>
+          <div className="logline" key={i}>
+            {l}
+          </div>
         ))}
       </div>
 
-      {/* Background audio */}
       <audio
         id="bgAudio"
         src="https://cdn.pixabay.com/download/audio/2023/01/03/audio_d57dbe7a34.mp3?filename=futuristic-interface-ambient-126941.mp3"
