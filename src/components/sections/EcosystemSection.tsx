@@ -1,4 +1,3 @@
-```tsx
 // path/to/components/sections/EcosystemSection.tsx
 import React, { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
@@ -17,8 +16,8 @@ export const EcosystemSection: React.FC = () => {
     { id: 7, name: 'HYPER VENTURES', description: t('ecosystem.hyperVentures'), orbit: 'orbit-l7', radius: 330 },
     { id: 8, name: 'HYPER SMART HOME', description: t('ecosystem.hyperSmartHome'), orbit: 'orbit-l8', radius: 260 },
     { id: 9, name: 'HYPER LINK', description: t('ecosystem.hyperLink'), orbit: 'orbit-l9', radius: 220 },
-    { id: 10, name: 'HYPER TEACH', description: '', orbit: 'orbit-l2', radius: 195 },
-    { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l3', radius: 235 },
+    { id: 10, name: 'HYPER TEACH', description: '', orbit: 'orbit-l2', radius: 185 },
+    { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l3', radius: 225 },
   ];
 
   const sizeMap = {
@@ -54,10 +53,6 @@ export const EcosystemSection: React.FC = () => {
           opacity: 0.28;
           animation: spin-slow 180s linear infinite;
         }
-
-        .ecosystem-node {
-          transform: rotate(0deg) !important;
-        }
       `}</style>
 
       <div className="absolute inset-0 galaxy-bg"></div>
@@ -82,7 +77,7 @@ export const EcosystemSection: React.FC = () => {
             </h3>
           </div>
 
-          {ecosystemNodes.map(node => (
+          {ecosystemNodes.map((node, index) => (
             <div
               key={node.id}
               className={`absolute top-1/2 left-1/2 ${node.orbit}`}
@@ -92,7 +87,6 @@ export const EcosystemSection: React.FC = () => {
             >
               <div
                 className={`
-                  ecosystem-node
                   ${sizeMap.medium}
                   rounded-full flex items-center justify-center
                   transition-all duration-500 cursor-pointer text-center
@@ -100,6 +94,7 @@ export const EcosystemSection: React.FC = () => {
                 onMouseEnter={() => setHoveredNode(node.id)}
                 onMouseLeave={() => setHoveredNode(null)}
                 style={{
+                  transform: `rotate(${-index * 10}deg)`,
                   background:
                     hoveredNode === node.id
                       ? 'linear-gradient(135deg, rgba(0,224,255,0.45), rgba(255,209,102,0.35))'
@@ -132,4 +127,3 @@ export const EcosystemSection: React.FC = () => {
     </section>
   );
 };
-```
