@@ -78,17 +78,20 @@
     "years": "チームの経験年数",
     "clients": "お客様の満足が最優先"
   },
-  "ecosystem": {
-    "title": "エコシステム HYPER Galaxy",
-    "description": "企業とユーザーのためのAIプラットフォームを連携させたエコシステムを構築しています。すべての要素は、長期的価値と実用性を重視して丁寧につくられています。",
-    "hyperCloud": "HYPER CLOUD AI と自動化のクラウド基盤",
-    "hyperMe": "HYPER ME デジタルアイデンティティ profile.io.vn",
-    "hyperLabs": "HYPER LAB 倫理的AIの研究と革新",
-    "hyperAcademy": "HYPER Academy 実践型AI教育",
-    "hyperAI": "HYPER BOT マルチプラットフォームAIアシスタント",
-    "hyperPartners": "HYPER Partners AI共創パートナーネットワーク",
-    "hyperVentures": "HYPER Ventures AIプロジェクト支援"
-  },
+"ecosystem": {
+  "title": "エコシステム - Hyper Galaxy",
+  "description": "現実世界で活用できるように設計された、拡張性と信頼性を備えた統合AIエコシステム。",
+  "home": "Hyper Home – エコシステム全体の中心ハブ。",
+  "hyperCloud": "Hyper Cloud – AIと自動化のためのクラウド基盤。",
+  "hyperMe": "Hyper ME – profile.io.vn によるデジタルID。",
+  "hyperLabs": "Hyper Lab – 倫理的AIの研究所。",
+  "hyperAcademy": "Hyper Academy – 実践的AI教育。",
+  "hyperAI": "Hyper Bot – マルチプラットフォームAIアシスタント。",
+  "hyperPartners": "Hyper Partners – AIパートナーネットワーク。",
+  "hyperVentures": "Hyper Ventures – AIプロジェクト支援。",
+  "hyperSmartHome": "Hyper SmartHome – Hyper Oneが開発するスマートホームソリューション。",
+  "hyperLink": "Hyper Link – Hyper Galaxy全体をつなぐコネクティビティレイヤー。"
+},
   "hyperme": {
     "title": "HYPER ME ベトナム人のためのデジタル名刺",
     "description": "無料で作成できるデジタル名刺。あなたのオンラインアイデンティティを .io.vn ドメインで表現できます。数分で作成でき、シンプルでプロフェッショナルです。",
