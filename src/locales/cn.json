@@ -78,17 +78,21 @@
     "years": "团队经验",
     "clients": "客户满意是首要目标"
   },
-  "ecosystem": {
-    "title": "生态系统 — Hyper Galaxy",
-    "description": "我们正在构建一个面向企业与用户的 AI 生态，每一部分都强调可持续性与真实价值。",
-    "hyperCloud": "Hyper Cloud — AI 与自动化云平台",
-    "hyperMe": "Hyper ME — 数字身份 profile.io.vn",
-    "hyperLabs": "Hyper Lab — 负责任的 AI 研究机构",
-    "hyperAcademy": "Hyper Academy — 实用 AI 教育",
-    "hyperAI": "Hyper Bot — 多平台 AI 助理",
-    "hyperPartners": "Hyper Partners — 合作伙伴网络",
-    "hyperVentures": "Hyper Ventures — AI 项目支持"
-  },
+"ecosystem": {
+  "title": "에코시스템 - Hyper Galaxy",
+  "description": "확장성과 실용성을 기반으로 구축된 통합 AI 생태계.",
+  "home": "Hyper Home – 전체 생태계의 중앙 허브.",
+  "hyperCloud": "Hyper Cloud – AI 및 자동화를 위한 클라우드 인프라.",
+  "hyperMe": "Hyper ME – profile.io.vn 기반 디지털 아이덴티티.",
+  "hyperLabs": "Hyper Lab – 윤리적 AI 연구소.",
+  "hyperAcademy": "Hyper Academy – 실용 AI 교육.",
+  "hyperAI": "Hyper Bot – 멀티 플랫폼 AI 어시스턴트.",
+  "hyperPartners": "Hyper Partners – AI 파트너 네트워크.",
+  "hyperVentures": "Hyper Ventures – AI 기반 프로젝트 지원.",
+  "hyperSmartHome": "Hyper SmartHome – Hyper One이 개발한 스마트 홈 솔루션.",
+  "hyperLink": "Hyper Link – Hyper Galaxy 전 제품을 연결하는 레이어."
+}
+,
   "hyperme": {
     "title": "Hyper ME — 越南数字名片",
     "description": "免费生成属于你的数字名片。使用 <名字>.profile.io.vn，打造简洁、专业、有识别度的个人身份。",
