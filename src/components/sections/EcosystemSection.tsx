@@ -1,4 +1,4 @@
-// path/to/components/sections/EcosystemSection.tsx
+
 import React, { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 
@@ -16,8 +16,6 @@ export const EcosystemSection: React.FC = () => {
     { id: 7, name: 'HYPER VENTURES', description: t('ecosystem.hyperVentures'), orbit: 'orbit-l7', radius: 330 },
     { id: 8, name: 'HYPER SMART HOME', description: t('ecosystem.hyperSmartHome'), orbit: 'orbit-l8', radius: 260 },
     { id: 9, name: 'HYPER LINK', description: t('ecosystem.hyperLink'), orbit: 'orbit-l9', radius: 220 },
-    { id: 10, name: 'HYPER TEACH', description: '', orbit: 'orbit-l2', radius: 185 },
-    { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l3', radius: 225 },
   ];
 
   const sizeMap = {
@@ -28,12 +26,14 @@ export const EcosystemSection: React.FC = () => {
 
   return (
     <section id="ecosystem" className="py-20 relative">
+
       <style>{`
-        @keyframes spin-slow {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
+        @keyframes spin-slow { 
+          from { transform: rotate(0deg); } 
+          to { transform: rotate(360deg); } 
         }
 
+        /* Orbit speeds – depth effect */
         .orbit-l1 { animation: spin-slow 20s linear infinite; }
         .orbit-l2 { animation: spin-slow 26s linear infinite; }
         .orbit-l3 { animation: spin-slow 34s linear infinite; }
@@ -49,7 +49,8 @@ export const EcosystemSection: React.FC = () => {
         }
 
         .stars {
-          background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001131/GSFC_20171208_Archive_e001131~orig.jpg');
+          background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001131/GSFC_20171208_Archive_e001131~orig.jpg
+');
           opacity: 0.28;
           animation: spin-slow 180s linear infinite;
         }
@@ -59,6 +60,7 @@ export const EcosystemSection: React.FC = () => {
       <div className="absolute inset-0 stars bg-cover bg-center"></div>
 
       <div className="container mx-auto px-4 relative z-10">
+
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
             {t('ecosystem.title')}
@@ -68,21 +70,25 @@ export const EcosystemSection: React.FC = () => {
         </div>
 
         <div className="relative h-[650px] md:h-[750px] flex items-center justify-center">
+
+          {/* 🌟 CORE HYPER ONE */}
           <div className="absolute w-44 h-44 rounded-full flex items-center justify-center
             bg-[radial-gradient(circle,rgba(0,224,255,0.45),rgba(0,40,80,0.7),rgba(0,0,0,0.85))]
             border border-cyan-400/40 shadow-[0_0_45px_rgba(0,224,255,0.4)]">
+
             <h3 className="text-center text-white font-extrabold leading-tight">
               HYPER ONE<br />
               <span className="text-[#00E0FF]">CORE AI</span>
             </h3>
           </div>
 
-          {ecosystemNodes.map((node, index) => (
+          {/* 🪐 Orbiting Items */}
+          {ecosystemNodes.map(node => (
             <div
               key={node.id}
               className={`absolute top-1/2 left-1/2 ${node.orbit}`}
               style={{
-                transformOrigin: `0 -${node.radius}px`,
+                transformOrigin: `0 -${node.radius}px`
               }}
             >
               <div
@@ -94,7 +100,6 @@ export const EcosystemSection: React.FC = () => {
                 onMouseEnter={() => setHoveredNode(node.id)}
                 onMouseLeave={() => setHoveredNode(null)}
                 style={{
-                  transform: `rotate(${-index * 10}deg)`,
                   background:
                     hoveredNode === node.id
                       ? 'linear-gradient(135deg, rgba(0,224,255,0.45), rgba(255,209,102,0.35))'
@@ -113,7 +118,7 @@ export const EcosystemSection: React.FC = () => {
                   {node.name}
                 </span>
 
-                {hoveredNode === node.id && node.description && (
+                {hoveredNode === node.id && (
                   <div className="absolute left-1/2 transform -translate-x-1/2 mt-3 w-48 bg-gray-900/90 border border-gray-700 rounded-lg p-3 text-white text-sm z-20">
                     <h4 className="font-semibold text-[#00E0FF] mb-1">{node.name}</h4>
                     <p className="text-gray-300 text-xs">{node.description}</p>
@@ -122,6 +127,7 @@ export const EcosystemSection: React.FC = () => {
               </div>
             </div>
           ))}
+
         </div>
       </div>
     </section>
