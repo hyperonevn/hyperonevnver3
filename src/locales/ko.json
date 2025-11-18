@@ -78,17 +78,20 @@
     "years": "팀 경험",
     "clients": "고객 만족 최우선"
   },
-  "ecosystem": {
-    "title": "HYPER Galaxy 에코시스템",
-    "description": "사용자와 기업을 위한 AI 플랫폼을 긴밀하게 연결한 에코시스템을 구축합니다. 모든 구성 요소는 장기적인 가치와 실용성을 중심으로 설계되었습니다.",
-    "hyperCloud": "HYPER CLOUD AI 와 자동화 기반",
-    "hyperMe": "HYPER ME 디지털 아이덴티티 profile.io.vn",
-    "hyperLabs": "HYPER LAB 책임 있는 AI 연구",
-    "hyperAcademy": "HYPER Academy 실용 AI 교육",
-    "hyperAI": "HYPER BOT 멀티 플랫폼 AI 어시스턴트",
-    "hyperPartners": "HYPER Partners AI 파트너 네트워크",
-    "hyperVentures": "HYPER Ventures AI 프로젝트 지원"
-  },
+"ecosystem": {
+  "title": "에코시스템 - Hyper Galaxy",
+  "description": "확장성과 실용성을 기반으로 구축된 통합 AI 생태계.",
+  "home": "Hyper Home – 전체 생태계의 중앙 허브.",
+  "hyperCloud": "Hyper Cloud – AI 및 자동화를 위한 클라우드 인프라.",
+  "hyperMe": "Hyper ME – profile.io.vn 기반 디지털 아이덴티티.",
+  "hyperLabs": "Hyper Lab – 윤리적 AI 연구소.",
+  "hyperAcademy": "Hyper Academy – 실용 AI 교육.",
+  "hyperAI": "Hyper Bot – 멀티 플랫폼 AI 어시스턴트.",
+  "hyperPartners": "Hyper Partners – AI 파트너 네트워크.",
+  "hyperVentures": "Hyper Ventures – AI 기반 프로젝트 지원.",
+  "hyperSmartHome": "Hyper SmartHome – Hyper One이 개발한 스마트 홈 솔루션.",
+  "hyperLink": "Hyper Link – Hyper Galaxy 전 제품을 연결하는 레이어."
+},
   "hyperme": {
     "title": "HYPER ME 베트남 디지털 명함",
     "description": "무료로 제작 가능한 디지털 명함 서비스입니다. <이름>.profile.io.vn 형태의 간단하고 전문적인 온라인 아이덴티티를 제공합니다.",
