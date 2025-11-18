@@ -78,17 +78,24 @@
     "years": "Years of team experience",
     "clients": "Customer satisfaction is our highest priority"
   },
-  "ecosystem": {
-    "title": "Ecosystem - HYPER Galaxy",
-    "description": "We are building an ecosystem that connects AI platforms for enterprises and Vietnamese users. Every component is crafted with care, prioritizing real-world application and long-term scalability.",
-    "hyperCloud": "HYPER CLOUD - Cloud platform for AI and intelligent automation.",
-    "hyperMe": "HYPER ME - Digital identity at profile.io.vn.",
-    "hyperLabs": "HYPER LAB - Ethical AI research and innovation.",
-    "hyperAcademy": "HYPER Academy - Applied AI education.",
-    "hyperAI": "HYPER BOT - Multi-platform AI assistant.",
-    "hyperPartners": "HYPER Partners - Network of co-creation AI partners.",
-    "hyperVentures": "HYPER Ventures - Supporting and partnering with AI projects."
-  },
+"ecosystem": {
+  "title": "Ecosystem - Hyper Galaxy",
+  "description": "A unified AI ecosystem built for scalability, reliability, and real-world applications.",
+  "home": "Hyper Home – The central hub of the entire ecosystem.",
+  "hyperCloud": "Hyper Cloud – Cloud infrastructure for AI and automation.",
+  "hyperMe": "Hyper ME – Digital identity at profile.io.vn.",
+  "hyperLabs": "Hyper Lab – Ethical AI research.",
+  "hyperAcademy": "Hyper Academy – Applied AI education.",
+  "hyperAI": "Hyper Bot – Multi-platform AI assistant.",
+  "hyperPartners": "Hyper Partners – Network of AI partners.",
+  "hyperVentures": "Hyper Ventures – Supporting AI-driven projects.",
+  "hyperSmartHome": "Hyper SmartHome – Smart home solutions developed by Hyper One.",
+  "hyperLink": "Hyper Link – The connectivity layer across all products in Hyper Galaxy."
+},
+
+
+
+  
   "hyperme": {
     "title": "HYPER ME - Digital Card for Vietnamese Users",
     "description": "A free digital card that helps you build your identity in the digital world with the .io.vn domain. Create your profile in minutes. Simple, professional and free.",
