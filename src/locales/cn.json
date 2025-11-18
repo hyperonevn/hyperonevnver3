@@ -79,19 +79,20 @@
     "clients": "客户满意是首要目标"
   },
 "ecosystem": {
-  "title": "에코시스템 - Hyper Galaxy",
-  "description": "확장성과 실용성을 기반으로 구축된 통합 AI 생태계.",
-  "home": "Hyper Home – 전체 생태계의 중앙 허브.",
-  "hyperCloud": "Hyper Cloud – AI 및 자동화를 위한 클라우드 인프라.",
-  "hyperMe": "Hyper ME – profile.io.vn 기반 디지털 아이덴티티.",
-  "hyperLabs": "Hyper Lab – 윤리적 AI 연구소.",
-  "hyperAcademy": "Hyper Academy – 실용 AI 교육.",
-  "hyperAI": "Hyper Bot – 멀티 플랫폼 AI 어시스턴트.",
-  "hyperPartners": "Hyper Partners – AI 파트너 네트워크.",
-  "hyperVentures": "Hyper Ventures – AI 기반 프로젝트 지원.",
-  "hyperSmartHome": "Hyper SmartHome – Hyper One이 개발한 스마트 홈 솔루션.",
-  "hyperLink": "Hyper Link – Hyper Galaxy 전 제품을 연결하는 레이어."
+  "title": "生态系统 - Hyper Galaxy",
+  "description": "一个为可扩展性、可靠性与真实应用而打造的整合式 AI 生态系统。",
+  "home": "Hyper Home – 整个生态系统的核心枢纽。",
+  "hyperCloud": "Hyper Cloud – 面向 AI 与自动化的云基础设施。",
+  "hyperMe": "Hyper ME – 来自 profile.io.vn 的数字身份。",
+  "hyperLabs": "Hyper Lab – 道德 AI 研究中心。",
+  "hyperAcademy": "Hyper Academy – 应用型 AI 教育。",
+  "hyperAI": "Hyper Bot – 多平台 AI 助理。",
+  "hyperPartners": "Hyper Partners – AI 合作伙伴网络。",
+  "hyperVentures": "Hyper Ventures – 支持 AI 项目。",
+  "hyperSmartHome": "Hyper SmartHome – Hyper One 自主开发的智能家居解决方案。",
+  "hyperLink": "Hyper Link – 连接 Hyper Galaxy 全部产品的核心链路层。"
 }
+
 ,
   "hyperme": {
     "title": "Hyper ME — 越南数字名片",
