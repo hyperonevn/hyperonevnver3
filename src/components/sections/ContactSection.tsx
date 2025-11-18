@@ -91,7 +91,7 @@ export const ContactSection: React.FC = () => {
                     <h4 className="text-lg font-medium text-white mb-1">
                       {t('contact.phone.title')}
                     </h4>
-                    <p className="text-gray-300">+84 352 69 89 68</p>
+                    <p className="text-gray-300">+84 352 60 80 68</p>
                   </div>
                 </div>
               </div>
