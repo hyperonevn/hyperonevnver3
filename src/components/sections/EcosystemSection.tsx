@@ -17,8 +17,8 @@ export const EcosystemSection: React.FC = () => {
     { id: 7, name: 'HYPER VENTURES', description: t('ecosystem.hyperVentures'), orbit: 'orbit-l7', radius: 170 },
     { id: 8, name: 'HYPER SMART HOME', description: t('ecosystem.hyperSmartHome'), orbit: 'orbit-l8', radius: 130 },
     { id: 9, name: 'HYPER LINK', description: t('ecosystem.hyperLink'), orbit: 'orbit-l9', radius: 175 },
-    { id: 10, name: 'HYPER TEACH', description: '', orbit: 'orbit-l2', radius: 160 },
-    { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l3', radius: 180 },
+    { id: 10, name: 'HYPER TEACH', description: '', orbit: 'orbit-l10', radius: 160 },
+    { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l11', radius: 180 },
   ];
 
   return (
