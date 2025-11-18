@@ -4,6 +4,7 @@ import { Footer } from './components/Footer';
 import { HeroSection } from './components/sections/HeroSection';
 import { OurStorySection } from './components/sections/OurStorySection';
 import { HonoraryCoFounderSection } from './components/sections/HonoraryCoFounderSection';
+import { TechnologyStackSection } from './components/sections/TechnologyStackSection';
 
 // 🌟 THÊM 3 SECTION MỚI
 import { MembershipSection } from './components/sections/MembershipSection';
@@ -89,6 +90,7 @@ export function App() {
             <PhilosophySection />
             <PartnersSection />
             <MembershipSection />
+            <TechnologyStackSection />
 
             <CareerSection />
             <MediaSection />
