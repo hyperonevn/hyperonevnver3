@@ -8,14 +8,14 @@ export const EcosystemSection: React.FC = () => {
   const [hoveredNode, setHoveredNode] = useState<number | null>(null);
 
   const ecosystemNodes = [
-    { id: 1, name: 'HYPER CLOUD', description: t('ecosystem.hyperCloud'), orbit: 'orbit-l1', radius: 140 },
+    { id: 1, name: 'HYPER CLOUD', description: t('ecosystem.hyperCloud'), orbit: 'orbit-l1', radius: 100 },
     { id: 2, name: 'HYPER ME', description: t('ecosystem.hyperMe'), orbit: 'orbit-l2', radius: 165 },
-    { id: 3, name: 'HYPER LABS', description: t('ecosystem.hyperLabs'), orbit: 'orbit-l3', radius: 190 },
-    { id: 4, name: 'HYPER ACADEMY', description: t('ecosystem.hyperAcademy'), orbit: 'orbit-l4', radius: 215 },
+    { id: 3, name: 'HYPER LABS', description: t('ecosystem.hyperLabs'), orbit: 'orbit-l3', radius: 120 },
+    { id: 4, name: 'HYPER ACADEMY', description: t('ecosystem.hyperAcademy'), orbit: 'orbit-l4', radius: 140 },
     { id: 5, name: 'HYPER AI', description: t('ecosystem.hyperAI'), orbit: 'orbit-l5', radius: 155 },
-    { id: 6, name: 'HYPER PARTNERS', description: t('ecosystem.hyperPartners'), orbit: 'orbit-l6', radius: 220 },
-    { id: 7, name: 'HYPER VENTURES', description: t('ecosystem.hyperVentures'), orbit: 'orbit-l7', radius: 240 },
-    { id: 8, name: 'HYPER SMART HOME', description: t('ecosystem.hyperSmartHome'), orbit: 'orbit-l8', radius: 195 },
+    { id: 6, name: 'HYPER PARTNERS', description: t('ecosystem.hyperPartners'), orbit: 'orbit-l6', radius: 180 },
+    { id: 7, name: 'HYPER VENTURES', description: t('ecosystem.hyperVentures'), orbit: 'orbit-l7', radius: 170 },
+    { id: 8, name: 'HYPER SMART HOME', description: t('ecosystem.hyperSmartHome'), orbit: 'orbit-l8', radius: 130 },
     { id: 9, name: 'HYPER LINK', description: t('ecosystem.hyperLink'), orbit: 'orbit-l9', radius: 175 },
     { id: 10, name: 'HYPER TEACH', description: '', orbit: 'orbit-l2', radius: 160 },
     { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l3', radius: 180 },
