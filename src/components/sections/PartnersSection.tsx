@@ -32,6 +32,12 @@ export const PartnersSection: React.FC = () => {
 
         {/* TITLE */}
         <div className="max-w-3xl mx-auto text-center mb-16">
+
+          {/* ➕ DÒNG THÊM MỚI — GIỮ NGUYÊN 100% PHẦN CÒN LẠI */}
+          <div className="text-sm font-semibold text-white/40 tracking-widest uppercase mb-2">
+            HYPER PARTNER
+          </div>
+
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             {t('partners.title')}
           </h2>
@@ -59,7 +65,9 @@ export const PartnersSection: React.FC = () => {
                   className="h-16 w-16 object-cover rounded-lg opacity-80 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                 />
 
-                <div className="absolute -inset-2 rounded-lg opacity-0 group-hover:opacity-100 bg-[radial-gradient(circle,rgba(0,224,255,0.20),transparent_70%)] transition-opacity duration-300"></div>
+                <div className="absolute -inset-2 rounded-lg opacity-0 group-hover:opacity-100 
+                bg-[radial-gradient(circle,rgba(0,224,255,0.20),transparent_70%)] 
+                transition-opacity duration-300"></div>
               </div>
 
               {/* NAME */}
@@ -75,7 +83,8 @@ export const PartnersSection: React.FC = () => {
         <div className="text-center mt-12">
           <a
             href="#contact"
-            className="px-8 py-3 bg-[#00E0FF]/10 text-[#00E0FF] border border-[#00E0FF]/30 rounded-full hover:bg-[#00E0FF]/20 transition-all duration-300 inline-flex items-center"
+            className="px-8 py-3 bg-[#00E0FF]/10 text-[#00E0FF] border border-[#00E0FF]/30 rounded-full 
+            hover:bg-[#00E0FF]/20 transition-all duration-300 inline-flex items-center"
           >
             {t('partners.becomePartner')} <span className="ml-2">→</span>
           </a>
