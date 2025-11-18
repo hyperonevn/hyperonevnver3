@@ -1,6 +1,7 @@
 // src/components/sections/EcosystemSection.tsx
 import React, { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import '../../styles/ecosystem.css';
 
 export const EcosystemSection: React.FC = () => {
   const { t } = useLanguage();
@@ -20,45 +21,8 @@ export const EcosystemSection: React.FC = () => {
     { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l3', radius: 225 },
   ];
 
-  const sizeMap = {
-    small: 'w-16 h-16',
-    medium: 'w-20 h-20',
-    large: 'w-24 h-24'
-  };
-
   return (
     <section id="ecosystem" className="py-20 relative">
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-          @keyframes spin-slow {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-          }
-
-          .orbit-l1 { animation: spin-slow 20s linear infinite; }
-          .orbit-l2 { animation: spin-slow 26s linear infinite; }
-          .orbit-l3 { animation: spin-slow 34s linear infinite; }
-          .orbit-l4 { animation: spin-slow 42s linear infinite; }
-          .orbit-l5 { animation: spin-slow 24s linear infinite; }
-          .orbit-l6 { animation: spin-slow 48s linear infinite; }
-          .orbit-l7 { animation: spin-slow 56s linear infinite; }
-          .orbit-l8 { animation: spin-slow 30s linear infinite; }
-          .orbit-l9 { animation: spin-slow 38s linear infinite; }
-
-          .galaxy-bg {
-            background: radial-gradient(circle at center, rgba(0,20,40,0.9), rgba(0,0,0,0.95));
-          }
-
-          .stars {
-            background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001131/GSFC_20171208_Archive_e001131~orig.jpg');
-            opacity: 0.28;
-            animation: spin-slow 180s linear infinite;
-          }
-        `,
-        }}
-      />
-
       <div className="absolute inset-0 galaxy-bg"></div>
       <div className="absolute inset-0 stars bg-cover bg-center"></div>
 
@@ -85,38 +49,26 @@ export const EcosystemSection: React.FC = () => {
             <div
               key={node.id}
               className={`absolute top-1/2 left-1/2 ${node.orbit}`}
-              style={{
-                transformOrigin: `0 -${node.radius}px`,
-              }}
+              style={{ transformOrigin: `0 -${node.radius}px` }}
             >
               <div
-                className={`
-                  ${sizeMap.medium}
-                  rounded-full flex items-center justify-center
-                  transition-all duration-500 cursor-pointer text-center
-                `}
+                className="w-20 h-20 rounded-full flex items-center justify-center text-center cursor-pointer transition-all duration-500"
                 onMouseEnter={() => setHoveredNode(node.id)}
                 onMouseLeave={() => setHoveredNode(null)}
                 style={{
                   transform: `rotate(${-index * 10}deg)`,
-                  background:
-                    hoveredNode === node.id
-                      ? 'linear-gradient(135deg, rgba(0,224,255,0.45), rgba(255,209,102,0.35))'
-                      : 'rgba(0,224,255,0.12)',
-                  border:
-                    hoveredNode === node.id
-                      ? '1px solid rgba(255,209,102,0.6)'
-                      : '1px solid rgba(0,224,255,0.25)',
-                  boxShadow:
-                    hoveredNode === node.id
-                      ? '0 0 35px rgba(0,224,255,0.6)'
-                      : '0 0 20px rgba(0,224,255,0.25)',
+                  background: hoveredNode === node.id
+                    ? 'linear-gradient(135deg, rgba(0,224,255,0.45), rgba(255,209,102,0.35))'
+                    : 'rgba(0,224,255,0.12)',
+                  border: hoveredNode === node.id
+                    ? '1px solid rgba(255,209,102,0.6)'
+                    : '1px solid rgba(0,224,255,0.25)',
+                  boxShadow: hoveredNode === node.id
+                    ? '0 0 35px rgba(0,224,255,0.6)'
+                    : '0 0 20px rgba(0,224,255,0.25)',
                 }}
               >
-                <span className="text-white font-semibold text-xs px-1">
-                  {node.name}
-                </span>
-
+                <span className="text-white font-semibold text-xs px-1">{node.name}</span>
                 {hoveredNode === node.id && node.description && (
                   <div className="absolute left-1/2 transform -translate-x-1/2 mt-3 w-48 bg-gray-900/90 border border-gray-700 rounded-lg p-3 text-white text-sm z-20">
                     <h4 className="font-semibold text-[#00E0FF] mb-1">{node.name}</h4>
