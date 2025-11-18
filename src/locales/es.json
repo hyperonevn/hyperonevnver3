@@ -78,17 +78,20 @@
     "years": "Años de Experiencia",
     "clients": "La satisfacción del cliente es nuestra prioridad"
   },
-  "ecosystem": {
-    "title": "Ecosistema – Hyper Galaxy",
-    "description": "Estamos construyendo un ecosistema de plataformas de IA para empresas y usuarios vietnamitas, diseñado con enfoque de sostenibilidad y valor real.",
-    "hyperCloud": "Hyper Cloud – Plataforma inteligente para IA y automatización",
-    "hyperMe": "Hyper ME – Identidad digital en profile.io.vn",
-    "hyperLabs": "Hyper Lab – Investigación ética en IA",
-    "hyperAcademy": "Hyper Academy – Formación práctica en IA",
-    "hyperAI": "Hyper Bot – Asistente multiplataforma",
-    "hyperPartners": "Hyper Partners – Red de colaboración",
-    "hyperVentures": "Hyper Ventures – Acompañamiento a proyectos de IA"
-  },
+"ecosystem": {
+  "title": "生态系统 - Hyper Galaxy",
+  "description": "一个为可扩展性、可靠性与真实应用而打造的整合式 AI 生态系统。",
+  "home": "Hyper Home – 整个生态系统的核心枢纽。",
+  "hyperCloud": "Hyper Cloud – 面向 AI 与自动化的云基础设施。",
+  "hyperMe": "Hyper ME – 来自 profile.io.vn 的数字身份。",
+  "hyperLabs": "Hyper Lab – 道德 AI 研究中心。",
+  "hyperAcademy": "Hyper Academy – 应用型 AI 教育。",
+  "hyperAI": "Hyper Bot – 多平台 AI 助理。",
+  "hyperPartners": "Hyper Partners – AI 合作伙伴网络。",
+  "hyperVentures": "Hyper Ventures – 支持 AI 项目。",
+  "hyperSmartHome": "Hyper SmartHome – Hyper One 自主开发的智能家居解决方案。",
+  "hyperLink": "Hyper Link – 连接 Hyper Galaxy 全部产品的核心链路层。"
+},
   "hyperme": {
     "title": "Hyper ME – Tarjeta Digital Vietnamita",
     "description": "Crea gratuitamente tu tarjeta digital con <nombre>.profile.io.vn. Simple, profesional y con identidad vietnamita.",
