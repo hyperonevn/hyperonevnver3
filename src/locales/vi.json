@@ -394,45 +394,49 @@
     "bio3": "Danh vị Đồng Sáng Lập Danh Dự được trao để ghi nhận những đóng góp tinh thần và giá trị cảm hứng."
   },
   "compliance": {
-    "title": "Tiêu Chuẩn Tuân Thủ Quốc Tế",
-    "description": "Hyper One tuân thủ bốn tiêu chuẩn ISO/IEC toàn cầu về quyền riêng tư, bảo mật đám mây, quản lý dữ liệu cá nhân và quản trị AI có trách nhiệm.",
-    "standards": {
-      "29100": {
-        "title": "ISO/IEC 29100 – Khung Quyền Riêng Tư",
-        "description": "Định nghĩa 11 nguyên tắc quyền riêng tư quốc tế, tạo nền tảng hệ thống cho bảo vệ dữ liệu cá nhân.",
-        "keyPoints": {
-          "principles": "11 nguyên tắc quyền riêng tư",
-          "scope": "Áp dụng cho toàn bộ hệ sinh thái dữ liệu",
-          "purpose": "Tăng cường minh bạch và bảo vệ quyền cá nhân"
-        }
-      },
-      "27017": {
-        "title": "ISO/IEC 27017 – Hướng Dẫn Bảo Mật Đám Mây",
-        "description": "Cung cấp biện pháp kiểm soát bảo mật dành riêng cho nhà cung cấp và khách hàng dịch vụ đám mây.",
-        "keyPoints": {
-          "controls": "Biện pháp kiểm soát cho cloud",
-          "auditing": "Tăng tính minh bạch và khả năng kiểm toán",
-          "guidance": "Khuyến nghị triển khai thực tế"
-        }
-      },
-      "27018": {
-        "title": "ISO/IEC 27018 – Bảo Vệ PII Trên Đám Mây",
-        "description": "Tập trung bảo vệ dữ liệu nhận diện cá nhân (PII) theo chuẩn quốc tế.",
-        "keyPoints": {
-          "privacy": "Bảo vệ PII ở mức cao nhất",
-          "cloud": "Tối ưu cho môi trường đám mây",
-          "trust": "Tăng độ tin cậy với người dùng"
-        }
-      },
-      "27557": {
-        "title": "ISO/IEC 27557 – Quản Trị AI Có Trách Nhiệm",
-        "description": "Thiết lập nguyên tắc AI minh bạch, có trách nhiệm và phù hợp chuẩn đạo đức toàn cầu.",
-        "keyPoints": {
-          "ethics": "Đảm bảo AI tuân thủ đạo đức",
-          "transparency": "Tăng khả năng giải thích",
-          "governance": "Khung quản trị AI rõ ràng"
-        }
-      }
+  "title": "Tiêu Chuẩn Tuân Thủ Quốc Tế",
+  "description": "Hyper One tuân thủ bốn tiêu chuẩn ISO/IEC toàn cầu về quyền riêng tư, bảo mật đám mây, quản lý dữ liệu cá nhân và quản trị AI có trách nhiệm.",
+  "standards": {
+    "29100": {
+      "title": "ISO/IEC 29100 – Khung Quyền Riêng Tư",
+      "desc": "Khung quyền riêng tư toàn cầu giúp bảo vệ thông tin cá nhân."
+    },
+    "27017": {
+      "title": "ISO/IEC 27017 – Bảo Mật Đám Mây",
+      "desc": "Hướng dẫn bảo mật cho môi trường dịch vụ đám mây."
+    },
+    "27018": {
+      "title": "ISO/IEC 27018 – Bảo Vệ Thông Tin Nhận Dạng Cá Nhân",
+      "desc": "Tiêu chuẩn bảo vệ dữ liệu cá nhân (PII) trong môi trường cloud."
+    },
+    "27557": {
+      "title": "ISO/IEC 27557 – Quản Trị AI Trách Nhiệm",
+      "desc": "Khung quản trị AI giúp vận hành AI có trách nhiệm, minh bạch và an toàn."
+    }
+  }
+},
+
+  "hypercales": {
+    "title": "Hyperscalers & Tech",
+    "subtitle": "Hyperscalers đại diện cho các công nghệ cốt lõi vận hành toàn bộ hệ sinh thái Hyper One — được lựa chọn dựa trên hiệu năng, độ ổn định và khả năng mở rộng dài hạn.",
+
+    "gemini": {
+      "desc": "Hệ thống AI đa phương thức của Google, phục vụ tìm kiếm, suy luận và các tác vụ cần tri thức sâu trong pipeline của Hyper One."
+    },
+    "openai": {
+      "desc": "Các mô hình GPT từ OpenAI cung cấp khả năng sinh ngôn ngữ tự nhiên, lập luận và sáng tạo với độ chính xác và chiều sâu ngữ cảnh cao."
+    },
+    "gcp": {
+      "desc": "Google Cloud Platform vận hành hạ tầng tính toán, pipeline dữ liệu, serverless, logging và khả năng mở rộng cấp doanh nghiệp."
+    },
+    "cloudflare": {
+      "desc": "Cloudflare đảm nhiệm edge delivery toàn cầu, bảo mật, Workers, lưu trữ R2, cơ sở dữ liệu D1 và định tuyến độ trễ cực thấp cho các dịch vụ."
+    },
+    "vercel": {
+      "desc": "Vercel được dùng cho triển khai frontend tốc độ cao, môi trường preview và hosting ổn định cho một số ứng dụng của Hyper One."
+    },
+    "nvidia": {
+      "desc": "NVIDIA là nền tảng GPU cho huấn luyện mô hình, suy luận và hệ thống RLHF/AI mà Hyper One phát triển trong tương lai."
     }
   }
 }

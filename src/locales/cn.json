@@ -395,5 +395,52 @@
     "bio1": "他是 HYPER ME 初始精神的重要灵感来源——简约、真实、富有越南气质。",
     "bio2": "他低调但坚定的陪伴，让 HYPER ONE 始终保持人文、清醒与方向感。",
     "bio3": "荣誉共同创办人头衔，是对其精神价值与启发的正式致谢。"
+  },
+  "compliance": {
+  "title": "国际合规标准",
+  "description": "Hyper One 遵循四项国际 ISO/IEC 标准，涵盖隐私保护、云安全、个人数据管理及负责任的 AI 治理。",
+  "standards": {
+    "29100": {
+      "title": "ISO/IEC 29100 – 隐私框架",
+      "desc": "用于保护个人信息的全球隐私原则框架。"
+    },
+    "27017": {
+      "title": "ISO/IEC 27017 – 云安全指南",
+      "desc": "面向云服务使用者与提供者的安全控制指南。"
+    },
+    "27018": {
+      "title": "ISO/IEC 27018 – 个人身份信息（PII）保护",
+      "desc": "规范云环境中个人身份信息保护的国际标准。"
+    },
+    "27557": {
+      "title": "ISO/IEC 27557 – 负责任的 AI 治理",
+      "desc": "确保 AI 的透明性、伦理性与安全性的治理框架。"
+    }
+  }
+},
+  "hypercales": {
+    "title": "Hyperscalers & Tech",
+    "subtitle": "Hyperscalers 代表驱动整个 Hyper One 生态系统的核心技术，基于性能、稳定性和长期可扩展性精心选定。",
+
+    "gemini": {
+      "desc": "Google 的多模态 AI 系统，用于搜索、推理以及 Hyper One 流水线中的知识密集型任务。"
+    },
+    "openai": {
+      "desc": "OpenAI 的 GPT 模型在自然语言生成、逻辑推理和创意任务中提供高精度和深度语境理解。"
+    },
+    "gcp": {
+      "desc": "Google Cloud Platform 提供计算、数据流水线、无服务器架构、日志记录以及企业级扩展能力。"
+    },
+    "cloudflare": {
+      "desc": "Cloudflare 负责全球边缘分发、安全、Workers、R2 存储、D1 数据库及超低延迟路由。"
+    },
+    "vercel": {
+      "desc": "Vercel 用于高速前端部署、预览环境以及稳定托管部分 Hyper One 应用。"
+    },
+    "nvidia": {
+      "desc": "NVIDIA 是 Hyper One 用于训练、推理及未来 RLHF/AI 系统开发的核心 GPU 基础。"
+    }
   }
 }
+
+

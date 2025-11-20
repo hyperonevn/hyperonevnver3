@@ -393,46 +393,55 @@
     "bio2": "His long-term support helps Hyper One maintain its humanity and clear direction.",
     "bio3": "The Honorary Co-Founder title is given to acknowledge his inspiration and contribution."
   },
-  "compliance": {
-    "title": "International Compliance Standards",
-    "description": "Hyper One complies with four global ISO/IEC standards for privacy, cloud security, personal data governance, and responsible AI.",
-    "standards": {
-      "29100": {
-        "title": "ISO/IEC 29100 – Privacy Framework",
-        "description": "Defines 11 global privacy principles, forming the foundation for personal data protection.",
-        "keyPoints": {
-          "principles": "11 privacy principles",
-          "scope": "Applies across the entire data ecosystem",
-          "purpose": "Enhances transparency and individual data protection"
-        }
-      },
-      "27017": {
-        "title": "ISO/IEC 27017 – Cloud Security Guidelines",
-        "description": "Provides cloud-specific security controls for both providers and customers.",
-        "keyPoints": {
-          "controls": "Cloud-specific security controls",
-          "auditing": "Improves auditability and transparency",
-          "guidance": "Practical recommendations for implementation"
-        }
-      },
-      "27018": {
-        "title": "ISO/IEC 27018 – Protection of PII in Cloud",
-        "description": "Focuses on international standards for protecting personally identifiable information (PII) in the cloud.",
-        "keyPoints": {
-          "privacy": "Highest level of PII protection",
-          "cloud": "Optimized for cloud environments",
-          "trust": "Increases user trust"
-        }
-      },
-      "27557": {
-        "title": "ISO/IEC 27557 – Responsible AI Governance",
-        "description": "Establishes principles for transparent, responsible, and ethically aligned AI.",
-        "keyPoints": {
-          "ethics": "Ensures ethical AI practices",
-          "transparency": "Improves explainability",
-          "governance": "Clear AI governance framework"
-        }
-      }
+
+
+  
+"compliance": {
+  "title": "International Compliance Standards",
+  "description": "Hyper One adheres to four global ISO/IEC standards on privacy, cloud security, personal data protection, and responsible AI governance.",
+  "standards": {
+    "29100": {
+      "title": "ISO/IEC 29100 – Privacy Framework",
+      "desc": "Defines 11 global privacy principles for protecting personal data."
+    },
+    "27017": {
+      "title": "ISO/IEC 27017 – Cloud Security Guidelines",
+      "desc": "Security controls designed specifically for cloud service providers and customers."
+    },
+    "27018": {
+      "title": "ISO/IEC 27018 – PII Protection in Cloud",
+      "desc": "International standard for protecting personally identifiable information (PII) in cloud environments."
+    },
+    "27557": {
+      "title": "ISO/IEC 27557 – Responsible AI Governance",
+      "desc": "Framework ensuring AI transparency, ethical alignment, and responsible governance."
     }
   }
+},
+
+
+"hypercales": {
+    "title": "Hyperscalers & Tech",
+    "subtitle": "Hyperscalers represents the core technologies powering the Hyper One ecosystem — selected for performance, stability, and long-term scalability.",
+
+    "gemini": {
+      "desc": "Google’s multimodal AI system used for search, reasoning, and knowledge-heavy tasks inside the Hyper One pipeline."
+    },
+    "openai": {
+      "desc": "OpenAI’s GPT models provide natural language generation and reasoning where precision, creativity, and context depth are required."
+    },
+    "gcp": {
+      "desc": "Google Cloud Platform powers our compute, data pipelines, serverless infrastructure, logging, and enterprise-grade scalability."
+    },
+    "cloudflare": {
+      "desc": "Cloudflare handles global edge delivery, security, Workers, R2 storage, D1 databases, and ultra-low latency routing for our services."
+    },
+    "vercel": {
+      "desc": "Vercel is used for fast frontend deployment, preview environments, and stable hosting for selected Hyper One applications."
+    },
+    "nvidia": {
+      "desc": "NVIDIA forms the GPU foundation for training, inference, and future reinforcement learning systems developed by Hyper One."
+    }
+}
+
 }

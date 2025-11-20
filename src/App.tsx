@@ -35,6 +35,9 @@ import { PartnersSection } from './components/sections/PartnersSection';
 import { MembershipSection } from './components/sections/MembershipSection';
 import { ComplianceBadgesSection } from './components/sections/ComplianceBadgesSection';
 
+// 🌐 TECH STACK — moved under PARTNERS
+import { TechStackSection } from './components/sections/TechStackSection';
+
 // 🌐 MEDIA + CAREER + CONTACT
 import { CareerSection } from './components/sections/CareerSection';
 import { MediaSection } from './components/sections/MediaSection';
@@ -43,7 +46,6 @@ import { ContactSection } from './components/sections/ContactSection';
 // 🌐 HYPER ME + CO-FOUNDER
 import { HyperMESection } from './components/sections/HyperMESection';
 import { HonoraryCoFounderSection } from './components/sections/HonoraryCoFounderSection';
-
 
 export function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -61,54 +63,65 @@ export function App() {
 
         <div className="relative z-10">
           <Header />
+
           <main>
+            {/* HERO */}
             <HeroSection />
+
+            {/* ABOUT */}
             <AboutSection />
             <MilestonesSection />
 
-
-                        {/* 🌟 HOẠT ĐỘNG KINH DOANH CỐT LÕI — MOVED DOWN */}
+            {/* CORE BUSINESS */}
             <CoreBusinessSection />
 
-
-            {/* OUR STORY */}
+            {/* STORY */}
             <OurStorySection />
             <FounderSection />
 
-
-            {/* 🌟 WHY HYPER ONE */}
+            {/* WHY */}
             <WhyHyperOneSection />
 
-            {/* 🌟 HOW WE WORK (HF5) */}
+            {/* HF5 */}
             <HowWeWorkSection />
 
-            {/* 🌟 AI TECHNOLOGY ARCHITECTURE */}
+            {/* AI TECH ARCHITECTURE */}
             <TechnologyStackSection />
 
-            {/* CORE VALUES */}
+            {/* VALUES + CULTURE */}
             <CoreValuesSection />
-
-            {/* COMPANY CULTURE */}
             <CompanyCultureSection />
 
+            {/* SOLUTIONS */}
             <SolutionsSection />
+
+            {/* ECOSYSTEM */}
             <EcosystemSection />
 
-
-
-
-
+            {/* PHILOSOPHY */}
             <PhilosophySection />
+
+            {/* PARTNERS */}
             <PartnersSection />
+
+            {/* ⭐ TECH STACK — MOVED HERE BELOW PARTNERS */}
+            <TechStackSection />
+
+            {/* COMPLIANCE */}
             <ComplianceBadgesSection />
 
+            {/* MEMBERSHIP */}
             <MembershipSection />
-            <TechnologyStackSection />
 
+            {/* CAREER + MEDIA */}
             <CareerSection />
             <MediaSection />
+
+            {/* HYPER ME + HONORARY */}
             <HyperMESection />
-            <HonoraryCoFounderSection />   {/* New */}
+            <HonoraryCoFounderSection />
+
+            {/* CONTACT */}
             <ContactSection />
           </main>
 

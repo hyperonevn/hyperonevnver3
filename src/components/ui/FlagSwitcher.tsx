@@ -2,8 +2,9 @@ import React from "react";
 import { useLanguage } from "../../context/LanguageContext";
 
 const flags: Record<string, string> = {
-  vi: "🇻🇳",
+  
   en: "🇺🇸",
+  vi: "🇻🇳",
   ja: "🇯🇵",
   ko: "🇰🇷",
   zh: "🇨🇳",
@@ -13,7 +14,7 @@ const flags: Record<string, string> = {
 export const FlagSwitcher: React.FC = () => {
   const { language, setLanguage } = useLanguage();
 
-  const locales = ["vi", "en", "ja", "ko", "zh", "es"];
+  const locales = ["en", "vi", "ja", "ko", "zh", "es"];
   const nextLocale = locales[(locales.indexOf(language) + 1) % locales.length];
 
   return (

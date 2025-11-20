@@ -393,5 +393,53 @@
     "bio1": "Una de las inspiraciones centrales que ayudó a definir la identidad sencilla, auténtica y vietnamita de HYPER ME.",
     "bio2": "Su apoyo silencioso pero constante ha mantenido a HYPER ONE firme, humano y en la dirección correcta.",
     "bio3": "El título honorario reconoce su contribución espiritual y su impacto como fuente de inspiración."
+  },
+  "compliance": {
+  "title": "Estándares Internacionales de Cumplimiento",
+  "description": "Hyper One cumple con cuatro estándares internacionales ISO/IEC relacionados con privacidad, seguridad en la nube, gestión de datos personales y gobernanza responsable de IA.",
+  "standards": {
+    "29100": {
+      "title": "ISO/IEC 29100 – Marco de Privacidad",
+      "desc": "Define principios globales de privacidad para proteger la información personal."
+    },
+    "27017": {
+      "title": "ISO/IEC 27017 – Seguridad en la Nube",
+      "desc": "Guías de seguridad para usuarios y proveedores de servicios en la nube."
+    },
+    "27018": {
+      "title": "ISO/IEC 27018 – Protección de Información Personal (PII)",
+      "desc": "Estándar internacional para proteger PII en entornos de computación en la nube."
+    },
+    "27557": {
+      "title": "ISO/IEC 27557 – Gobernanza Responsable de IA",
+      "desc": "Un marco que garantiza transparencia, ética y seguridad en sistemas de inteligencia artificial."
+    }
+  }
+},
+  "hypercales": {
+    "title": "Hyperscalers & Tech",
+    "subtitle": "Hyperscalers representa las tecnologías centrales que impulsan todo el ecosistema de Hyper One, seleccionadas por su rendimiento, estabilidad y capacidad de expansión a largo plazo.",
+
+    "gemini": {
+      "desc": "El sistema de IA multimodal de Google, utilizado para búsqueda, razonamiento y tareas basadas en conocimiento dentro del pipeline de Hyper One."
+    },
+    "openai": {
+      "desc": "Los modelos GPT de OpenAI ofrecen generación de lenguaje natural, razonamiento y creatividad con alta precisión y comprensión profunda del contexto."
+    },
+    "gcp": {
+      "desc": "Google Cloud Platform proporciona computación, pipelines de datos, infraestructura serverless, logging y escalabilidad a nivel empresarial."
+    },
+    "cloudflare": {
+      "desc": "Cloudflare gestiona la entrega global en el edge, seguridad, Workers, almacenamiento R2, base de datos D1 y enrutamiento de baja latencia."
+    },
+    "vercel": {
+      "desc": "Vercel se utiliza para despliegues frontend rápidos, entornos de previsualización y hosting estable para aplicaciones seleccionadas de Hyper One."
+    },
+    "nvidia": {
+      "desc": "NVIDIA es la base GPU para el entrenamiento, inferencia y futuros sistemas RLHF/IA desarrollados por Hyper One."
+    }
   }
 }
+
+
+
