@@ -1,40 +1,49 @@
 import React, { useEffect, useState } from 'react';
+
+// 🌐 CONTEXT & UI
+import { LanguageProvider } from './context/LanguageContext';
+import { ParticleBackground } from './components/ui/ParticleBackground';
+
+// 🌐 CORE LAYOUT
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+
+// 🌐 HERO + MAIN SECTIONS
 import { HeroSection } from './components/sections/HeroSection';
+import { AboutSection } from './components/sections/AboutSection';
+import { MilestonesSection } from './components/sections/MilestonesSection';
+import { CoreBusinessSection } from './components/sections/CoreBusinessSection';
+
+// 🌐 STORY, FOUNDER, WHY, HF5
 import { OurStorySection } from './components/sections/OurStorySection';
-import { HonoraryCoFounderSection } from './components/sections/HonoraryCoFounderSection';
-import { TechnologyStackSection } from './components/sections/TechnologyStackSection';
-
-// 🌟 THÊM 3 SECTION MỚI
-import { MembershipSection } from './components/sections/MembershipSection';
-import { ComplianceBadgesSection } from './components/sections/ComplianceBadgesSection';
-
-
+import { FounderSection } from './components/sections/FounderSection';
 import { WhyHyperOneSection } from './components/sections/WhyHyperOneSection';
 import { HowWeWorkSection } from './components/sections/HowWeWorkSection';
-import { TechnologyStackSection } from './components/sections/TechnologyStackSection';
 
+// 🌐 TECHNOLOGY + VALUES + CULTURE
+import { TechnologyStackSection } from './components/sections/TechnologyStackSection';
 import { CoreValuesSection } from './components/sections/CoreValuesSection';
 import { CompanyCultureSection } from './components/sections/CompanyCultureSection';
 
-import { AboutSection } from './components/sections/AboutSection';
+// 🌐 SOLUTIONS + ECOSYSTEM + PHILOSOPHY
 import { SolutionsSection } from './components/sections/SolutionsSection';
-import { MilestonesSection } from './components/sections/MilestonesSection';
 import { EcosystemSection } from './components/sections/EcosystemSection';
-import { HyperMESection } from './components/sections/HyperMESection';
 import { PhilosophySection } from './components/sections/PhilosophySection';
-import { FounderSection } from './components/sections/FounderSection';
+
+// 🌐 BRAND & PARTNERS
 import { PartnersSection } from './components/sections/PartnersSection';
+import { MembershipSection } from './components/sections/MembershipSection';
+import { ComplianceBadgesSection } from './components/sections/ComplianceBadgesSection';
+
+// 🌐 MEDIA + CAREER + CONTACT
 import { CareerSection } from './components/sections/CareerSection';
 import { MediaSection } from './components/sections/MediaSection';
 import { ContactSection } from './components/sections/ContactSection';
 
-import { LanguageProvider } from './context/LanguageContext';
-import { ParticleBackground } from './components/ui/ParticleBackground';
+// 🌐 HYPER ME + CO-FOUNDER
+import { HyperMESection } from './components/sections/HyperMESection';
+import { HonoraryCoFounderSection } from './components/sections/HonoraryCoFounderSection';
 
-// 👉 THÊM MỚI
-import { CoreBusinessSection } from './components/sections/CoreBusinessSection';
 
 export function App() {
   const [scrollY, setScrollY] = useState(0);
