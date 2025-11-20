@@ -8,6 +8,8 @@ import { TechnologyStackSection } from './components/sections/TechnologyStackSec
 
 // 🌟 THÊM 3 SECTION MỚI
 import { MembershipSection } from './components/sections/MembershipSection';
+import { ComplianceBadgesSection } from './components/sections/ComplianceBadgesSection';
+
 
 import { WhyHyperOneSection } from './components/sections/WhyHyperOneSection';
 import { HowWeWorkSection } from './components/sections/HowWeWorkSection';
@@ -89,6 +91,8 @@ export function App() {
 
             <PhilosophySection />
             <PartnersSection />
+            <ComplianceBadgesSection />
+
             <MembershipSection />
             <TechnologyStackSection />
 
