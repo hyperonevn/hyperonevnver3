@@ -78,8 +78,6 @@
     "years": "Kinh nghiệm",
     "clients": "Sự hài lòng của khách hàng là ưu tiên hàng đầu"
   },
-
-
   "ecosystem": {
     "title": "Hệ Sinh Thái - Hyper Galaxy",
     "description": "Hệ sinh thái AI được xây dựng đồng bộ, ưu tiên khả năng mở rộng và ứng dụng thực tiễn.",
@@ -94,8 +92,6 @@
     "hyperSmartHome": "Hyper SmartHome – Giải pháp nhà thông minh do Hyper One phát triển.",
     "hyperLink": "Hyper Link – Nền tảng kết nối tất cả sản phẩm trong Hyper Galaxy."
   },
-
-  
   "hyperme": {
     "title": "Hyper ME - Danh Thiếp Điện Tử Cho Người Việt",
     "description": "Danh thiếp điện tử miễn phí giúp bạn định danh trong thế giới số và xây dựng thương hiệu cá nhân với domain .io.vn. Tạo hồ sơ trong vài phút – đơn giản, chuyên nghiệp và nổi bật.",
@@ -146,7 +142,7 @@
     }
   },
   "philosophy": {
-    "title": "Triết Lý & Giá Trị Cốt Lõi",
+    "title": "Triết Lý",
     "manifesto": "Chúng tôi tin rằng công nghệ không chỉ là năng lực, mà là trách nhiệm. AI phải được dẫn dắt bởi đạo đức, mục đích và sự tử tế.",
     "values": {
       "humanity": {
@@ -208,19 +204,19 @@
       "button": "Liên Hệ Đội Ngũ"
     }
   },
-"media": {
-  "title": "Truyền Thông & Sự Kiện",
-  "description": "Những cuộc đối thoại chiến lược – nơi tư tưởng về AI, quản trị và tương lai công nghệ được định hình cùng HYPER ONE.",
-  "viewMore": "Xem Thêm",
-  "gallery": {
-    "event1": "HYPER ONE trao đổi cùng ông Guillaume Rondan – CEO MoveToAsia: AI như một phần của DNA doanh nghiệp khu vực Đông Nam Á, không phải công cụ.",
-    "tech1": "Ông Nguyễn Đình Thắng – Nguyên Chủ tịch LienVietPostBank bàn về hiện sinh công nghệ và đạo đức AI cùng lãnh đạo HYPER ONE.",
-    "team1": "Phó Chủ tịch MISA – ông Nguyễn Xuân Hoàn chia sẻ về tiêu chuẩn bảo mật cấp doanh nghiệp và tương lai hạ tầng số.",
-    "conference1": "HYPER ONE tại C&I Roadshow 2025 – đối thoại về giao điểm giữa AI và năng lượng, với CEO Lữ Minh Trí tại ghế VIP.",
-    "team2": "HYPER ONE tại AI Demo Day – HoneyCrush x Shinhan Bank: AI vận hành thực chiến trong doanh nghiệp Việt.",
-    "office1": "HYPER ONE tại Global Sourcing Outlook 2025 – phân tích vai trò AI trong chuỗi cung ứng và chiến lược toàn cầu."
-  }
-},
+  "media": {
+    "title": "Truyền Thông & Sự Kiện",
+    "description": "Những cuộc đối thoại chiến lược – nơi tư tưởng về AI, quản trị và tương lai công nghệ được định hình cùng HYPER ONE.",
+    "viewMore": "Xem Thêm",
+    "gallery": {
+      "event1": "HYPER ONE trao đổi cùng ông Guillaume Rondan – CEO MoveToAsia: AI như một phần của DNA doanh nghiệp khu vực Đông Nam Á, không phải công cụ.",
+      "tech1": "Ông Nguyễn Đình Thắng – Nguyên Chủ tịch LienVietPostBank bàn về hiện sinh công nghệ và đạo đức AI cùng lãnh đạo HYPER ONE.",
+      "team1": "Phó Chủ tịch MISA – ông Nguyễn Xuân Hoàn chia sẻ về tiêu chuẩn bảo mật cấp doanh nghiệp và tương lai hạ tầng số.",
+      "conference1": "HYPER ONE tại C&I Roadshow 2025 – đối thoại về giao điểm giữa AI và năng lượng, với CEO Lữ Minh Trí tại ghế VIP.",
+      "team2": "HYPER ONE tại AI Demo Day – HoneyCrush x Shinhan Bank: AI vận hành thực chiến trong doanh nghiệp Việt.",
+      "office1": "HYPER ONE tại Global Sourcing Outlook 2025 – phân tích vai trò AI trong chuỗi cung ứng và chiến lược toàn cầu."
+    }
+  },
   "contact": {
     "title": "Liên Hệ - Kết Nối",
     "description": "Quan tâm đến hợp tác, giải pháp hoặc cơ hội cùng đồng hành? Hyper One luôn sẵn sàng.",
@@ -263,19 +259,17 @@
     "privacy": "Chính Sách Bảo Mật",
     "terms": "Điều Khoản Dịch Vụ"
   },
-"ourStory": {
-  "title": "Câu chuyện của chúng tôi",
-  "subtitle": "Hành trình từ một góc nhỏ ở Nguyễn Huệ đến việc xây nền tảng AI mang tinh thần Việt.",
-  "p1": "Hyper One bắt đầu từ một phòng làm việc nhỏ tại 68 Nguyễn Huệ, Bến Nghé, Quận 1 – nay là Phường Sài Gòn. Một nơi đủ để năm con người ngồi lại, cùng chia sẻ khát vọng về một tương lai AI của Việt Nam.",
-  "p2": "Chúng tôi không có bệ phóng, cũng không có lễ ra mắt hoành tráng. Chỉ có những ngày làm việc dài và những cuộc trò chuyện không dứt về một câu hỏi: AI thật sự nên làm gì cho doanh nghiệp Việt?",
-  "p3": "Tại căn phòng đó, Hyper Bot được thử nghiệm lần đầu. Hyper ME có những dòng mô tả đầu tiên. Hyper Cloud và Hyper Lab được phác thảo từ những ý tưởng còn rất thô ráp.",
-  "p4": "Chúng tôi trưởng thành theo đúng cách người Việt vẫn làm: bền bỉ, tập trung, và không bao giờ than khó.",
-  "p5": "Cho đến bây giờ, nguyên tắc ngày đầu vẫn không thay đổi: làm tốt trước, mở rộng sau.",
-  "p6": "Hành trình ấy chỉ mới bắt đầu. Chúng tôi tiếp tục xây nền tảng AI mang tinh thần Việt: giản dị, bền bỉ và hướng về con người.",
-  "quote": "Không chạy theo điều AI có thể làm, mà kiên định với điều AI nên làm."
-},
-
-
+  "ourStory": {
+    "title": "Câu chuyện của chúng tôi",
+    "subtitle": "Hành trình từ một góc nhỏ ở Nguyễn Huệ đến việc xây nền tảng AI mang tinh thần Việt.",
+    "p1": "Hyper One bắt đầu từ một phòng làm việc nhỏ tại 68 Nguyễn Huệ, Bến Nghé, Quận 1 – nay là Phường Sài Gòn. Một nơi đủ để năm con người ngồi lại, cùng chia sẻ khát vọng về một tương lai AI của Việt Nam.",
+    "p2": "Chúng tôi không có bệ phóng, cũng không có lễ ra mắt hoành tráng. Chỉ có những ngày làm việc dài và những cuộc trò chuyện không dứt về một câu hỏi: AI thật sự nên làm gì cho doanh nghiệp Việt?",
+    "p3": "Tại căn phòng đó, Hyper Bot được thử nghiệm lần đầu. Hyper ME có những dòng mô tả đầu tiên. Hyper Cloud và Hyper Lab được phác thảo từ những ý tưởng còn rất thô ráp.",
+    "p4": "Chúng tôi trưởng thành theo đúng cách người Việt vẫn làm: bền bỉ, tập trung, và không bao giờ than khó.",
+    "p5": "Cho đến bây giờ, nguyên tắc ngày đầu vẫn không thay đổi: làm tốt trước, mở rộng sau.",
+    "p6": "Hành trình ấy chỉ mới bắt đầu. Chúng tôi tiếp tục xây nền tảng AI mang tinh thần Việt: giản dị, bền bỉ và hướng về con người.",
+    "quote": "Không chạy theo điều AI có thể làm, mà kiên định với điều AI nên làm."
+  },
   "coreValues": {
     "title": "Giá trị cốt lõi",
     "subtitle": "Những nguyên tắc hình thành DNA của Hyper One.",
@@ -398,5 +392,47 @@
     "bio1": "Một trong những nguồn cảm hứng quan trọng giúp Hyper ME định hình bản sắc: giản dị, đúng chất Việt và thực tế.",
     "bio2": "Sự đồng hành bền bỉ của ông giúp Hyper One giữ được sự nhân văn và định hướng rõ ràng.",
     "bio3": "Danh vị Đồng Sáng Lập Danh Dự được trao để ghi nhận những đóng góp tinh thần và giá trị cảm hứng."
+  },
+  "compliance": {
+    "title": "Tiêu Chuẩn Tuân Thủ Quốc Tế",
+    "description": "Hyper One tuân thủ bốn tiêu chuẩn ISO/IEC toàn cầu về quyền riêng tư, bảo mật đám mây, quản lý dữ liệu cá nhân và quản trị AI có trách nhiệm.",
+    "standards": {
+      "29100": {
+        "title": "ISO/IEC 29100 – Khung Quyền Riêng Tư",
+        "description": "Định nghĩa 11 nguyên tắc quyền riêng tư quốc tế, tạo nền tảng hệ thống cho bảo vệ dữ liệu cá nhân.",
+        "keyPoints": {
+          "principles": "11 nguyên tắc quyền riêng tư",
+          "scope": "Áp dụng cho toàn bộ hệ sinh thái dữ liệu",
+          "purpose": "Tăng cường minh bạch và bảo vệ quyền cá nhân"
+        }
+      },
+      "27017": {
+        "title": "ISO/IEC 27017 – Hướng Dẫn Bảo Mật Đám Mây",
+        "description": "Cung cấp biện pháp kiểm soát bảo mật dành riêng cho nhà cung cấp và khách hàng dịch vụ đám mây.",
+        "keyPoints": {
+          "controls": "Biện pháp kiểm soát cho cloud",
+          "auditing": "Tăng tính minh bạch và khả năng kiểm toán",
+          "guidance": "Khuyến nghị triển khai thực tế"
+        }
+      },
+      "27018": {
+        "title": "ISO/IEC 27018 – Bảo Vệ PII Trên Đám Mây",
+        "description": "Tập trung bảo vệ dữ liệu nhận diện cá nhân (PII) theo chuẩn quốc tế.",
+        "keyPoints": {
+          "privacy": "Bảo vệ PII ở mức cao nhất",
+          "cloud": "Tối ưu cho môi trường đám mây",
+          "trust": "Tăng độ tin cậy với người dùng"
+        }
+      },
+      "27557": {
+        "title": "ISO/IEC 27557 – Quản Trị AI Có Trách Nhiệm",
+        "description": "Thiết lập nguyên tắc AI minh bạch, có trách nhiệm và phù hợp chuẩn đạo đức toàn cầu.",
+        "keyPoints": {
+          "ethics": "Đảm bảo AI tuân thủ đạo đức",
+          "transparency": "Tăng khả năng giải thích",
+          "governance": "Khung quản trị AI rõ ràng"
+        }
+      }
+    }
   }
 }
