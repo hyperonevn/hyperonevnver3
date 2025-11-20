@@ -398,5 +398,50 @@
     "bio1": "Một trong những nguồn cảm hứng quan trọng giúp Hyper ME định hình bản sắc: giản dị, đúng chất Việt và thực tế.",
     "bio2": "Sự đồng hành bền bỉ của ông giúp Hyper One giữ được sự nhân văn và định hướng rõ ràng.",
     "bio3": "Danh vị Đồng Sáng Lập Danh Dự được trao để ghi nhận những đóng góp tinh thần và giá trị cảm hứng."
+  },
+  {
+  "compliance": {
+    "title": "Tiêu Chuẩn Tuân Thủ Quốc Tế",
+    "description": "Hyper One tuân thủ bốn tiêu chuẩn ISO/IEC toàn cầu về quyền riêng tư, bảo mật đám mây, quản lý dữ liệu cá nhân và quản trị AI có trách nhiệm.",
+    "standards": {
+      "29100": {
+        "title": "ISO/IEC 29100 – Khung Quyền Riêng Tư",
+        "description": "Định nghĩa 11 nguyên tắc quyền riêng tư quốc tế, tạo nền tảng hệ thống cho bảo vệ dữ liệu cá nhân.",
+        "keyPoints": {
+          "principles": "11 nguyên tắc quyền riêng tư",
+          "scope": "Áp dụng cho toàn bộ hệ sinh thái dữ liệu",
+          "purpose": "Tăng cường minh bạch và bảo vệ quyền cá nhân"
+        }
+      },
+      "27017": {
+        "title": "ISO/IEC 27017 – Hướng Dẫn Bảo Mật Đám Mây",
+        "description": "Cung cấp biện pháp kiểm soát bảo mật dành riêng cho nhà cung cấp và khách hàng dịch vụ đám mây.",
+        "keyPoints": {
+          "controls": "Biện pháp kiểm soát cho cloud",
+          "auditing": "Tăng tính minh bạch và khả năng kiểm toán",
+          "guidance": "Khuyến nghị triển khai thực tế"
+        }
+      },
+      "27018": {
+        "title": "ISO/IEC 27018 – Bảo Vệ PII Trên Đám Mây",
+        "description": "Tập trung bảo vệ dữ liệu nhận diện cá nhân (PII) theo chuẩn quốc tế.",
+        "keyPoints": {
+          "privacy": "Bảo vệ PII ở mức cao nhất",
+          "cloud": "Tối ưu cho môi trường đám mây",
+          "trust": "Tăng độ tin cậy với người dùng"
+        }
+      },
+      "27557": {
+        "title": "ISO/IEC 27557 – Quản Trị AI Có Trách Nhiệm",
+        "description": "Thiết lập nguyên tắc AI minh bạch, có trách nhiệm và phù hợp chuẩn đạo đức toàn cầu.",
+        "keyPoints": {
+          "ethics": "Đảm bảo AI tuân thủ đạo đức",
+          "transparency": "Tăng khả năng giải thích",
+          "governance": "Khung quản trị AI rõ ràng"
+        }
+      }
+    }
   }
+}
+
 }
