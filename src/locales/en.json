@@ -397,5 +397,49 @@
     "bio1": "One of the key inspirations that shaped the identity of HYPER ME: simplicity, Vietnamese character and real value. His viewpoints became spiritual material during the early formation of HYPER ME.",
     "bio2": "His quiet but persistent companionship is one of the reasons HYPER ONE stays human-centered, focused and clear in its mission of building AI for people.",
     "bio3": "The Honorary Co-Founder title is presented to recognize spiritual and inspirational contributions. Staying true to his philosophy: turning small things into meaningful value."
+  },{
+  "compliance": {
+    "title": "International Compliance Standards",
+    "description": "Hyper One adheres to four globally recognized ISO/IEC standards for privacy, cloud security, personal data protection, and responsible AI governance.",
+    "standards": {
+      "29100": {
+        "title": "ISO/IEC 29100 – Privacy Framework",
+        "description": "Defines 11 internationally accepted privacy principles forming a structured foundation for personal data protection.",
+        "keyPoints": {
+          "principles": "11 privacy principles",
+          "scope": "Applicable across the entire data ecosystem",
+          "purpose": "Enhances transparency and individual rights"
+        }
+      },
+      "27017": {
+        "title": "ISO/IEC 27017 – Cloud Security Guidelines",
+        "description": "Provides security controls and practical deployment guidance for cloud providers and customers.",
+        "keyPoints": {
+          "controls": "Security controls for cloud systems",
+          "auditing": "Improved transparency and auditability",
+          "guidance": "Actionable implementation recommendations"
+        }
+      },
+      "27018": {
+        "title": "ISO/IEC 27018 – Protection of PII in Cloud",
+        "description": "Focuses on safeguarding personally identifiable information (PII) following international best practices.",
+        "keyPoints": {
+          "privacy": "High-level protection for PII",
+          "cloud": "Optimized for cloud environments",
+          "trust": "Strengthens user trust and safety"
+        }
+      },
+      "27557": {
+        "title": "ISO/IEC 27557 – Responsible AI Governance",
+        "description": "Establishes principles for transparent, trustworthy, and accountable AI systems aligned with ethical global standards.",
+        "keyPoints": {
+          "ethics": "Ensures ethical AI behavior",
+          "transparency": "Enhances interpretability",
+          "governance": "Clear governance for AI operations"
+        }
+      }
+    }
   }
+}
+
 }
