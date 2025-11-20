@@ -397,7 +397,7 @@
     "bio1": "One of the key inspirations that shaped the identity of HYPER ME: simplicity, Vietnamese character and real value. His viewpoints became spiritual material during the early formation of HYPER ME.",
     "bio2": "His quiet but persistent companionship is one of the reasons HYPER ONE stays human-centered, focused and clear in its mission of building AI for people.",
     "bio3": "The Honorary Co-Founder title is presented to recognize spiritual and inspirational contributions. Staying true to his philosophy: turning small things into meaningful value."
-  },{
+  },
   "compliance": {
     "title": "International Compliance Standards",
     "description": "Hyper One adheres to four globally recognized ISO/IEC standards for privacy, cloud security, personal data protection, and responsible AI governance.",
@@ -442,4 +442,3 @@
   }
 }
 
-}
