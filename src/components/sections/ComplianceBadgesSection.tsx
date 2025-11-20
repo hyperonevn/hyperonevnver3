@@ -1,5 +1,6 @@
 import React from "react";
-import { useLanguage } from "@/context/LanguageContext";
+import { useLanguage } from "../../context/LanguageContext";  // 🔥 SỬA Ở ĐÂY
+
 
 export const ComplianceBadgesSection: React.FC = () => {
   const { t, lang } = useLanguage();
