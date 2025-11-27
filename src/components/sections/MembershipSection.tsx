@@ -36,11 +36,26 @@ export const MembershipSection: React.FC = () => {
           </div>
         </div>
 
+        {/* ================================
+            CERTIFICATE IMAGE (NEW)
+        ================================ */}
+        <div className="flex justify-center mb-16">
+          <div className="bg-gray-900/40 p-4 rounded-xl border border-gray-800 shadow-[0_0_25px_rgba(0,224,255,0.12)]">
+            <img
+              src="https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/hcmrea.jpg"
+              alt="HCMREA Certificate"
+              className="w-full max-w-xl rounded-lg object-cover shadow-lg border border-gray-700"
+            />
+          </div>
+        </div>
+
         {/* CONTENT CARD */}
         <div className="max-w-4xl mx-auto bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl p-10 text-center hover:shadow-[0_0_30px_rgba(0,224,255,0.15)] transition-all">
           <BadgeCheckIcon className="h-14 w-14 mx-auto text-[#00E0FF] mb-5" />
 
-          <h3 className="text-2xl font-semibold mb-4">{t('membership.hcmreaTitle')}</h3>
+          <h3 className="text-2xl font-semibold mb-4">
+            {t('membership.hcmreaTitle')}
+          </h3>
 
           <p className="text-gray-300 text-lg leading-relaxed mb-4">
             {t('membership.hcmreaDesc')}
@@ -48,7 +63,9 @@ export const MembershipSection: React.FC = () => {
 
           <div className="flex items-center justify-center gap-3 text-[#FFD166] mt-6">
             <BuildingIcon className="h-6 w-6" />
-            <span className="text-lg font-medium">{t('membership.official')}</span>
+            <span className="text-lg font-medium">
+              {t('membership.official')}
+            </span>
           </div>
         </div>
 
