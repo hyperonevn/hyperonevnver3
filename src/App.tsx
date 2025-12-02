@@ -10,6 +10,8 @@ import { Footer } from './components/Footer';
 
 // 🌐 HERO + MAIN SECTIONS
 import { HeroSection } from './components/sections/HeroSection';
+import { EventSpotlight } from './components/sections/EventSpotlight';   // ⭐ NEW — thêm đúng vị trí
+
 import { AboutSection } from './components/sections/AboutSection';
 import { MilestonesSection } from './components/sections/MilestonesSection';
 import { CoreBusinessSection } from './components/sections/CoreBusinessSection';
@@ -67,6 +69,9 @@ export function App() {
           <main>
             {/* HERO */}
             <HeroSection />
+
+            {/* ⭐ NEW: EVENT SPOTLIGHT — đặt ngay sau Hero */}
+            <EventSpotlight />
 
             {/* ABOUT */}
             <AboutSection />
