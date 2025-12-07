@@ -438,7 +438,11 @@
     "nvidia": {
       "desc": "NVIDIA는 Hyper One이 개발하는 학습, 추론, RLHF/AI 시스템의 핵심 GPU 기반을 제공합니다."
     }
-  }
+  },
+  "spotlight": {
+  "desc": "2025년, Hyper One은 FPT-Base.vn 등 베트남의 대표적인 기술 기업들과 함께 선정되어 Tech Fusion Night에 초청된 5개 베트남 대표 기업 중 하나로 자리했습니다. 이 행사는 WISE HCMC+ Week의 일부로, 혁신 조직과 한·베 기술 커뮤니티가 함께 모이는 자리입니다. 까다로운 기준의 무대에 참여했다는 것은 Hyper One의 기술 생태계 내에서 성장하는 역량과 위상을 보여주는 중요한 이정표입니다. 아래는 행사에서의 Hyper One 팀의 주요 순간들입니다."
+}
+
 }
 
 

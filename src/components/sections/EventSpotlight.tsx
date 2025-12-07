@@ -1,7 +1,10 @@
 import React from "react";
 import { FeaturedGrid } from "./hero/FeaturedGrid";
+import { useLanguage } from "../../context/LanguageContext";
 
 export const EventSpotlight: React.FC = () => {
+  const { t } = useLanguage();
+
   return (
     <section
       id="spotlight"
@@ -13,10 +16,10 @@ export const EventSpotlight: React.FC = () => {
     >
       <div className="container mx-auto px-6">
 
-        {/* WRAPPER CHO PHẦN TITLE — CĂN GIỮA THỊ GIÁC */}
+        {/* WRAPPER TITLE */}
         <div className="flex flex-col items-center justify-center text-center mb-12">
 
-          {/* HYPER ONE — CĂN GIỮA CHUẨN KHÔNG LỆCH 1PX */}
+          {/* HYPER ONE */}
           <div className="flex items-center justify-center w-full">
             <span
               className="
@@ -28,16 +31,13 @@ export const EventSpotlight: React.FC = () => {
                 bg-clip-text text-transparent
                 leading-none select-none
               "
-              style={{
-                paddingLeft: "0.05em", // FIX TRỤC NGANG CHỮ 'H'
-                paddingRight: "0.05em",
-              }}
+              style={{ paddingLeft: "0.05em", paddingRight: "0.05em" }}
             >
               HYPER ONE
             </span>
           </div>
 
-          {/* SPOTLIGHT — BELOW LOGO, CHUẨN CENTER */}
+          {/* SPOTLIGHT TITLE */}
           <h2
             className="
               text-[1.3rem] md:text-[1.6rem]
@@ -47,6 +47,16 @@ export const EventSpotlight: React.FC = () => {
           >
             Spotlight
           </h2>
+
+          {/* SPOTLIGHT DESCRIPTION (LẤY TỪ JSON) */}
+          <p
+            className="
+              max-w-2xl mt-6 text-center text-white/80
+              text-[0.95rem] md:text-[1.05rem] leading-relaxed
+            "
+          >
+            {t("spotlight.desc")}
+          </p>
         </div>
 
         {/* GRID ẢNH */}

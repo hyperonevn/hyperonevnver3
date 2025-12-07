@@ -438,5 +438,12 @@
     "nvidia": {
       "desc": "NVIDIA là nền tảng GPU cho huấn luyện mô hình, suy luận và hệ thống RLHF/AI mà Hyper One phát triển trong tương lai."
     }
-  }
+  },
+"spotlight": {
+  "desc": "Năm 2025, Hyper One vinh dự được lựa chọn cùng các doanh nghiệp công nghệ hàng đầu như FPT-Base.vn, trở thành 1 trong 5 đại diện của Việt Nam tham dự Tech Fusion Night, sự kiện thuộc WISE HCMC+ Week quy tụ các tổ chức đổi mới sáng tạo và cộng đồng công nghệ Việt – Hàn. Việc được góp mặt tại một sân chơi có tiêu chuẩn tuyển chọn cao là một dấu mốc quan trọng, khẳng định năng lực và vị thế đang lên của Hyper One trong hệ sinh thái công nghệ. Dưới đây là những hình ảnh nổi bật của đội ngũ Hyper One tại sự kiện năm đó."
+}
+
+
+
+
 }

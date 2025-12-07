@@ -440,7 +440,11 @@
     "nvidia": {
       "desc": "NVIDIA 是 Hyper One 用于训练、推理及未来 RLHF/AI 系统开发的核心 GPU 基础。"
     }
-  }
+  },
+  "spotlight": {
+  "desc": "2025年，Hyper One与FPT-Base.vn等越南领先科技企业一同入选，成为受邀参加Tech Fusion Night的五家越南代表之一。该活动隶属于WISE HCMC+ Week，汇聚了创新组织以及越韩科技社区。能够参与这一甄选严格的舞台，是Hyper One的重要里程碑，彰显了我们在科技生态体系中不断提升的实力与地位。以下为Hyper One团队在活动中的精彩瞬间。"
+}
+
 }
 
 

@@ -438,7 +438,11 @@
     "nvidia": {
       "desc": "NVIDIA es la base GPU para el entrenamiento, inferencia y futuros sistemas RLHF/IA desarrollados por Hyper One."
     }
-  }
+  },
+  "spotlight": {
+  "desc": "En 2025, Hyper One fue seleccionado junto a empresas tecnológicas líderes de Vietnam, como FPT-Base.vn, siendo una de las cinco organizaciones invitadas a participar en Tech Fusion Night, un evento dentro de WISE HCMC+ Week que reúne a instituciones de innovación y a la comunidad tecnológica de Vietnam y Corea. Formar parte de un programa tan selectivo representa un hito importante que reafirma las capacidades y el creciente posicionamiento de Hyper One en el ecosistema tecnológico. A continuación, presentamos algunos de los momentos destacados de nuestro equipo en el evento."
+}
+
 }
 
 
