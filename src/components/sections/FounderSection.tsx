@@ -5,30 +5,34 @@ export const FounderSection: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="founder" className="py-20 relative">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(0,224,255,0.1),transparent_70%)]"></div>
-      
-      <div className="container mx-auto px-4 relative z-10">
+    <section id="founder" className="py-20 relative bg-black text-white overflow-hidden">
+      {/* Background Glow */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(0,224,255,0.08),transparent_75%)]"></div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-          {/* LEFT COLUMN */}
+          {/* ========= LEFT COLUMN ========= */}
           <div className="order-2 lg:order-1">
 
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+            {/* Title */}
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 
+              bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
               {t('founder.title')}
             </h2>
 
-            <div className="h-1 w-20 bg-gradient-to-r from-[#00E0FF] to-[#FFD166] mb-8"></div>
+            <div className="h-1 w-20 bg-gradient-to-r from-[#00E0FF] to-[#FFD166] mb-6"></div>
 
-            <h3 className="text-2xl font-semibold text-white mb-4">
+            {/* Name */}
+            <h3 className="text-2xl font-semibold text-white mb-1">
               Lữ Minh Trí
             </h3>
 
-            <p className="text-[#00E0FF] mb-6">
+            <p className="text-[#00E0FF] mb-5 text-lg">
               {t('founder.position')}
             </p>
 
-            {/* ⭐ HYPER ME LINK – GIỮ NGUYÊN ⭐ */}
+            {/* Hyper ME */}
             <p className="text-gray-300 mb-6">
               <span className="text-[#00E0FF] font-semibold">HYPER ME</span>{' '}
               <a
@@ -40,27 +44,27 @@ export const FounderSection: React.FC = () => {
                 luminhtri.profile.io.vn
               </a>
             </p>
-            {/* ⭐ END ⭐ */}
 
-            {/* QUOTE */}
-            <blockquote className="text-lg text-gray-300 mb-8 italic">
-              "{t('founder.quote')}"
+            {/* Quote */}
+            <blockquote className="text-lg text-gray-300 italic mb-6">
+              “{t('founder.quote')}”
             </blockquote>
 
-            {/* BIOS */}
-            <div className="mb-8">
-              <p className="text-gray-300 mb-4">{t('founder.bio1')}</p>
-              <p className="text-gray-300">{t('founder.bio2')}</p>
+            {/* Bios */}
+            <div className="space-y-4 text-gray-300 leading-relaxed">
+              <p>{t('founder.bio1')}</p>
+              <p>{t('founder.bio2')}</p>
             </div>
 
-            {/* ⭐⭐⭐ THREE BUTTON LINKS ⭐⭐⭐ */}
+            {/* Buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
 
               <a
                 href="https://awk.edu.vn"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2 rounded-lg border border-[#00E0FF] text-[#00E0FF] hover:bg-[#00E0FF]/10 transition"
+                className="px-5 py-2 rounded-lg border border-[#00E0FF] text-[#00E0FF]
+                         hover:bg-[#00E0FF]/10 transition"
               >
                 AI WIZ KIDS
               </a>
@@ -69,39 +73,41 @@ export const FounderSection: React.FC = () => {
                 href="https://sadecx.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2 rounded-lg border border-[#FFD166] text-[#FFD166] hover:bg-[#FFD166]/10 transition"
+                className="px-5 py-2 rounded-lg border border-[#FFD166] text-[#FFD166]
+                         hover:bg-[#FFD166]/10 transition"
               >
                 SADEC X
               </a>
-
-
             </div>
-            {/* ⭐⭐⭐ END BUTTONS ⭐⭐⭐ */}
 
           </div>
 
-          {/* RIGHT COLUMN — IMAGE */}
+          {/* ========= RIGHT COLUMN — IMAGE ========= */}
           <div className="order-1 lg:order-2 relative">
-            <div className="bg-gradient-to-br from-[#00E0FF]/20 to-[#FFD166]/20 rounded-2xl p-1">
+            <div className="bg-gradient-to-br from-[#00E0FF]/15 to-[#FFD166]/15 rounded-2xl p-1">
               <div className="aspect-[3/4] rounded-xl overflow-hidden relative">
                 <img
                   src="https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/founder.jpg"
                   alt="Lữ Minh Trí"
                   className="object-cover w-full h-full"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
 
-                <div className="absolute bottom-0 left-0 right-0 p-6">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+
+                <div className="absolute bottom-0 left-0 right-0 p-5">
                   <blockquote className="text-white/90 text-lg italic font-light">
-                    "{t('founder.shortQuote')}"
+                    “{t('founder.shortQuote')}”
                   </blockquote>
                 </div>
               </div>
             </div>
 
-            {/* Decorative glows */}
-            <div className="absolute -bottom-6 -right-6 h-24 w-24 rounded-full bg-gradient-to-r from-[#00E0FF] to-[#FFD166] blur-2xl opacity-30"></div>
-            <div className="absolute -top-6 -left-6 h-24 w-24 rounded-full bg-gradient-to-r from-[#00E0FF] to-[#FFD166] blur-2xl opacity-30"></div>
+            {/* Decorative Glows */}
+            <div className="absolute -bottom-6 -right-6 h-20 w-20 rounded-full 
+                        bg-gradient-to-r from-[#00E0FF] to-[#FFD166] blur-2xl opacity-25"></div>
+
+            <div className="absolute -top-6 -left-6 h-20 w-20 rounded-full 
+                        bg-gradient-to-r from-[#FFD166] to-[#00E0FF] blur-2xl opacity-25"></div>
           </div>
 
         </div>
