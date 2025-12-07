@@ -163,14 +163,17 @@
       }
     }
   },
-  "founder": {
-    "title": "Conoce al Fundador",
-    "position": "CEO & Fundador",
-    "quote": "“Creo que el futuro pertenece a quienes persisten en los valores correctos. HYPER ONE trabaja para construir una IA ética, responsable y verdaderamente útil para las personas.”",
-    "shortQuote": "IA ética, al servicio de las personas.",
-    "bio1": "Lữ Minh Trí fundó HYPER ONE con el deseo de acercar la IA práctica, humana y accesible a las empresas vietnamitas.",
-    "bio2": "Ha desempeñado múltiples roles en operaciones, diseño, automatización y aplicaciones de IA, formando la filosofía central: 'IA para las personas'."
-  },
+"founder": {
+  "title": "Conoce al Fundador",
+  "position": "CEO & Founder",
+  "quote": "Creo que el futuro pertenece a quienes permanecen fieles a los valores correctos. Hyper One busca una IA ética, responsable y verdaderamente valiosa para las personas.",
+  "shortQuote": "IA ética, para la humanidad.",
+
+  "bio1": "Lữ Minh Trí es Cofundador de AI Wiz Kids y SaDec X, iniciativas dedicadas a la educación impulsada por IA y a la agricultura inteligente. Antes de regresar a Vietnam, trabajó durante varios años en Japón y Singapur en funciones que exigían pensamiento sistémico y una ejecución disciplinada, incluyendo puestos como Líder de Diseño, Gerente de Proyecto y Asistente del Presidente en Futher Up (Oka Bain Japan). Posteriormente fundó y dirigió Oka&Co Interior Singapore, donde construyó equipos y ejecutó múltiples proyectos de diseño y tecnología en el Sudeste Asiático. Durante casi una década viajó a más de 30 países —desde Europa hasta Pakistán, India, China, Indonesia y Malasia— participando en negociaciones comerciales y estudios de mercado, lo que le proporcionó una perspectiva global sobre la operación empresarial y los modelos de crecimiento.",
+
+  "bio2": "Su regreso a Vietnam marcó el inicio de una nueva etapa, en la cual fundó Hyper One con la misión de desarrollar plataformas de IA, sistemas de automatización cognitiva y tecnologías operativas centradas en resolver problemas reales de las empresas y estructurar el conocimiento para la era de la IA. Su experiencia internacional y mentalidad estratégica dieron forma a la filosofía de “IA para la humanidad”, que guía el compromiso de Hyper One con una IA ética, responsable y práctica. También es Cofundador del Instituto DAS, un Instituto de Inteligencia Artificial y Estrategia Digital que reúne a destacados expertos en tecnología, educación, comunicación, finanzas, contabilidad y gestión."
+}
+,
   "partners": {
     "title": "Socios y Clientes",
     "description": "Valoramos profundamente la confianza de cada empresa que camina con nosotros. Cada proyecto es una oportunidad para crecer juntos.",

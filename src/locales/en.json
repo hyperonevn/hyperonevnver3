@@ -163,14 +163,17 @@
       }
     }
   },
-  "founder": {
-    "title": "Meet the Founder",
-    "position": "CEO & Founder",
-    "quote": "“I believe the future belongs to those who stay true to the right values. Hyper One pursues ethical, responsible AI that creates real value for people.”",
-    "shortQuote": "Ethical AI — for humanity.",
-    "bio1": "Lữ Minh Trí founded Hyper One with a mission to bring applied AI closer to Vietnamese businesses.",
-    "bio2": "His multidisciplinary experience shaped the philosophy 'AI for people' — the foundation of Hyper One."
-  },
+"founder": {
+  "title": "Meet the Founder",
+  "position": "CEO & Founder",
+  "quote": "I believe the future belongs to those who stay true to the right values. Hyper One is committed to ethical, responsible AI that creates real value for people.",
+  "shortQuote": "Ethical AI, for humanity.",
+
+  "bio1": "Lữ Minh Trí is the Co-Founder of AI Wiz Kids and SaDec X, two initiatives in AI-powered education and AI-driven agriculture. Before returning to Vietnam, he spent many years working in Japan and Singapore in roles that demanded systems thinking and disciplined execution, including Design Lead, Project Manager and Assistant to the Chairman at Futher Up (Oka Bain Japan). He later became the Founder and Country Director of Oka&Co Interior Singapore, where he built teams and delivered multiple design and technology projects across Southeast Asia. Over nearly a decade, he also traveled to more than 30 countries — from Europe to Pakistan, India, China, Indonesia and Malaysia — engaging in commercial negotiations and market exploration, which helped him develop a global perspective on business operations and growth models.",
+
+  "bio2": "His return to Vietnam marked the beginning of a new chapter, where he founded Hyper One with a mission to build AI platforms, cognitive automation systems and operational technologies focused on solving real business problems and structuring knowledge for the AI era. His international experience and strategic mindset shaped the philosophy of \"AI for humanity,\" which guides Hyper One's commitment to ethical, responsible and practical AI applications. He is also the Co-Founder of DAS Institute, an Institute of Artificial Intelligence and Digital Strategy that brings together leading experts in technology, education, communications, finance, accounting and organizational management."
+}
+,
   "partners": {
     "title": "Partners & Clients",
     "description": "Every project is a journey of learning and value creation. We appreciate the trust from all partners.",

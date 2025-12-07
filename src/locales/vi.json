@@ -163,14 +163,19 @@
       }
     }
   },
-  "founder": {
-    "title": "Gặp Gỡ Nhà Sáng Lập",
-    "position": "CEO & Founder",
-    "quote": "“Tôi tin rằng tương lai thuộc về những người kiên định với giá trị đúng đắn. Hyper One theo đuổi AI có đạo đức, có trách nhiệm và mang lại giá trị thật cho con người.”",
-    "shortQuote": "AI có đạo đức – vì con người.",
-    "bio1": "Lữ Minh Trí sáng lập Hyper One với mong muốn đưa AI ứng dụng đến gần hơn với doanh nghiệp Việt.",
-    "bio2": "Trải nghiệm đa lĩnh vực giúp anh định hình triết lý 'AI vì con người' – nền tảng của Hyper One."
-  },
+"founder": {
+  "title": "Gặp Gỡ Nhà Sáng Lập",
+  "position": "CEO & Founder",
+  "quote": "Tôi tin rằng tương lai thuộc về những người kiên định với giá trị đúng đắn. Hyper One theo đuổi AI có đạo đức, có trách nhiệm và mang lại giá trị thật cho con người.",
+  "shortQuote": "AI có đạo đức, vì con người.",
+
+  "bio1": "Lữ Minh Trí là Đồng Sáng Lập AI Wiz Kids và SaDec X, hai dự án công nghệ giáo dục trí tuệ nhân tạo và nông nghiệp ứng dụng trí tuệ nhân tạo. Trước khi trở về Việt Nam, anh có nhiều năm làm việc tại Nhật Bản và Singapore trong các vị trí đòi hỏi tư duy hệ thống và tính kỷ luật, bao gồm Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan). Anh đồng thời là cựu Sáng Lập và Giám đốc Quốc gia Oka&Co Interior Singapore, nơi anh xây dựng đội ngũ và triển khai nhiều dự án thiết kế và công nghệ tại Đông Nam Á. Bên cạnh đó, anh có gần một thập kỷ đi qua hơn 30 quốc gia, từ các nước ở châu Âu đến Pakistan, Ấn Độ, Trung Quốc, Indonesia và Malaysia để tham gia giao dịch thương mại và khảo sát thị trường, qua đó hình thành góc nhìn toàn cầu về vận hành doanh nghiệp và mô hình tăng trưởng.",
+
+  "bio2": "Hành trình trở về Việt Nam mở ra một chương mới khi anh sáng lập Hyper One với định hướng phát triển các nền tảng trí tuệ nhân tạo, hệ thống tự động hoá tư duy và công nghệ vận hành, tập trung giải quyết những bài toán thật của doanh nghiệp và mô hình hoá tri thức trong kỷ nguyên AI. Kinh nghiệm đa quốc gia cùng tư duy chiến lược giúp anh định hình triết lý AI vì con người, trở thành nền tảng cho cách Hyper One tiếp cận AI có đạo đức, có trách nhiệm và ứng dụng thực tiễn. Anh đồng thời là Đồng Sáng Lập Viện DAS, Viện Trí Tuệ Nhân Tạo và Chiến Lược Số, nơi quy tụ nhiều chuyên gia hàng đầu trong các lĩnh vực công nghệ, giáo dục, truyền thông, tài chính, kế toán và quản trị..."
+}
+
+,
+
   "partners": {
     "title": "Đối Tác & Khách Hàng",
     "description": "Mỗi dự án là một hành trình học hỏi và kiến tạo giá trị. Chúng tôi trân trọng sự tin tưởng từ các đối tác.",
