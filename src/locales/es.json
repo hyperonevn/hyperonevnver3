@@ -165,14 +165,16 @@
   },
 "founder": {
   "title": "Conoce al Fundador",
-  "position": "CEO & Founder",
-  "quote": "Creo que el futuro pertenece a quienes permanecen fieles a los valores correctos. Hyper One busca una IA ética, responsable y verdaderamente valiosa para las personas.",
-  "shortQuote": "IA ética, para la humanidad.",
+  "position": "CEO & Fundador",
+  "quote": "Creo que el futuro pertenece a quienes se mantienen fieles a los valores correctos. Hyper One persigue una IA ética, responsable y verdaderamente útil para las personas.",
+  "shortQuote": "IA ética, para las personas.",
 
-  "bio1": "Lữ Minh Trí es Cofundador de AI Wiz Kids y SaDec X, iniciativas dedicadas a la educación impulsada por IA y a la agricultura inteligente. Antes de regresar a Vietnam, trabajó durante varios años en Japón y Singapur en funciones que exigían pensamiento sistémico y una ejecución disciplinada, incluyendo puestos como Líder de Diseño, Gerente de Proyecto y Asistente del Presidente en Futher Up (Oka Bain Japan). Posteriormente fundó y dirigió Oka&Co Interior Singapore, donde construyó equipos y ejecutó múltiples proyectos de diseño y tecnología en el Sudeste Asiático. Durante casi una década viajó a más de 30 países —desde Europa hasta Pakistán, India, China, Indonesia y Malasia— participando en negociaciones comerciales y estudios de mercado, lo que le proporcionó una perspectiva global sobre la operación empresarial y los modelos de crecimiento.",
+  "bio1": "Lu Minh Tri es Co-Fundador de AI Wiz Kids y SaDec X, iniciativas dedicadas a la educación basada en IA y la agricultura inteligente. Antes de regresar a Vietnam, trabajó varios años en Japón y Singapur en puestos que exigen pensamiento sistémico y disciplina, incluyendo Líder de Diseño, Gerente de Proyectos y Asistente del Presidente en Futher Up (Oka Bain Japan). También fue Fundador y Director Nacional de Oka&Co Interior Singapore, donde construyó equipos y lideró proyectos de diseño y tecnología en el Sudeste Asiático. Ha viajado por más de 30 países realizando actividades comerciales y estudios de mercado, desarrollando una perspectiva global sobre la operación empresarial y los modelos de crecimiento.",
 
-  "bio2": "Su regreso a Vietnam marcó el inicio de una nueva etapa, en la cual fundó Hyper One con la misión de desarrollar plataformas de IA, sistemas de automatización cognitiva y tecnologías operativas centradas en resolver problemas reales de las empresas y estructurar el conocimiento para la era de la IA. Su experiencia internacional y mentalidad estratégica dieron forma a la filosofía de “IA para la humanidad”, que guía el compromiso de Hyper One con una IA ética, responsable y práctica. También es Cofundador del Instituto DAS, un Instituto de Inteligencia Artificial y Estrategia Digital que reúne a destacados expertos en tecnología, educación, comunicación, finanzas, contabilidad y gestión."
+  "bio2": "Su regreso a Vietnam dio inicio a una nueva etapa en la que fundó Hyper One, una organización dedicada al desarrollo de plataformas de IA, sistemas de automatización cognitiva y tecnologías operativas enfocadas en resolver problemas reales de las empresas. Su experiencia internacional y visión estratégica dieron forma a una filosofía de IA ética y centrada en el ser humano, que guía el enfoque de Hyper One hacia aplicaciones responsables y prácticas."
 }
+
+
 ,
   "partners": {
     "title": "Socios y Clientes",
@@ -444,9 +446,16 @@
   },
   "spotlight": {
   "desc": "En 2025, Hyper One fue seleccionado junto a empresas tecnológicas líderes de Vietnam, como FPT-Base.vn, siendo una de las cinco organizaciones invitadas a participar en Tech Fusion Night, un evento dentro de WISE HCMC+ Week que reúne a instituciones de innovación y a la comunidad tecnológica de Vietnam y Corea. Formar parte de un programa tan selectivo representa un hito importante que reafirma las capacidades y el creciente posicionamiento de Hyper One en el ecosistema tecnológico. A continuación, presentamos algunos de los momentos destacados de nuestro equipo en el evento."
+},
+
+  "das": {
+    "title": "Tecnología de Hyper One en los Programas de Investigación Aplicada del Instituto DAS – Instituto de Inteligencia Artificial y Estrategia Digital",
+    "description": "Las plataformas centrales de IA, la infraestructura de procesamiento de datos y los sistemas de modelado desarrollados por Hyper One se están implementando en el Instituto DAS como componentes críticos para las actividades de análisis, experimentación e investigación aplicada. La adopción de la tecnología de Hyper One permite al DAS acceder a datos experimentales multidominio, acelerar la validación de hipótesis de IA y desplegar modelos a escala operativa real."
+  ,"cta": "Visitar DAS Institute"
+
+  }
 }
 
-}
 
 
 

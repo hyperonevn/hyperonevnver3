@@ -74,14 +74,6 @@ export const FounderSection: React.FC = () => {
                 SADEC X
               </a>
 
-              <a
-                href="https://das.io.vn"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-5 py-2 rounded-lg border border-white text-white hover:bg-white/10 transition"
-              >
-                DAS Institute
-              </a>
 
             </div>
             {/* ⭐⭐⭐ END BUTTONS ⭐⭐⭐ */}

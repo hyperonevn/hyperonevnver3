@@ -4,24 +4,23 @@ import { useLanguage } from '../../context/LanguageContext';
 export const PartnersSection: React.FC = () => {
   const { t } = useLanguage();
 
-  // 4 PARTNERS CHÍNH THỨC
+  const base = "https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/hyperone/partners/";
+
+  // ⭐ 13 PARTNERS (ĐÃ BỎ TK HÌNH CHỤP NHẬT)
   const partnerLogos = [
-    {
-      name: 'AI WIZ KIDS',
-      logo: 'https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/aiwizkids.jpg'
-    },
-    {
-      name: 'HẢO KIM THỦY',
-      logo: 'https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/haokimthuy.jpg'
-    },
-    {
-      name: 'Dubai AI Solutions LLC',
-      logo: 'https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/dubai-aisolutions.jpg'
-    },
-    {
-      name: 'OKA & CO. INTERIOR SINGAPORE',
-      logo: 'https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/okainterior.jpg'
-    }
+    { name: "An Nam Tax", logo: base + "annamtax.jpg" },
+    { name: "AI WIZ KIDS", logo: base + "awk.jpg" },
+    { name: "Dubai AI Solutions LLC", logo: base + "dubai-aisolutions.jpg" },
+    { name: "Futher Up", logo: base + "futherup.jpg" },
+    { name: "Hảo Kim Thủy", logo: base + "haokimthuy.jpg" },
+    { name: "Kính Vạn Hoa", logo: base + "kinhvanhoa.jpg" },
+    { name: "Niti Boutique", logo: base + "nitibotique.jpg" },
+    { name: "Niti Group", logo: base + "nitigroup.jpg" },
+    { name: "Niti Sun", logo: base + "nitisun.jpg" },
+    { name: "Niti Tax", logo: base + "nititax.jpg" },
+    { name: "OKA & CO. INTERIOR SINGAPORE", logo: base + "okainterior.jpg" },
+    { name: "Stardelight", logo: base + "stardelight.jpg" },
+    { name: "Tree House Kids", logo: base + "treehousekids.jpeg" }
   ];
 
   return (
@@ -33,7 +32,6 @@ export const PartnersSection: React.FC = () => {
         {/* TITLE */}
         <div className="max-w-3xl mx-auto text-center mb-16">
 
-          {/* ➕ DÒNG THÊM MỚI — GIỮ NGUYÊN 100% PHẦN CÒN LẠI */}
           <div className="text-sm font-semibold text-white/40 tracking-widest uppercase mb-2">
             HYPER PARTNER
           </div>

@@ -75,7 +75,7 @@
     "description": "Hyper One trưởng thành từ những dự án thực tế và sự tin tưởng của các đối tác.",
     "projects": "Các dự án AI triển khai",
     "engineers": "Đội ngũ kỹ sư và cộng sự",
-    "years": "Kinh nghiệm",
+    "years": "Kinh nghiệm của đội ngũ",
     "clients": "Sự hài lòng của khách hàng là ưu tiên hàng đầu"
   },
   "ecosystem": {
@@ -171,8 +171,9 @@
 
   "bio1": "Lữ Minh Trí là Đồng Sáng Lập AI Wiz Kids và SaDec X, hai dự án công nghệ giáo dục trí tuệ nhân tạo và nông nghiệp ứng dụng trí tuệ nhân tạo. Trước khi trở về Việt Nam, anh có nhiều năm làm việc tại Nhật Bản và Singapore trong các vị trí đòi hỏi tư duy hệ thống và tính kỷ luật, bao gồm Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan). Anh đồng thời là cựu Sáng Lập và Giám đốc Quốc gia Oka&Co Interior Singapore, nơi anh xây dựng đội ngũ và triển khai nhiều dự án thiết kế và công nghệ tại Đông Nam Á. Bên cạnh đó, anh có gần một thập kỷ đi qua hơn 30 quốc gia, từ các nước ở châu Âu đến Pakistan, Ấn Độ, Trung Quốc, Indonesia và Malaysia để tham gia giao dịch thương mại và khảo sát thị trường, qua đó hình thành góc nhìn toàn cầu về vận hành doanh nghiệp và mô hình tăng trưởng.",
 
-  "bio2": "Hành trình trở về Việt Nam mở ra một chương mới khi anh sáng lập Hyper One với định hướng phát triển các nền tảng trí tuệ nhân tạo, hệ thống tự động hoá tư duy và công nghệ vận hành, tập trung giải quyết những bài toán thật của doanh nghiệp và mô hình hoá tri thức trong kỷ nguyên AI. Kinh nghiệm đa quốc gia cùng tư duy chiến lược giúp anh định hình triết lý AI vì con người, trở thành nền tảng cho cách Hyper One tiếp cận AI có đạo đức, có trách nhiệm và ứng dụng thực tiễn. Anh đồng thời là Đồng Sáng Lập Viện DAS, Viện Trí Tuệ Nhân Tạo và Chiến Lược Số, nơi quy tụ nhiều chuyên gia hàng đầu trong các lĩnh vực công nghệ, giáo dục, truyền thông, tài chính, kế toán và quản trị..."
+  "bio2": "Hành trình trở về Việt Nam mở ra một chương mới khi anh sáng lập Hyper One với định hướng phát triển các nền tảng trí tuệ nhân tạo, hệ thống tự động hoá tư duy và công nghệ vận hành, tập trung giải quyết những bài toán thật của doanh nghiệp và mô hình hoá tri thức trong kỷ nguyên AI. Kinh nghiệm đa quốc gia cùng tư duy chiến lược giúp anh định hình triết lý AI vì con người, trở thành nền tảng cho cách Hyper One tiếp cận AI có đạo đức, có trách nhiệm và ứng dụng thực tiễn."
 }
+
 
 ,
 
@@ -446,9 +447,14 @@
   },
 "spotlight": {
   "desc": "Năm 2025, Hyper One vinh dự được lựa chọn cùng các doanh nghiệp công nghệ hàng đầu như FPT-Base.vn, trở thành 1 trong 5 đại diện của Việt Nam tham dự Tech Fusion Night, sự kiện thuộc WISE HCMC+ Week quy tụ các tổ chức đổi mới sáng tạo và cộng đồng công nghệ Việt – Hàn. Việc được góp mặt tại một sân chơi có tiêu chuẩn tuyển chọn cao là một dấu mốc quan trọng, khẳng định năng lực và vị thế đang lên của Hyper One trong hệ sinh thái công nghệ. Dưới đây là những hình ảnh nổi bật của đội ngũ Hyper One tại sự kiện năm đó."
+},
+
+  "das": {
+    "title": "Công Nghệ Hyper One Trong Các Chương Trình Nghiên Cứu Tại Viện DAS – Viện Trí Tuệ Nhân Tạo & Chiến Lược Số",
+    "description": "Các nền tảng AI lõi, hạ tầng xử lý dữ liệu và hệ thống mô hình hóa do Hyper One phát triển đang được triển khai tại Viện DAS như một cấu phần trọng yếu trong quá trình khảo sát, thử nghiệm và nghiên cứu ứng dụng. Việc ứng dụng công nghệ của Hyper One giúp DAS tiếp cận dữ liệu thực nghiệm đa lĩnh vực, tăng tốc kiểm chứng các giả thuyết AI và triển khai mô hình ở quy mô vận hành thực tế."
+     , "cta": "Truy cập DAS Institute"
+
+  }
 }
 
 
-
-
-}

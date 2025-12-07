@@ -7,12 +7,12 @@ export const MilestonesSection: React.FC = () => {
     t
   } = useLanguage();
   const milestones = [{
-    value: 10,
+    value: 46,
     suffix: '+',
     label: t('milestones.projects'),
     icon: <CheckCircleIcon className="h-8 w-8" />
   }, {
-    value: 5,
+    value: 9,
     suffix: '+',
     label: t('milestones.engineers'),
     icon: <UsersIcon className="h-8 w-8" />

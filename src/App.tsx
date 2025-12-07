@@ -7,10 +7,11 @@ import { ParticleBackground } from './components/ui/ParticleBackground';
 // 🌐 CORE LAYOUT
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { DasResearchSection } from "./components/sections/DasResearchSection";
 
 // 🌐 HERO + MAIN SECTIONS
 import { HeroSection } from './components/sections/HeroSection';
-import { EventSpotlight } from './components/sections/EventSpotlight';   // ⭐ NEW — thêm đúng vị trí
+import { EventSpotlight } from './components/sections/EventSpotlight';
 
 import { AboutSection } from './components/sections/AboutSection';
 import { MilestonesSection } from './components/sections/MilestonesSection';
@@ -37,7 +38,7 @@ import { PartnersSection } from './components/sections/PartnersSection';
 import { MembershipSection } from './components/sections/MembershipSection';
 import { ComplianceBadgesSection } from './components/sections/ComplianceBadgesSection';
 
-// 🌐 TECH STACK — moved under PARTNERS
+// 🌐 TECH STACK
 import { TechStackSection } from './components/sections/TechStackSection';
 
 // 🌐 MEDIA + CAREER + CONTACT
@@ -70,12 +71,18 @@ export function App() {
             {/* HERO */}
             <HeroSection />
 
-            {/* ⭐ NEW: EVENT SPOTLIGHT — đặt ngay sau Hero */}
+            {/* EVENT */}
             <EventSpotlight />
+            
 
             {/* ABOUT */}
             <AboutSection />
             <MilestonesSection />
+            <DasResearchSection />
+
+
+            {/* ⭐ PARTNERS — moved BELOW OUR JOURNEY */}
+            <PartnersSection />
 
             {/* CORE BUSINESS */}
             <CoreBusinessSection />
@@ -90,7 +97,7 @@ export function App() {
             {/* HF5 */}
             <HowWeWorkSection />
 
-            {/* AI TECH ARCHITECTURE */}
+            {/* AI ARCHITECTURE */}
             <TechnologyStackSection />
 
             {/* VALUES + CULTURE */}
@@ -106,10 +113,7 @@ export function App() {
             {/* PHILOSOPHY */}
             <PhilosophySection />
 
-            {/* PARTNERS */}
-            <PartnersSection />
-
-            {/* ⭐ TECH STACK — MOVED HERE BELOW PARTNERS */}
+            {/* TECH STACK */}
             <TechStackSection />
 
             {/* COMPLIANCE */}
