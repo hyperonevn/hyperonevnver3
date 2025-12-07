@@ -6,22 +6,25 @@ export const AboutSection: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="about" className="py-20 relative">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(0,224,255,0.1),transparent_70%)]"></div>
+    <section id="about" className="py-14 md:py-20 relative">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(0,224,255,0.08),transparent_70%)]"></div>
 
       <div className="container mx-auto px-4 relative z-10">
 
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+        {/* HEADER */}
+        <div className="max-w-3xl mx-auto text-center mb-12">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent leading-snug">
             {t('about.title')}
           </h2>
 
-          <div className="h-1 w-20 bg-gradient-to-r from-[#00E0FF] to-[#FFD166] mx-auto mb-8"></div>
+          <div className="h-1 w-16 bg-gradient-to-r from-[#00E0FF] to-[#FFD166] mx-auto mb-6"></div>
 
-          <p className="text-gray-300 text-lg">{t('about.description')}</p>
+          <p className="text-gray-300 text-base md:text-lg leading-relaxed px-2">
+            {t('about.description')}
+          </p>
 
-          {/* ⭐ THÊM BLOCK HYPER ME – GIỮ NGUYÊN 100% ⭐ */}
-          <p className="text-gray-300 mt-4">
+          {/* HYPER ME */}
+          <p className="text-gray-300 mt-3 text-sm md:text-base">
             <span className="text-[#00E0FF] font-semibold">HYPER ME</span> —{' '}
             <a
               href="https://hyperone.profile.io.vn"
@@ -32,43 +35,54 @@ export const AboutSection: React.FC = () => {
               hyperone.profile.io.vn
             </a>
           </p>
-          {/* ⭐ HẾT PHẦN THÊM ⭐ */}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl p-6 transform transition-transform hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(0,224,255,0.2)]">
-            <div className="text-[#00E0FF] mb-4">
-              <BrainCircuitIcon className="h-10 w-10" />
+        {/* 3 CARDS */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8">
+          
+          {[ 
+            {
+              icon: <BrainCircuitIcon className="h-8 w-8" />,
+              color: "text-[#00E0FF]",
+              title: t('about.innovation.title'),
+              desc: t('about.innovation.description')
+            },
+            {
+              icon: <HeartPulseIcon className="h-8 w-8" />,
+              color: "text-[#FFD166]",
+              title: t('about.humanity.title'),
+              desc: t('about.humanity.description')
+            },
+            {
+              icon: <RocketIcon className="h-8 w-8" />,
+              color: "text-[#00E0FF]",
+              title: t('about.vision.title'),
+              desc: t('about.vision.description')
+            }
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="p-6 bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl 
+                         hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,224,255,0.15)] 
+                         transition-all duration-300"
+            >
+              <div className={`${item.color} mb-3`}>
+                {item.icon}
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold mb-2 text-white">
+                {item.title}
+              </h3>
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                {item.desc}
+              </p>
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-white">
-              {t('about.innovation.title')}
-            </h3>
-            <p className="text-gray-300">{t('about.innovation.description')}</p>
-          </div>
+          ))}
 
-          <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl p-6 transform transition-transform hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(0,224,255,0.2)]">
-            <div className="text-[#FFD166] mb-4">
-              <HeartPulseIcon className="h-10 w-10" />
-            </div>
-            <h3 className="text-xl font-semibold mb-3 text-white">
-              {t('about.humanity.title')}
-            </h3>
-            <p className="text-gray-300">{t('about.humanity.description')}</p>
-          </div>
-
-          <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl p-6 transform transition-transform hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(0,224,255,0.2)]">
-            <div className="text-[#00E0FF] mb-4">
-              <RocketIcon className="h-10 w-10" />
-            </div>
-            <h3 className="text-xl font-semibold mb-3 text-white">
-              {t('about.vision.title')}
-            </h3>
-            <p className="text-gray-300">{t('about.vision.description')}</p>
-          </div>
         </div>
 
-        <div className="mt-16 text-center">
-          <blockquote className="text-xl md:text-2xl italic text-gray-300 max-w-3xl mx-auto">
+        {/* QUOTE */}
+        <div className="mt-12 md:mt-16 text-center">
+          <blockquote className="text-lg md:text-2xl italic text-gray-300 max-w-3xl mx-auto leading-relaxed">
             "{t('about.quote')}"
           </blockquote>
         </div>
