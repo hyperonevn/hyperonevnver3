@@ -31,6 +31,7 @@ export const HeroSection: React.FC = () => {
             font-extrabold tracking-tight
             text-[2.6rem] md:text-[4rem] lg:text-[4.6rem]
             leading-none mb-3 whitespace-nowrap
+            drop-shadow-[0_3px_12px_rgba(0,0,0,0.75)]
           "
         >
           <span className="text-[#00E0FF]">HYPER</span>{' '}
@@ -47,10 +48,12 @@ export const HeroSection: React.FC = () => {
             leading-snug
             mb-4
             max-w-[90%]
+            drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)]
           "
           style={{
-            wordBreak: "keep-all",
-            overflowWrap: "break-word"
+            wordBreak: 'keep-all',
+            overflowWrap: 'break-word',
+            WebkitTextStroke: '0.4px rgba(0,0,0,0.35)'   // giúp gradient đọc rõ
           }}
         >
           <TypewriterText text={t('hero.tagline')} speed={70} />
@@ -62,6 +65,7 @@ export const HeroSection: React.FC = () => {
             text-gray-200 text-[0.95rem] md:text-[1.05rem]
             max-w-xl mx-auto mb-8 leading-snug
             opacity-0 animate-fade-in animation-delay-300
+            drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]
           "
         >
           {t('hero.subtitle')}
