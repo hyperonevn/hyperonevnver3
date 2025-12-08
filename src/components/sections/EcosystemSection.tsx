@@ -19,7 +19,7 @@ export const EcosystemSection: React.FC = () => {
     { id: 9, name: 'HYPER LINK', description: t('ecosystem.hyperLink'), orbit: 'orbit-l9', radius: 130 },
     { id: 10, name: 'HYPER TEACH', description: '', orbit: 'orbit-l1', radius: 140 },
     { id: 11, name: 'HYPER SCHOOL', description: '', orbit: 'orbit-l2', radius: 150 },
-    { id: 12, name: 'HYPER THANKS', description: '', orbit: 'orbit-l20', radius: 160 },
+    { id: 12, name: 'HYPER THANKS', description: '', orbit: 'orbit-l9', radius: 160 },
 
   ];
 
