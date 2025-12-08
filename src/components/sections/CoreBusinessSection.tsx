@@ -31,9 +31,11 @@ export const CoreBusinessSection: React.FC = () => {
   ];
 
   return (
-    <section id="core-business" className="py-20 md:py-28 relative bg-black text-white overflow-hidden">
-
-      {/* Glow nền */}
+    <section
+      id="core-business"
+      className="py-20 md:py-28 relative bg-black text-white overflow-hidden"
+    >
+      {/* GLOW NỀN */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,180,255,0.10),transparent_70%)]"></div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
@@ -58,44 +60,46 @@ export const CoreBusinessSection: React.FC = () => {
           {t("coreBusiness.subtitle")}
         </motion.p>
 
-        {/* ⭐ FLAGSHIP CARD */}
+        {/* ⭐ FLAGSHIP CARD — BẢN GỌN */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.45 }}
           className="
-            w-full p-10 md:p-12 rounded-3xl mb-20
+            w-full p-7 md:p-9 rounded-3xl mb-16
             bg-[#000f17]/90 backdrop-blur-md
             border border-[#FFD166]/40
-            shadow-[0_0_40px_rgba(255,209,102,0.35)]
+            shadow-[0_0_35px_rgba(255,209,102,0.28)]
             relative overflow-hidden
           "
         >
-          {/* VÒNG HÀO QUANG CHO USERS ICON */}
-          <div className="absolute -top-10 -left-10 w-40 h-40 rounded-full 
-                          bg-gradient-to-br from-[#FFD166]/40 to-transparent blur-2xl"></div>
+          {/* HALO */}
+          <div className="absolute -top-8 -left-8 w-32 h-32 rounded-full 
+                          bg-gradient-to-br from-[#FFD166]/35 to-transparent blur-2xl"></div>
 
-          <div className="flex flex-col md:flex-row md:items-center gap-6 relative z-10">
+          <div className="flex flex-col md:flex-row md:items-center gap-5 relative z-10">
 
-            {/* ICON VIP */}
+            {/* ICON */}
             <div className="flex-shrink-0">
               <flagship.icon
                 className="
-                  h-16 w-16 md:h-20 md:w-20 text-[#FFD166]
-                  drop-shadow-[0_0_25px_rgba(255,209,102,0.6)]
+                  h-14 w-14 md:h-16 md:w-16 text-[#FFD166]
+                  drop-shadow-[0_0_18px_rgba(255,209,102,0.55)]
                 "
               />
             </div>
 
             {/* TEXT */}
-            <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
+            <div className="md:flex-1">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-2 leading-snug">
                 {flagship.title}
               </h3>
-              <p className="text-gray-200 text-lg md:text-xl leading-relaxed">
+
+              <p className="text-gray-200 text-base md:text-lg leading-relaxed">
                 {flagship.desc}
               </p>
             </div>
+
           </div>
         </motion.div>
 
