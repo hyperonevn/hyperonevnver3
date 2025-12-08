@@ -2,7 +2,8 @@ import React, {
   useState,
   createContext,
   useContext,
-  ReactNode
+  ReactNode,
+  useEffect
 } from 'react';
 
 // Import all locales
@@ -30,7 +31,8 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  // ⭐ Chỉ định null để CHỜ lấy ngôn ngữ trước khi render UI
+  const [language, setLanguage] = useState<Language | null>(null);
 
   const locales: Record<Language, LocaleData> = {
     en: enLocale,
@@ -41,12 +43,26 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     es: esLocale
   };
 
+  // ⭐ Load language từ localStorage hoặc default VI
+  useEffect(() => {
+    const saved = localStorage.getItem('lang') as Language | null;
+    setLanguage(saved || 'vi');
+  }, []);
+
+  // ⭐ Save language khi đổi
+  const updateLanguage = (lang: Language) => {
+    localStorage.setItem('lang', lang);
+    setLanguage(lang);
+  };
+
   const t = (key: string): string => {
+    if (!language) return ''; // chưa load thì tránh lỗi
+    
     const keys = key.split('.');
     let value: any = locales[language];
 
     for (const k of keys) {
-      if (value && value[k]) {
+      if (value && value[k] !== undefined) {
         value = value[k];
       } else {
         console.warn(`Missing translation key: ${key}`);
@@ -57,11 +73,14 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     return value;
   };
 
+  // ⭐ Quan trọng: CHƯA CÓ LANGUAGE → KHÔNG RENDER UI → tránh flash EN
+  if (!language) return null;
+
   return (
     <LanguageContext.Provider
       value={{
         language,
-        setLanguage,
+        setLanguage: updateLanguage,
         t
       }}
     >
