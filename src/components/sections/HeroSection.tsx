@@ -25,47 +25,45 @@ export const HeroSection: React.FC = () => {
       {/* CONTENT */}
       <div className="container mx-auto px-6 text-center relative z-10 flex flex-col items-center">
 
-        {/* LOGO */}
+        {/* LOGO with SOFT BACKDROP */}
         <div
           className="
             font-extrabold tracking-tight
             text-[2.6rem] md:text-[4rem] lg:text-[4.6rem]
             leading-none mb-3 whitespace-nowrap
-            drop-shadow-[0_3px_12px_rgba(0,0,0,0.75)]
+            px-4 py-1 rounded-xl 
+            bg-black/25 backdrop-blur-[2px]
+            drop-shadow-[0_3px_10px_rgba(0,0,0,0.8)]
           "
         >
           <span className="text-[#00E0FF]">HYPER</span>{' '}
           <span className="text-white">ONE</span>
         </div>
 
-        {/* TAGLINE */}
+        {/* TAGLINE — NO WRAP + SOFT BACKDROP */}
         <h1
           className="
-            bg-gradient-to-r from-[#00E0FF] via-[#00B7C2] to-[#FFD166]
-            bg-clip-text text-transparent animate-gradient-move
             text-[1rem] md:text-[1.45rem] lg:text-[1.7rem]
-            font-semibold
-            leading-snug
-            mb-4
-            max-w-[90%]
+            font-semibold leading-tight mb-4 max-w-full
+            whitespace-nowrap overflow-hidden text-ellipsis
+            px-4 py-1 rounded-xl
+            bg-black/20 backdrop-blur-[2px]
             drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)]
+            text-white
           "
-          style={{
-            wordBreak: 'keep-all',
-            overflowWrap: 'break-word',
-            WebkitTextStroke: '0.4px rgba(0,0,0,0.35)'   // giúp gradient đọc rõ
-          }}
         >
-          <TypewriterText text={t('hero.tagline')} speed={70} />
+          <TypewriterText text={t('hero.tagline')} speed={50} />
         </h1>
 
-        {/* SUBTITLE */}
+        {/* SUBTITLE with LIGHT BACKDROP */}
         <p
           className="
             text-gray-200 text-[0.95rem] md:text-[1.05rem]
             max-w-xl mx-auto mb-8 leading-snug
             opacity-0 animate-fade-in animation-delay-300
-            drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]
+            px-4 py-2 rounded-xl
+            bg-black/15 backdrop-blur-[2px]
+            drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]
           "
         >
           {t('hero.subtitle')}
