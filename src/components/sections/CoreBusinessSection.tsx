@@ -24,31 +24,11 @@ export const CoreBusinessSection: React.FC = () => {
 
   // ⭐ 5 business pillars còn lại
   const others = [
-    {
-      icon: BrainCircuit,
-      title: t("coreBusiness.items.0.title"),
-      desc: t("coreBusiness.items.0.description")
-    },
-    {
-      icon: Layers,
-      title: t("coreBusiness.items.1.title"),
-      desc: t("coreBusiness.items.1.description")
-    },
-    {
-      icon: Share2,
-      title: t("coreBusiness.items.2.title"),
-      desc: t("coreBusiness.items.2.description")
-    },
-    {
-      icon: Sparkles,
-      title: t("coreBusiness.items.4.title"),
-      desc: t("coreBusiness.items.4.description")
-    },
-    {
-      icon: GraduationCap,
-      title: t("coreBusiness.items.5.title"),
-      desc: t("coreBusiness.items.5.description")
-    }
+    { icon: BrainCircuit, title: t("coreBusiness.items.0.title"), desc: t("coreBusiness.items.0.description") },
+    { icon: Layers, title: t("coreBusiness.items.1.title"), desc: t("coreBusiness.items.1.description") },
+    { icon: Share2, title: t("coreBusiness.items.2.title"), desc: t("coreBusiness.items.2.description") },
+    { icon: Sparkles, title: t("coreBusiness.items.4.title"), desc: t("coreBusiness.items.4.description") },
+    { icon: GraduationCap, title: t("coreBusiness.items.5.title"), desc: t("coreBusiness.items.5.description") }
   ];
 
   return (
@@ -60,7 +40,7 @@ export const CoreBusinessSection: React.FC = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,180,255,0.10),transparent_70%)]"></div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        
+
         {/* TITLE */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -81,7 +61,7 @@ export const CoreBusinessSection: React.FC = () => {
           {t("coreBusiness.subtitle")}
         </motion.p>
 
-        {/* ⭐ FLAGSHIP CARD — BẢN GỌN + CTA */}
+        {/* ⭐ FLAGSHIP CARD — BẢN FIX MOBILE */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -95,7 +75,7 @@ export const CoreBusinessSection: React.FC = () => {
           "
         >
           {/* HALO */}
-          <div className="absolute -top-8 -left-8 w-32 h-32 rounded-full 
+          <div className="absolute -top-8 -left-8 w-32 h-32 rounded-full
                           bg-gradient-to-br from-[#FFD166]/35 to-transparent blur-2xl"></div>
 
           <div className="flex flex-col md:flex-row md:items-center gap-5 relative z-10">
@@ -112,15 +92,17 @@ export const CoreBusinessSection: React.FC = () => {
 
             {/* TEXT + CTA */}
             <div className="md:flex-1">
+
               <h3 className="text-xl md:text-2xl font-bold text-white mb-2 leading-snug">
                 {flagship.title}
               </h3>
 
-              <p className="text-gray-200 text-base md:text-lg leading-relaxed mb-4">
+              {/* ⭐ desc FIXED FOR SAFARI */}
+              <p className="text-gray-200 text-base md:text-lg leading-normal tracking-normal mb-4">
                 {flagship.desc}
               </p>
 
-              {/* CTA BUTTON */}
+              {/* ⭐ CTA FIXED FOR MOBILE */}
               <a
                 href="#contact"
                 className="
@@ -128,6 +110,7 @@ export const CoreBusinessSection: React.FC = () => {
                   bg-gradient-to-r from-[#00E0FF] to-[#FFD166]
                   text-black hover:opacity-90 transition
                   shadow-[0_0_18px_rgba(0,224,255,0.35)]
+                  mx-auto block max-w-[90%] text-center
                 "
               >
                 {flagship.cta}
@@ -139,6 +122,7 @@ export const CoreBusinessSection: React.FC = () => {
 
         {/* ⭐ 5 PILLARS GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
           {others.map((item, i) => {
             const Icon = item.icon;
             return (
@@ -157,7 +141,6 @@ export const CoreBusinessSection: React.FC = () => {
                 "
               >
                 <Icon className="h-8 w-8 text-[#00E0FF] mb-4" />
-
                 <h3 className="text-lg md:text-xl font-semibold text-white mb-2">
                   {item.title}
                 </h3>
@@ -168,6 +151,7 @@ export const CoreBusinessSection: React.FC = () => {
               </motion.div>
             );
           })}
+
         </div>
 
       </div>
