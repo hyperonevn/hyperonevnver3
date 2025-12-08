@@ -168,11 +168,10 @@
   "position": "CEO & Founder",
   "quote": "I believe the future belongs to those who stay true to the right values. Hyper One pursues ethical, responsible AI that creates real value for people.",
   "shortQuote": "Ethical AI, for humanity.",
-
-  "bio1": "Lu Minh Tri is the Co-Founder of AI Wiz Kids and SaDec X—two initiatives in AI-driven education and agricultural innovation. Before returning to Vietnam, he spent many years working in Japan and Singapore in roles that demanded system thinking and disciplined execution, including Design Lead, Project Manager, and Assistant to the Chairman at Futher Up (Oka Bain Japan). He also previously served as Founder and Country Director of Oka&Co Interior Singapore, where he built teams and delivered design and technology projects across Southeast Asia. He has traveled to more than 30 countries, conducting trade activities and market studies, forming a global perspective on business operations and growth models.",
-
+  "bio1": "Lu Minh Tri is the Co-Founder of AI Wiz Kids and SaDec X—two initiatives in AI-driven education and agricultural innovation. Before returning to Vietnam, he spent many years working in Japan and Singapore in roles that required systems thinking and disciplined execution, including Design Lead, Project Manager, and Assistant to the Chairman at Futher Up (Oka Bain Japan). He also served as Founder and Country Director of Oka&Co Interior Singapore, where he built teams and delivered design and technology projects across Southeast Asia. He has traveled to more than 30 countries, conducting trade activities and market studies, shaping a global perspective on business operations and growth models.",
   "bio2": "His return to Vietnam marked a new chapter as he founded Hyper One with the mission to build AI platforms, cognitive automation systems, and operational technologies focused on solving real business problems and codifying knowledge in the AI era. His international experience and strategic mindset shaped the philosophy of human-centered, ethical AI—forming the foundation of how Hyper One approaches responsible and practical AI applications."
 }
+
 
 ,
   "partners": {
@@ -456,6 +455,29 @@
     "description": "Core AI platforms, data processing infrastructure, and modeling systems developed by Hyper One are being deployed at the DAS Institute as critical components in survey, experimentation, and applied research activities. The adoption of Hyper One's technology enables DAS to access multi-domain experimental datasets, accelerate AI hypothesis validation, and deploy models at real operational scale."
     ,    "cta": "Visit DAS Institute"
 
-  }
+  },
+  "common": {
+  "showMore": "Show More",
+  "showLess": "Show Less"
+},
+
+  "mou": {
+    "title": "Strategic Partnership: Hyper One × SPS Inc. (Magconn Technology)",
+    "subtitle": "Hyper One has officially signed a Memorandum of Understanding (MOU) with SPS Inc. – Magconn Technology (Korea), establishing a solid foundation for a long-term and impactful Vietnam–Korea technology partnership.",
+    "content1": "The collaboration focuses on emerging technologies, AI solutions, and innovative applications aligned with the strategic vision of both organizations.",
+    "content2": "This partnership aims to enhance knowledge exchange, technological advancement, and co-development of projects with strong potential for real-world deployment.",
+    "content3": "Hyper One and SPS Inc. will work together to build new platforms, products, and technology ecosystems, strengthening competitive capabilities across the region.",
+    "content4": "Hyper One believes this partnership will generate meaningful value and contribute to a new era of Vietnam–Korea technology development.",
+    "cta": "Learn more about SPS Inc."
+  },
+"cofounderandtechpartner": {
+  "title": "Co-Founder & Comprehensive Strategic Technology Partner",
+  "info": "HYPER ONE’s core business model is based on investing in and co-building technology across multiple sectors, including education, agriculture, media, finance, real estate, and construction — and we do not limit ourselves to any specific domain. We choose to accompany promising business models, high-potential startups, and traditional enterprises undergoing digital transformation — acting as a strategic technology partner to co-create sustainable and long-term growth.",
+  "cta": "Contact us to develop your business model with technology and receive technology investment from HYPER ONE."
 }
+
+}
+
+
+
 

@@ -168,11 +168,10 @@
   "position": "CEO & Founder",
   "quote": "Tôi tin rằng tương lai thuộc về những người kiên định với giá trị đúng đắn. Hyper One theo đuổi AI có đạo đức, có trách nhiệm và mang lại giá trị thật cho con người.",
   "shortQuote": "AI có đạo đức, vì con người.",
-
-  "bio1": "Lữ Minh Trí là Đồng Sáng Lập AI Wiz Kids và SaDec X, hai dự án công nghệ giáo dục trí tuệ nhân tạo và nông nghiệp ứng dụng trí tuệ nhân tạo. Trước khi trở về Việt Nam, anh có nhiều năm làm việc tại Nhật Bản và Singapore trong các vị trí đòi hỏi tư duy hệ thống và tính kỷ luật, bao gồm Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan). Anh đồng thời là cựu Sáng Lập và Giám đốc Quốc gia Oka&Co Interior Singapore, nơi anh xây dựng đội ngũ và triển khai nhiều dự án thiết kế và công nghệ tại Đông Nam Á. Bên cạnh đó, anh có gần một thập kỷ đi qua hơn 30 quốc gia, từ các nước ở châu Âu đến Pakistan, Ấn Độ, Trung Quốc, Indonesia và Malaysia để tham gia giao dịch thương mại và khảo sát thị trường, qua đó hình thành góc nhìn toàn cầu về vận hành doanh nghiệp và mô hình tăng trưởng.",
-
-  "bio2": "Hành trình trở về Việt Nam mở ra một chương mới khi anh sáng lập Hyper One với định hướng phát triển các nền tảng trí tuệ nhân tạo, hệ thống tự động hoá tư duy và công nghệ vận hành, tập trung giải quyết những bài toán thật của doanh nghiệp và mô hình hoá tri thức trong kỷ nguyên AI. Kinh nghiệm đa quốc gia cùng tư duy chiến lược giúp anh định hình triết lý AI vì con người, trở thành nền tảng cho cách Hyper One tiếp cận AI có đạo đức, có trách nhiệm và ứng dụng thực tiễn."
+  "bio1": "Lữ Minh Trí là ai? Một hành trình đa lục địa, nhiều vai trò và những lựa chọn táo bạo đã định hình nên tư duy hệ thống và triết lý AI vì con người của anh.",
+  "bio2": "Lữ Minh Trí là Đồng Sáng Lập AI Wiz Kids và SaDec X, hai dự án công nghệ giáo dục trí tuệ nhân tạo và nông nghiệp ứng dụng trí tuệ nhân tạo. Trước khi trở về Việt Nam, anh có nhiều năm làm việc tại Nhật Bản và Singapore trong các vị trí đòi hỏi tư duy hệ thống và tính kỷ luật, bao gồm Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan). Anh đồng thời là cựu Sáng Lập và Giám đốc Quốc gia Oka&Co Interior Singapore, nơi anh xây dựng đội ngũ và triển khai nhiều dự án thiết kế và công nghệ tại Đông Nam Á. Bên cạnh đó, anh có gần một thập kỷ đi qua hơn 30 quốc gia, từ châu Âu, Pakistan, Ấn Độ, Trung Quốc, Indonesia đến Malaysia để tham gia giao dịch thương mại và khảo sát thị trường, qua đó hình thành góc nhìn toàn cầu về vận hành doanh nghiệp và mô hình tăng trưởng. Hành trình trở về Việt Nam mở ra một chương mới khi anh sáng lập Hyper One với định hướng phát triển các nền tảng trí tuệ nhân tạo, hệ thống tự động hoá tư duy và công nghệ vận hành, tập trung giải quyết những bài toán thật của doanh nghiệp và mô hình hoá tri thức trong kỷ nguyên AI. Kinh nghiệm đa quốc gia cùng tư duy chiến lược giúp anh định hình triết lý AI vì con người — nền tảng cho cách Hyper One tiếp cận AI có đạo đức, có trách nhiệm và ứng dụng thực tiễn."
 }
+
 
 
 ,
@@ -454,7 +453,33 @@
     "description": "Các nền tảng AI lõi, hạ tầng xử lý dữ liệu và hệ thống mô hình hóa do Hyper One phát triển đang được triển khai tại Viện DAS như một cấu phần trọng yếu trong quá trình khảo sát, thử nghiệm và nghiên cứu ứng dụng. Việc ứng dụng công nghệ của Hyper One giúp DAS tiếp cận dữ liệu thực nghiệm đa lĩnh vực, tăng tốc kiểm chứng các giả thuyết AI và triển khai mô hình ở quy mô vận hành thực tế."
      , "cta": "Truy cập DAS Institute"
 
-  }
+  },
+    "common": {
+    "showMore": "Xem Thêm",
+    "showLess": "Thu Gọn"
+
+  },
+  
+  "mou": {
+    "title": "Hợp Tác Chiến Lược Hyper One – SPS Inc. (Magconn Technology)",
+    "subtitle": "Hyper One chính thức ký kết Biên bản Ghi nhớ hợp tác (MOU) với SPS Inc. – Magconn Technology (Korea), mở ra nền tảng hợp tác công nghệ Việt – Hàn theo hướng thực chất và bền vững.",
+    "content1": "Thỏa thuận hợp tác đặt trọng tâm vào phát triển công nghệ mới, giải pháp AI và các mô hình ứng dụng mang tính đổi mới, phù hợp với tầm nhìn chiến lược của cả hai bên.",
+    "content2": "Sự hợp tác giữa Hyper One và SPS Inc. – Magconn Technology góp phần thúc đẩy trao đổi tri thức, chuyển giao công nghệ và đồng phát triển các dự án có khả năng triển khai trong thực tế.",
+    "content3": "Hai bên sẽ phối hợp xây dựng các nền tảng, sản phẩm và hệ sinh thái công nghệ mới, hướng tới việc nâng tầm năng lực cạnh tranh trong khu vực.",
+    "content4": "Hyper One tin rằng quan hệ hợp tác này sẽ tạo ra nhiều giá trị thiết thực, đóng góp vào sự phát triển mạnh mẽ của lĩnh vực công nghệ Việt – Hàn trong giai đoạn mới.",
+    "cta": "Xem thêm về SPS Inc."
+  },
+"cofounderandtechpartner": {
+  "title": "Đồng sáng lập & Đối tác Công nghệ Chiến lược Toàn diện",
+  "info": "Mô hình kinh doanh cốt lõi của HYPER ONE dựa trên việc đầu tư và đồng xây dựng công nghệ cho nhiều lĩnh vực như giáo dục, nông nghiệp, truyền thông, tài chính, bất động sản và xây dựng — và chúng tôi không giới hạn bản thân trong bất kỳ lĩnh vực nào. Chúng tôi lựa chọn đồng hành cùng các mô hình kinh doanh tiềm năng, các dự án khởi nghiệp triển vọng và các doanh nghiệp truyền thống đang cần chuyển đổi số — với vai trò là đối tác công nghệ chiến lược, cùng kiến tạo tăng trưởng bền vững và lâu dài.",
+  "cta": "Hãy liên hệ với chúng tôi để phát triển mô hình kinh doanh của bạn bằng công nghệ và nhận đầu tư công nghệ từ HYPER ONE."
 }
+
+
+
+
+}
+
+
 
 

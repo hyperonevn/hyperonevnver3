@@ -33,7 +33,7 @@ export const EventSpotlight: React.FC = () => {
               "
               style={{ paddingLeft: "0.05em", paddingRight: "0.05em" }}
             >
-              HYPER ONE
+              Spotlight
             </span>
           </div>
 
@@ -45,7 +45,7 @@ export const EventSpotlight: React.FC = () => {
               text-white/90 mt-3 leading-tight
             "
           >
-            Spotlight
+            
           </h2>
 
           {/* SPOTLIGHT DESCRIPTION (LẤY TỪ JSON) */}

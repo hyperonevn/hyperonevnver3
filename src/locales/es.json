@@ -165,13 +165,11 @@
   },
 "founder": {
   "title": "Conoce al Fundador",
-  "position": "CEO & Fundador",
-  "quote": "Creo que el futuro pertenece a quienes se mantienen fieles a los valores correctos. Hyper One persigue una IA ética, responsable y verdaderamente útil para las personas.",
+  "position": "CEO & Founder",
+  "quote": "Creo que el futuro pertenece a quienes permanecen fieles a los valores correctos. Hyper One persigue una IA ética, responsable y verdaderamente orientada al ser humano.",
   "shortQuote": "IA ética, para las personas.",
-
-  "bio1": "Lu Minh Tri es Co-Fundador de AI Wiz Kids y SaDec X, iniciativas dedicadas a la educación basada en IA y la agricultura inteligente. Antes de regresar a Vietnam, trabajó varios años en Japón y Singapur en puestos que exigen pensamiento sistémico y disciplina, incluyendo Líder de Diseño, Gerente de Proyectos y Asistente del Presidente en Futher Up (Oka Bain Japan). También fue Fundador y Director Nacional de Oka&Co Interior Singapore, donde construyó equipos y lideró proyectos de diseño y tecnología en el Sudeste Asiático. Ha viajado por más de 30 países realizando actividades comerciales y estudios de mercado, desarrollando una perspectiva global sobre la operación empresarial y los modelos de crecimiento.",
-
-  "bio2": "Su regreso a Vietnam dio inicio a una nueva etapa en la que fundó Hyper One, una organización dedicada al desarrollo de plataformas de IA, sistemas de automatización cognitiva y tecnologías operativas enfocadas en resolver problemas reales de las empresas. Su experiencia internacional y visión estratégica dieron forma a una filosofía de IA ética y centrada en el ser humano, que guía el enfoque de Hyper One hacia aplicaciones responsables y prácticas."
+  "bio1": "¿Quién es Lu Minh Tri? Un recorrido por múltiples continentes, diversos roles y decisiones valientes han dado forma a su pensamiento sistémico y a su filosofía de IA centrada en el ser humano.",
+  "bio2": "Lu Minh Tri es Cofundador de AI Wiz Kids y SaDec X, dos iniciativas dedicadas a la educación en IA y a la agricultura impulsada por inteligencia artificial. Antes de regresar a Vietnam, trabajó varios años en Japón y Singapur en cargos que requerían pensamiento sistémico y un alto nivel de disciplina, incluyendo Director de Diseño, Gestor de Proyectos y Asistente del Presidente en Futher Up (Oka Bain Japan). También fue Fundador y Director Nacional de Oka&Co Interior en Singapur, donde formó equipos y lideró múltiples proyectos de diseño y tecnología en el Sudeste Asiático. Además, pasó casi una década viajando por más de 30 países —desde Europa, Pakistán e India hasta China, Indonesia y Malasia— para realizar transacciones comerciales y estudios de mercado, adquiriendo así una visión global sobre la operación empresarial y los modelos de crecimiento. Su regreso a Vietnam marcó un nuevo capítulo con la creación de Hyper One, orientado al desarrollo de plataformas de IA, sistemas de automatización del pensamiento y tecnologías operativas enfocadas en resolver problemas reales y modelar conocimiento en la era de la IA. Su experiencia multinacional y pensamiento estratégico han moldeado su filosofía de “IA para las personas”, base del enfoque ético, responsable y práctico que Hyper One adopta frente a la inteligencia artificial."
 }
 
 
@@ -453,7 +451,29 @@
     "description": "Las plataformas centrales de IA, la infraestructura de procesamiento de datos y los sistemas de modelado desarrollados por Hyper One se están implementando en el Instituto DAS como componentes críticos para las actividades de análisis, experimentación e investigación aplicada. La adopción de la tecnología de Hyper One permite al DAS acceder a datos experimentales multidominio, acelerar la validación de hipótesis de IA y desplegar modelos a escala operativa real."
   ,"cta": "Visitar DAS Institute"
 
-  }
+  },
+  "common": {
+  "showMore": "Ver más",
+  "showLess": "Ver menos"
+}, 
+
+  "mou": {
+    "title": "Alianza Estratégica: Hyper One × SPS Inc. (Magconn Technology)",
+    "subtitle": "Hyper One ha firmado oficialmente un Memorando de Entendimiento (MOU) con SPS Inc. – Magconn Technology (Corea), estableciendo una base sólida para una cooperación tecnológica sostenible entre Vietnam y Corea.",
+    "content1": "La colaboración se centra en nuevas tecnologías, soluciones de IA y aplicaciones innovadoras alineadas con la visión estratégica de ambas organizaciones.",
+    "content2": "El acuerdo impulsa el intercambio de conocimiento, la transferencia tecnológica y el codesarrollo de proyectos con alto potencial de implementación real.",
+    "content3": "Hyper One y SPS Inc. trabajarán juntos para construir nuevas plataformas, productos y ecosistemas tecnológicos, fortaleciendo la competitividad regional.",
+    "content4": "Hyper One cree que esta alianza contribuirá significativamente al avance de la tecnología Vietnam–Corea en una nueva etapa.",
+    "cta": "Ver SPS Inc."
+  },
+"cofounderandtechpartner": {
+  "title": "Cofundador y Socio Tecnológico Estratégico Integral",
+  "info": "El modelo central de negocio de HYPER ONE se basa en invertir y cocrear tecnología en múltiples sectores, incluyendo educación, agricultura, medios, finanzas, bienes raíces y construcción — y no nos limitamos a ningún ámbito específico. Elegimos acompañar modelos de negocio prometedores, startups de alto potencial y empresas tradicionales en proceso de transformación digital — actuando como socio tecnológico estratégico para crear un crecimiento sostenible y a largo plazo.",
+  "cta": "Contáctanos para desarrollar tu modelo de negocio con tecnología y recibir inversión tecnológica de HYPER ONE."
+}
+
+
+
 }
 
 

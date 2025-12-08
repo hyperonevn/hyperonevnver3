@@ -22,24 +22,35 @@ export const PartnersSection: React.FC = () => {
   ];
 
   return (
-    <section id="partners" className="py-20 relative bg-black">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,224,255,0.08),transparent_70%)]"></div>
+    <section id="partners" className="py-24 relative bg-black overflow-hidden">
+      
+      {/* Background Glow */}
+      <div className="absolute inset-0 
+                      bg-[radial-gradient(circle_at_center,rgba(0,224,255,0.10),transparent_75%)]" />
 
       <div className="container mx-auto px-4 relative z-10">
 
         {/* TITLE */}
-        <div className="max-w-3xl mx-auto text-center mb-14">
-          <p className="text-xs font-semibold text-white/50 tracking-widest uppercase mb-2">
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <p className="text-xs font-semibold text-white/40 tracking-widest uppercase mb-2">
             HYPER PARTNER NETWORK
           </p>
 
-          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold 
+                         bg-gradient-to-r from-white to-gray-300 
+                         bg-clip-text text-transparent 
+                         drop-shadow-[0_0_15px_rgba(255,255,255,0.25)] mb-4">
             {t('partners.title')}
           </h2>
 
-          <div className="h-1 w-20 bg-gradient-to-r from-[#00E0FF] to-[#FFD166] mx-auto mb-6" />
+          <div className="
+            h-1 w-24 mx-auto 
+            bg-gradient-to-r from-[#00E0FF] to-[#FFD166]
+            shadow-[0_0_12px_rgba(0,224,255,0.4)] 
+            rounded-full mb-6
+          " />
 
-          <p className="text-gray-300 text-lg">
+          <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto">
             {t('partners.description')}
           </p>
         </div>
@@ -53,13 +64,16 @@ export const PartnersSection: React.FC = () => {
             <div
               key={i}
               className="
+                group
                 bg-gray-900/40 border border-gray-800 
-                rounded-xl p-4 
+                rounded-xl p-5 
                 flex flex-col items-center justify-center 
                 backdrop-blur-sm
-                transition-all 
+                transition-all duration-300
                 hover:bg-gray-900/70 
                 hover:border-[#00E0FF]/40
+                hover:shadow-[0_0_25px_rgba(0,224,255,0.30)]
+                hover:-translate-y-1
               "
             >
               {/* LOGO */}
@@ -70,14 +84,19 @@ export const PartnersSection: React.FC = () => {
                   h-12 w-12 md:h-14 md:w-14 
                   object-cover rounded-md 
                   opacity-80 grayscale 
+                  transition-all duration-300
                   group-hover:opacity-100 
                   group-hover:grayscale-0 
-                  transition-all duration-300
+                  group-hover:scale-[1.07]
+                  drop-shadow-[0_0_8px_rgba(0,224,255,0.35)]
                 "
               />
 
               {/* NAME */}
-              <p className="text-xs text-gray-300 text-center mt-3 leading-tight">
+              <p className="
+                text-xs text-gray-300 text-center mt-3 leading-tight 
+                transition-all duration-300 group-hover:text-white
+              ">
                 {partner.name}
               </p>
             </div>
@@ -85,7 +104,7 @@ export const PartnersSection: React.FC = () => {
         </div>
 
         {/* CTA BUTTON */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-14">
           <a
             href="#contact"
             className="
@@ -95,6 +114,7 @@ export const PartnersSection: React.FC = () => {
               rounded-full 
               inline-flex items-center 
               hover:bg-[#00E0FF]/20 
+              hover:shadow-[0_0_18px_rgba(0,224,255,0.45)]
               transition-all duration-300
             "
           >

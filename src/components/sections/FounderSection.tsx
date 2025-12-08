@@ -66,8 +66,6 @@ export const FounderSection: React.FC = () => {
                 }`}
               >
                 <p>{t("founder.bio2")}</p>
-                <p>{t("founder.bio3")}</p>
-                <p>{t("founder.bio4")}</p>
               </div>
 
               {/* VIEW MORE BUTTON */}

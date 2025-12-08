@@ -12,6 +12,7 @@ import { DasResearchSection } from "./components/sections/DasResearchSection";
 // 🌐 HERO + MAIN SECTIONS
 import { HeroSection } from './components/sections/HeroSection';
 import { EventSpotlight } from './components/sections/EventSpotlight';
+import { MouSection } from './components/sections/MouSection';   // ⭐ NEW
 
 import { AboutSection } from './components/sections/AboutSection';
 import { MilestonesSection } from './components/sections/MilestonesSection';
@@ -73,15 +74,17 @@ export function App() {
 
             {/* EVENT */}
             <EventSpotlight />
-            
+
+            {/* ⭐ MOU — Strategic Partnership (placed early for trust) */}
+            <MouSection />
 
             {/* ABOUT */}
             <AboutSection />
-            <MilestonesSection />
             <DasResearchSection />
+            <MilestonesSection />
+       
 
-
-            {/* ⭐ PARTNERS — moved BELOW OUR JOURNEY */}
+            {/* PARTNERS */}
             <PartnersSection />
 
             {/* CORE BUSINESS */}

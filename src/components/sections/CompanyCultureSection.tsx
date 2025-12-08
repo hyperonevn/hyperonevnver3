@@ -8,48 +8,75 @@ export const CompanyCultureSection: React.FC = () => {
   return (
     <section
       id="company-culture"
-      className="py-24 relative bg-black text-white overflow-hidden"
+      className="
+        py-24 relative bg-black text-white overflow-hidden
+      "
     >
-      {/* Background glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,224,255,0.06),transparent_70%)]"></div>
+      {/* Subtle glow background */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,224,255,0.08),transparent_75%)]" />
 
       <div className="container mx-auto px-6 relative z-10">
         
-        {/* Title */}
+        {/* Title Block */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-4xl font-bold 
+                         bg-gradient-to-r from-white to-gray-300 
+                         bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(255,255,255,0.2)]">
             {t('culture.title')}
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#00E0FF] to-[#FFD166] mx-auto mt-4 mb-8"></div>
-          <p className="text-gray-300 text-lg">{t('culture.subtitle')}</p>
+
+          <div className="h-1 w-24 mx-auto mt-4 mb-8 
+                          bg-gradient-to-r from-[#00E0FF] to-[#FFD166] 
+                          rounded-full shadow-[0_0_12px_rgba(0,224,255,0.4)]" />
+
+          <p className="text-gray-300 text-lg leading-relaxed">
+            {t('culture.subtitle')}
+          </p>
         </div>
 
-        {/* Culture Cards */}
+        {/* Cards Wrapper */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
 
-          {/* Partner = Customer */}
-          <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl p-8 
-                          transition-all hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(0,224,255,0.2)]">
-            <HandshakeIcon className="h-12 w-12 text-[#00E0FF] mb-5" />
-            <h3 className="text-xl font-semibold mb-3 text-white">{t('culture.partner')}</h3>
-            <p className="text-gray-300">{t('culture.partnerDesc')}</p>
-          </div>
+          {/* Card Template */}
+          {[
+            {
+              icon: <HandshakeIcon className="h-12 w-12 text-[#00E0FF]" />,
+              title: t('culture.partner'),
+              desc: t('culture.partnerDesc'),
+            },
+            {
+              icon: <UsersIcon className="h-12 w-12 text-[#FFD166]" />,
+              title: t('culture.employee'),
+              desc: t('culture.employeeDesc'),
+            },
+            {
+              icon: <HeartIcon className="h-12 w-12 text-[#00E0FF]" />,
+              title: t('culture.human'),
+              desc: t('culture.humanDesc'),
+            }
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="
+                bg-gray-900/50 backdrop-blur-md 
+                border border-gray-800 rounded-2xl p-8
+                transition-all duration-300
+                hover:-translate-y-1.5 
+                hover:shadow-[0_0_30px_rgba(0,224,255,0.25)]
+              "
+            >
+              <div className="mb-5">{item.icon}</div>
 
-          {/* Employee = Asset */}
-          <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl p-8 
-                          transition-all hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(0,224,255,0.2)]">
-            <UsersIcon className="h-12 w-12 text-[#FFD166] mb-5" />
-            <h3 className="text-xl font-semibold mb-3 text-white">{t('culture.employee')}</h3>
-            <p className="text-gray-300">{t('culture.employeeDesc')}</p>
-          </div>
+              <h3 className="text-xl font-semibold mb-3 
+                             text-white drop-shadow-[0_0_6px_rgba(255,255,255,0.15)]">
+                {item.title}
+              </h3>
 
-          {/* Human-Centered */}
-          <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl p-8 
-                          transition-all hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(0,224,255,0.2)]">
-            <HeartIcon className="h-12 w-12 text-[#00E0FF] mb-5" />
-            <h3 className="text-xl font-semibold mb-3 text-white">{t('culture.human')}</h3>
-            <p className="text-gray-300">{t('culture.humanDesc')}</p>
-          </div>
+              <p className="text-gray-300 leading-relaxed">
+                {item.desc}
+              </p>
+            </div>
+          ))}
 
         </div>
       </div>
