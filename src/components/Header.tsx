@@ -30,15 +30,21 @@ export const Header: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
-
         <div className="flex items-center justify-between">
 
-          {/* LOGO */}
+          {/* 🔥 LOGO HÌNH VUÔNG */}
           <a href="#vision" className="flex items-center select-none">
-            <span className="text-2xl font-extrabold tracking-wide">
-              <span className="text-[#00D4FF]">HYPER</span>{" "}
-              <span className="text-white">ONE</span>
-            </span>
+            <img
+              src="https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/logo/hyperone.jpg"
+              alt="Hyper One Logo"
+              className="
+                h-10 w-10 md:h-12 md:w-12
+                object-cover
+                shadow-[0_0_10px_rgba(0,0,0,0.45)]
+                transition-all duration-300
+                hover:opacity-90
+              "
+            />
           </a>
 
           {/* DESKTOP NAV */}
@@ -56,11 +62,9 @@ export const Header: React.FC = () => {
             <FlagSwitcher />
           </nav>
 
-          {/* MOBILE ACTIONS */}
+          {/* MOBILE */}
           <div className="md:hidden flex items-center gap-4">
-            {/* Flag Switcher */}
             <FlagSwitcher />
-
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-white focus:outline-none"
