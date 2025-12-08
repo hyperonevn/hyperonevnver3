@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
-import { TypewriterText } from '../ui/TypewriterText';
 import { ArrowDownIcon } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
@@ -33,37 +32,51 @@ export const HeroSection: React.FC = () => {
             leading-none mb-3 whitespace-nowrap
             px-4 py-1 rounded-xl 
             bg-black/25 backdrop-blur-[2px]
-            drop-shadow-[0_3px_10px_rgba(0,0,0,0.8)]
+            drop-shadow-[0_3px_12px_rgba(0,0,0,0.75)]
+            animate-fade-in
           "
         >
           <span className="text-[#00E0FF]">HYPER</span>{' '}
           <span className="text-white">ONE</span>
         </div>
 
-        {/* TAGLINE — NO WRAP + SOFT BACKDROP */}
-        <h1
+        {/* TAGLINE — ONE LINE, FULL, AUTO-SHRINK, NO ELLIPSIS */}
+        <div
           className="
-            text-[1rem] md:text-[1.45rem] lg:text-[1.7rem]
-            font-semibold leading-tight mb-4 max-w-full
-            whitespace-nowrap overflow-hidden text-ellipsis
             px-4 py-1 rounded-xl
             bg-black/20 backdrop-blur-[2px]
             drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)]
-            text-white
+            opacity-0 animate-fade-in animation-delay-300
+            inline-block
+            max-w-full
           "
+          style={{
+            whiteSpace: "nowrap",
+            transformOrigin: "center",
+            display: "inline-block",
+          }}
         >
-          <TypewriterText text={t('hero.tagline')} speed={50} />
-        </h1>
+          <span
+            style={{
+              display: "inline-block",
+              whiteSpace: "nowrap",
+              fontSize: "clamp(1rem, 3vw, 1.7rem)",
+              fontWeight: 600,
+            }}
+          >
+            {t("hero.tagline")}
+          </span>
+        </div>
 
-        {/* SUBTITLE with LIGHT BACKDROP */}
+        {/* SUBTITLE */}
         <p
           className="
             text-gray-200 text-[0.95rem] md:text-[1.05rem]
             max-w-xl mx-auto mb-8 leading-snug
-            opacity-0 animate-fade-in animation-delay-300
             px-4 py-2 rounded-xl
             bg-black/15 backdrop-blur-[2px]
             drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]
+            opacity-0 animate-fade-in animation-delay-600
           "
         >
           {t('hero.subtitle')}
@@ -73,7 +86,7 @@ export const HeroSection: React.FC = () => {
         <div
           className="
             flex flex-col sm:flex-row justify-center gap-3
-            opacity-0 animate-fade-in animation-delay-600
+            opacity-0 animate-fade-in animation-delay-900
           "
         >
           <a
