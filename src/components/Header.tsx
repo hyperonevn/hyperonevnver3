@@ -26,24 +26,30 @@ export const Header: React.FC = () => {
   return (
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-black/80 backdrop-blur-md py-3" : "bg-transparent py-5"
+        isScrolled
+          ? "bg-black/80 backdrop-blur-md py-3 min-h-[64px]"
+          : "bg-transparent py-5"
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
 
-          {/* 🔥 LOGO HÌNH VUÔNG */}
+          {/* 🔥 LOGO — SỬ DỤNG FILE MỚI, ỔN ĐỊNH, KHÔNG BỊ CHE */}
           <a href="#vision" className="flex items-center select-none">
             <img
-              src="https://pub-f826d697a1694a0dac74ab8db71a8d8d.r2.dev/logo/hyperone.jpg"
+              src="https://raw.githubusercontent.com/hyperonevn/hyperonevnver3/main/hyperone.jpg"
               alt="Hyper One Logo"
               className="
                 h-10 w-10 md:h-12 md:w-12
                 object-cover
-                shadow-[0_0_10px_rgba(0,0,0,0.45)]
                 transition-all duration-300
                 hover:opacity-90
+                mt-1
               "
+              style={{
+                filter: "drop-shadow(0 0 6px rgba(0,0,0,0.9))",
+                borderRadius: "6px"
+              }}
             />
           </a>
 
@@ -58,7 +64,6 @@ export const Header: React.FC = () => {
                 {item.name}
               </a>
             ))}
-            {/* Flag Switcher */}
             <FlagSwitcher />
           </nav>
 

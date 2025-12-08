@@ -40,28 +40,28 @@ export const HeroSection: React.FC = () => {
           <span className="text-white">ONE</span>
         </div>
 
-        {/* TAGLINE — ONE LINE, FULL, AUTO-SHRINK, NO ELLIPSIS */}
+        {/* TAGLINE — ALLOW 1 LINE BREAK, MAX 50% WIDTH, FULL TEXT */}
         <div
           className="
-            px-4 py-1 rounded-xl
+            px-4 py-2 rounded-xl
             bg-black/20 backdrop-blur-[2px]
             drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)]
             opacity-0 animate-fade-in animation-delay-300
             inline-block
-            max-w-full
+            max-w-[50%]
           "
           style={{
-            whiteSpace: "nowrap",
-            transformOrigin: "center",
-            display: "inline-block",
+            whiteSpace: "normal",       // Cho phép xuống 1 dòng
+            wordBreak: "keep-all",      // Không bẻ chữ tiếng Việt
+            textAlign: "center",
           }}
         >
           <span
             style={{
               display: "inline-block",
-              whiteSpace: "nowrap",
               fontSize: "clamp(1rem, 3vw, 1.7rem)",
               fontWeight: 600,
+              lineHeight: 1.3,
             }}
           >
             {t("hero.tagline")}
