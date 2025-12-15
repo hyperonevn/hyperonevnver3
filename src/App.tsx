@@ -131,7 +131,6 @@ export function App() {
 
             {/* HYPER ME + HONORARY */}
             <HyperMESection />
-            <HonoraryCoFounderSection />
 
             {/* CONTACT */}
             <ContactSection />
