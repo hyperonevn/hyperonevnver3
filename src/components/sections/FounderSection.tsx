@@ -4,6 +4,7 @@ import { useLanguage } from "../../context/LanguageContext";
 export const FounderSection: React.FC = () => {
   const { t } = useLanguage();
   const [expanded, setExpanded] = useState(false);
+  const sourceUrl = t("founder.sourceUrl");
 
   return (
     <section
@@ -62,11 +63,28 @@ export const FounderSection: React.FC = () => {
               {/* COLLAPSIBLE AREA */}
               <div
                 className={`transition-all overflow-hidden ${
-                  expanded ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+                  expanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
                 }`}
               >
                 <p>{t("founder.bio2")}</p>
+                <p>{t("founder.bio3")}</p>
               </div>
+
+              {sourceUrl.startsWith("http") && (
+                <div className="text-sm text-gray-400">
+                  <span className="mr-2 text-gray-500">
+                    {t("founder.sourceLabel")}:
+                  </span>
+                  <a
+                    href={sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#00E0FF] underline hover:text-[#FFD166] transition"
+                  >
+                    {t("founder.sourceTitle")}
+                  </a>
+                </div>
+              )}
 
               {/* VIEW MORE BUTTON */}
               <button

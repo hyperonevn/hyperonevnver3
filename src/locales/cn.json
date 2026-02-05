@@ -24,6 +24,118 @@
     "contactUs": "联系我们",
     "scrollDown": "向下滚动"
   },
+  "company": {
+    "kicker": "公司信息与发展历程 — HYPER ONE CO., LTD",
+    "title": "公司信息与发展历程",
+    "subtitle": "HYPER ONE 的概况、业务领域与重要发展里程碑。HYPER ONE 的初心简单而坚定——帮助越南企业以更可靠、更自信的方式进入 AI 时代。我们为中小企业打造实用的工具，让运营更高效、竞争力更强。",
+    "backHome": "返回首页",
+    "sections": {
+      "overview": "概况",
+      "businessAreas": "业务领域",
+      "history": "发展历程"
+    },
+    "overview": [
+      { "label": "公司名称", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "国际名称", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "简称", "value": "HYPER ONE CO., LTD" },
+      { "label": "税号", "value": "0318921926" },
+      { "label": "法定代表人", "value": "Lữ Minh Trí" },
+      {
+        "label": "初始注册地址（04/2025 – 30/06/2025）",
+        "value": "68 Nguyen Hue, Ben Nghe Ward, District 1, Ho Chi Minh City, Vietnam"
+      },
+      {
+        "label": "行政调整后地址（自 01/07/2025 起）",
+        "value": "68 Nguyen Hue, Sai Gon Ward, Ho Chi Minh City, Vietnam"
+      },
+      { "label": "税务主管机关", "value": "Tax Office 1, Ho Chi Minh City" },
+      { "label": "成立时间", "value": "04/2025" },
+      { "label": "注册资本", "value": "1,000,000,000 VND" },
+      {
+        "label": "主营业务",
+        "value": "信息技术服务及相关计算机服务。"
+      }
+    ],
+    "businessAreas": [
+      "联合创始与综合战略技术伙伴",
+      "中小企业一体化 AI 解决方案",
+      "技术分销与供应",
+      "AI 应用数字产品研发",
+      "AI 培训与能力转移",
+      "技术生态系统发展"
+    ],
+    "history": [
+      {
+        "date": "04/2025",
+        "items": [
+          "公司在胡志明市第一区成立",
+          "发布以人为本的伦理 AI 发展方向",
+          "成立技术生态系统发展部门"
+        ]
+      },
+      {
+        "date": "05/2025",
+        "items": [
+          "成立 AI 数字产品研发部门",
+          "成立 HYPER ACADEMY — AI 培训与能力转移单位"
+        ]
+      },
+      {
+        "date": "06/2025",
+        "items": [
+          "成立中小企业一体化 AI 解决方案部门",
+          "成立技术分销与供应部门"
+        ]
+      },
+      {
+        "date": "07/2025",
+        "items": [
+          "发布 HYPER BOT 与 HYPER CLOUD",
+          "发布联合创始与战略技术伙伴政策"
+        ]
+      },
+      {
+        "date": "08/2025",
+        "items": [
+          "发布 HYPER ME — 数字身份平台",
+          "成立 HYPER LABS — AI 伦理与应用研究单位"
+        ]
+      },
+      {
+        "date": "09/2025",
+        "items": [
+          "联合创办 AI School — AI Wiz Kids",
+          "发布 Hyper SmartHome — 智能家居解决方案"
+        ]
+      },
+      {
+        "date": "10/2025",
+        "items": [
+          "入选 Tech Fusion Night 的 5 家越南代表科技企业之一",
+          "与 SPS Inc.（Magconn Technology）签署战略合作"
+        ]
+      },
+      {
+        "date": "11/2025",
+        "items": [
+          "联合创办 SaDec X — AI 数字农业平台",
+          "为 DAS Institute（人工智能与数字战略研究院）研究项目提供技术"
+        ]
+      },
+      {
+        "date": "01/2026",
+        "items": [
+          "成立 Hyper Ventures — AI 项目技术投资基金",
+          "发布 Hyper Ventures 合作政策",
+          "发布 HYPER TEACH 与 HYPER SCHOOL"
+        ]
+      },
+      {
+        "date": "02/2026",
+        "items": ["与 Kính Vạn Hoa – Creative Lab 签署战略合作"]
+      }
+    ]
+  },
   "about": {
     "title": "关于 HYPER ONE",
     "description": "HYPER ONE 的初心简单而坚定——帮助越南企业以更可靠、更自信的方式进入 AI 时代。我们为中小企业打造实用的工具，让运营更高效、竞争力更强。",
@@ -170,8 +282,12 @@
   "position": "CEO & Founder",
   "quote": "我相信，未来属于那些始终坚持正确价值的人。Hyper One 坚持发展有伦理、有责任、真正服务于人的人工智能。",
   "shortQuote": "以人为本的伦理 AI。",
-  "bio1": "谁是吕明智？跨越多大洲的旅程、多重角色与大胆的选择，共同塑造了他的系统化思维与“以人为本的 AI”哲学。",
-  "bio2": "吕明智是 AI 教育平台 AI Wiz Kids 和 AI 农业项目 SaDec X 的联合创始人。在回到越南之前，他曾在日本和新加坡担任多个需要系统思维与高度自律的职位，包括在日本 Futher Up（Oka Bain Japan）担任设计主管、项目经理及董事长助理。他也是 Oka&Co Interior 新加坡的创始人兼国家总监，负责团队建设并在东南亚执行多项设计与科技项目。此外，他曾近十年往返超过 30 个国家（包括欧洲、巴基斯坦、印度、中国、印度尼西亚、马来西亚），参与贸易与市场调研，从而形成了全球化的企业运营与增长模式视角。回到越南后，他创立 Hyper One，致力于开发 AI 平台、思维自动化系统与运营技术，专注解决企业真实问题并构建 AI 时代的知识模型。他的跨国经验与战略思维，奠定了“以人为本的 AI”这一核心理念，并成为 Hyper One 追求伦理性、责任性与实用性 AI 的基础。"
+  "bio1": "Lữ Minh Trí在信息技术与数据领域拥有超过15年的经验，是AI Wiz Kids与SaDec X的联合创始人，这两家组织将人工智能应用于教育与农业。",
+  "bio2": "他曾在日本和新加坡多年从事系统设计、项目管理与运营协调等工作，这些环境要求高度纪律性与系统思维。在近十年间，他有机会在30多个国家工作并进行市场调研，由此积累了不同情境下的企业运营实务经验。",
+  "bio3": "他因越南数据伦理与医疗信息安全议题，接受《Kinh tế Sài Gòn》关于“Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?”（2026/01/13）的采访。",
+  "sourceLabel": "参考",
+  "sourceTitle": "Kinh tế Sài Gòn – “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?” (13/01/2026)",
+  "sourceUrl": "https://thesaigontimes.vn/bao-gio-het-canh-nguoi-benh-bi-ban-dung-du-lieu/"
 }
 
 
@@ -456,7 +572,8 @@
   },
   "common": {
   "showMore": "显示更多",
-  "showLess": "收起内容"
+  "showLess": "收起内容",
+  "companyInfo": "公司信息"
 },
 
   "mou": {
@@ -478,6 +595,3 @@
 
 
 }
-
-
-

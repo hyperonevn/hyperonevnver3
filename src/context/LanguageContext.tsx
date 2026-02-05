@@ -21,7 +21,7 @@ type LocaleData = typeof enLocale;
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: string) => string;
+  t: (key: string) => any;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -55,7 +55,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     setLanguage(lang);
   };
 
-  const t = (key: string): string => {
+  const t = (key: string): any => {
     if (!language) return ''; // chưa load thì tránh lỗi
     
     const keys = key.split('.');

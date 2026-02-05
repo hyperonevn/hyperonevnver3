@@ -24,6 +24,118 @@
     "contactUs": "문의하기",
     "scrollDown": "스크롤"
   },
+  "company": {
+    "kicker": "회사 정보 및 연혁 — HYPER ONE CO., LTD",
+    "title": "회사 정보 및 연혁",
+    "subtitle": "HYPER ONE의 개요, 사업 영역, 주요 발전 연혁. HYPER ONE 는 베트남 기업이 AI 시대를 안전하고 자신 있게 맞이할 수 있도록 돕기 위해 설립되었습니다. 중소기업이 효율적으로 운영하고 성장할 수 있도록 실용적인 AI 플랫폼을 구축하고 있습니다.",
+    "backHome": "홈으로 돌아가기",
+    "sections": {
+      "overview": "개요",
+      "businessAreas": "사업 영역",
+      "history": "발전 연혁"
+    },
+    "overview": [
+      { "label": "회사명", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "영문명", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "약칭", "value": "HYPER ONE CO., LTD" },
+      { "label": "세금 코드", "value": "0318921926" },
+      { "label": "법적 대표자", "value": "Lữ Minh Trí" },
+      {
+        "label": "초기 등록 주소 (04/2025 – 30/06/2025)",
+        "value": "68 Nguyen Hue, Ben Nghe Ward, District 1, Ho Chi Minh City, Vietnam"
+      },
+      {
+        "label": "행정 구역 조정 후 주소 (01/07/2025~)",
+        "value": "68 Nguyen Hue, Sai Gon Ward, Ho Chi Minh City, Vietnam"
+      },
+      { "label": "세무 관리 기관", "value": "Tax Office 1, Ho Chi Minh City" },
+      { "label": "설립", "value": "04/2025" },
+      { "label": "자본금", "value": "1,000,000,000 VND" },
+      {
+        "label": "주요 업종",
+        "value": "정보기술 서비스 및 관련 컴퓨터 서비스."
+      }
+    ],
+    "businessAreas": [
+      "공동 창립 및 전략적 기술 파트너",
+      "중소기업용 통합 AI 솔루션",
+      "기술 유통 및 공급",
+      "AI 적용 디지털 제품 연구·개발",
+      "AI 교육 및 역량 이전",
+      "기술 생태계 구축"
+    ],
+    "history": [
+      {
+        "date": "04/2025",
+        "items": [
+          "호치민시 1군에서 회사 설립",
+          "윤리적이고 인간 중심의 AI 개발 방향 수립",
+          "기술 생태계 개발 부서 설립"
+        ]
+      },
+      {
+        "date": "05/2025",
+        "items": [
+          "AI 디지털 제품 연구·개발 부서 설립",
+          "HYPER ACADEMY – AI 교육 및 역량 이전 조직 설립"
+        ]
+      },
+      {
+        "date": "06/2025",
+        "items": [
+          "중소기업용 통합 AI 솔루션 부서 설립",
+          "기술 유통 및 공급 부서 설립"
+        ]
+      },
+      {
+        "date": "07/2025",
+        "items": [
+          "HYPER BOT 및 HYPER CLOUD 출시",
+          "공동 창립 및 전략적 기술 파트너 정책 수립"
+        ]
+      },
+      {
+        "date": "08/2025",
+        "items": [
+          "HYPER ME – 디지털 ID 플랫폼 출시",
+          "HYPER LABS – AI 윤리 및 응용 연구 조직 설립"
+        ]
+      },
+      {
+        "date": "09/2025",
+        "items": [
+          "AI School – AI Wiz Kids 공동 설립",
+          "Hyper SmartHome – 스마트 홈 솔루션 출시"
+        ]
+      },
+      {
+        "date": "10/2025",
+        "items": [
+          "Tech Fusion Night에 베트남 대표 5개 기술 기업 중 하나로 선정",
+          "SPS Inc. (Magconn Technology)와 전략적 협력 체결"
+        ]
+      },
+      {
+        "date": "11/2025",
+        "items": [
+          "SaDec X – AI 기반 디지털 농업 플랫폼 공동 설립",
+          "DAS Institute(인공지능·디지털 전략 연구소) 연구 프로그램에 기술 제공"
+        ]
+      },
+      {
+        "date": "01/2026",
+        "items": [
+          "Hyper Ventures – AI 프로젝트 투자 펀드 설립",
+          "Hyper Ventures 파트너 정책 수립",
+          "HYPER TEACH 및 HYPER SCHOOL 출시"
+        ]
+      },
+      {
+        "date": "02/2026",
+        "items": ["Kính Vạn Hoa – Creative Lab과 전략적 협력 체결"]
+      }
+    ]
+  },
   "about": {
     "title": "회사 소개",
     "description": "HYPER ONE 는 베트남 기업이 AI 시대를 안전하고 자신 있게 맞이할 수 있도록 돕기 위해 설립되었습니다. 중소기업이 효율적으로 운영하고 성장할 수 있도록 실용적인 AI 플랫폼을 구축하고 있습니다.",
@@ -168,8 +280,12 @@
   "position": "CEO & Founder",
   "quote": "저는 미래가 올바른 가치를 끝까지 지키는 사람들에게 향한다고 믿습니다. Hyper One은 인간을 위한 윤리적이고 책임 있는 AI를 추구합니다.",
   "shortQuote": "인간을 위한 윤리적 AI.",
-  "bio1": "루 민 찌는 누구인가? 여러 대륙을 넘나든 여정, 다양한 역할, 대담한 선택들이 그의 시스템적 사고와 ‘인간 중심 AI’ 철학을 형성했습니다.",
-  "bio2": "루 민 찌는 AI 교육 플랫폼인 AI Wiz Kids와 AI 기반 농업 기술 프로젝트 SaDec X의 공동 창업자입니다. 베트남으로 돌아오기 전, 그는 일본과 싱가포르에서 시스템적 사고와 높은 규율이 요구되는 역할을 수행했으며, 일본 Oka Bain 그룹 산하 Futher Up에서 디자인 총괄, 프로젝트 매니저, 회장 보좌역을 맡았습니다. 또한 싱가포르의 Oka&Co Interior의 창업자이자 국가 디렉터로서 팀을 구축하고 동남아시아 전역의 디자인 및 기술 프로젝트를 주도했습니다. 그는 유럽, 파키스탄, 인도, 중국, 인도네시아, 말레이시아 등 30여 개국을 여행하며 기업 운영과 성장 모델에 대한 글로벌 시각을 넓혔습니다. 귀국 후 그는 Hyper One을 설립하여 AI 플랫폼, 사고 자동화 시스템, 운영 기술 등을 개발하며 기업의 실제 문제 해결과 AI 시대의 지식 모델링에 집중하고 있습니다. 다국적 경험과 전략적 사고는 그의 ‘인간을 위한 AI’ 철학을 형성하는 기반이 되었고, 이는 Hyper One이 추구하는 윤리적이고 책임 있는 AI 접근 방식의 중심에 있습니다."
+  "bio1": "Lữ Minh Trí는 정보기술 및 데이터 분야에서 15년 이상의 경력을 보유하고 있습니다. 교육과 농업에 AI를 적용하는 두 조직인 AI Wiz Kids와 SaDec X의 공동 설립자입니다.",
+  "bio2": "일본과 싱가포르에서 시스템 설계, 프로젝트 관리, 운영 조율과 관련된 역할을 오랜 기간 수행했으며, 높은 규율과 시스템적 사고가 요구되는 환경에서 경험을 쌓았습니다. 약 10년 동안 30개국 이상에서 일하고 시장을 조사할 기회를 통해 다양한 맥락에서의 기업 운영 실무 경험을 축적했습니다.",
+  "bio3": "베트남의 데이터 윤리와 의료 정보 보안 문제에 대해 Kinh tế Sài Gòn의 “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?”(2026/01/13) 기사에서 인터뷰를 받았습니다.",
+  "sourceLabel": "출처",
+  "sourceTitle": "Kinh tế Sài Gòn – “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?” (13/01/2026)",
+  "sourceUrl": "https://thesaigontimes.vn/bao-gio-het-canh-nguoi-benh-bi-ban-dung-du-lieu/"
 }
 
 
@@ -454,7 +570,8 @@
   },
   "common": {
   "showMore": "더보기",
-  "showLess": "접기"
+  "showLess": "접기",
+  "companyInfo": "회사 정보"
 },
 
   "mou": {
@@ -474,9 +591,5 @@
 
 
 }
-
-
-
-
 
 

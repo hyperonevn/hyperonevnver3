@@ -24,6 +24,118 @@
     "contactUs": "Liên Hệ",
     "scrollDown": "Cuộn Xuống"
   },
+  "company": {
+    "kicker": "THÔNG TIN CÔNG TY & LỊCH SỬ HYPER ONE CO., LTD",
+    "title": "THÔNG TIN CÔNG TY & LỊCH SỬ",
+    "subtitle": "Hồ sơ tổng quan, lĩnh vực hoạt động và các cột mốc phát triển quan trọng của HYPER ONE. Hyper One được xây dựng từ niềm tin rằng AI phải phục vụ con người. Chúng tôi phát triển các nền tảng giúp doanh nghiệp Việt tự động hóa, vận hành hiệu quả hơn và nâng cao năng lực cạnh tranh bằng công nghệ phù hợp.",
+    "backHome": "Quay về trang chủ",
+    "sections": {
+      "overview": "Khái quát",
+      "businessAreas": "Lĩnh vực hoạt động",
+      "history": "Lịch sử phát triển"
+    },
+    "overview": [
+      { "label": "Tên công ty", "value": "CÔNG TY TNHH HYPER ONE" },
+      { "label": "Tên quốc tế", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "Tên viết tắt", "value": "HYPER ONE CO., LTD" },
+      { "label": "Mã số thuế", "value": "0318921926" },
+      { "label": "Người đại diện pháp luật", "value": "Lữ Minh Trí" },
+      {
+        "label": "Địa chỉ đăng ký ban đầu (04/2025 – 30/06/2025)",
+        "value": "68 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh, Việt Nam"
+      },
+      {
+        "label": "Địa chỉ sau điều chỉnh hành chính (từ 01/07/2025)",
+        "value": "68 Nguyễn Huệ, Phường Sài Gòn, TP. Hồ Chí Minh, Việt Nam"
+      },
+      { "label": "Cơ quan quản lý thuế", "value": "Thuế cơ sở 1 TP. Hồ Chí Minh" },
+      { "label": "Thành lập", "value": "04/2025" },
+      { "label": "Vốn điều lệ", "value": "1.000.000.000 VNĐ" },
+      {
+        "label": "Ngành nghề chính",
+        "value": "Hoạt động dịch vụ công nghệ thông tin và các dịch vụ liên quan đến máy vi tính."
+      }
+    ],
+    "businessAreas": [
+      "Đồng sáng lập và đối tác công nghệ chiến lược toàn diện",
+      "Giải pháp AI tích hợp cho doanh nghiệp SME",
+      "Phân phối và cung ứng giải pháp công nghệ",
+      "Nghiên cứu và sản xuất sản phẩm số ứng dụng AI",
+      "Đào tạo và chuyển giao năng lực AI",
+      "Phát triển hệ sinh thái công nghệ"
+    ],
+    "history": [
+      {
+        "date": "04/2025",
+        "items": [
+          "Thành lập công ty tại Quận 1, TP.HCM",
+          "Ban hành định hướng phát triển AI có đạo đức, lấy con người làm trung tâm",
+          "Thành lập Bộ phận Phát triển hệ sinh thái công nghệ"
+        ]
+      },
+      {
+        "date": "05/2025",
+        "items": [
+          "Thành lập Bộ phận Nghiên cứu & Sản xuất Sản phẩm Số AI",
+          "Thành lập HYPER ACADEMY – đơn vị đào tạo và chuyển giao năng lực AI"
+        ]
+      },
+      {
+        "date": "06/2025",
+        "items": [
+          "Thành lập Bộ phận Giải pháp AI tích hợp cho doanh nghiệp SME",
+          "Thành lập Bộ phận Phân phối và cung ứng giải pháp công nghệ"
+        ]
+      },
+      {
+        "date": "07/2025",
+        "items": [
+          "Ra mắt HYPER BOT và HYPER CLOUD",
+          "Ban hành chính sách Đồng sáng lập & Đối tác công nghệ chiến lược"
+        ]
+      },
+      {
+        "date": "08/2025",
+        "items": [
+          "Ra mắt HYPER ME – nền tảng định danh số",
+          "Thành lập HYPER LABS – đơn vị nghiên cứu về đạo đức và ứng dụng AI"
+        ]
+      },
+      {
+        "date": "09/2025",
+        "items": [
+          "Đồng sáng lập AI School – AI Wiz Kids",
+          "Ra mắt Hyper SmartHome – giải pháp nhà thông minh"
+        ]
+      },
+      {
+        "date": "10/2025",
+        "items": [
+          "Được lựa chọn là 1 trong 5 đại diện công nghệ Việt Nam tham dự Tech Fusion Night cùng các doanh nghiệp công nghệ lớn",
+          "Ký kết hợp tác chiến lược với SPS Inc. (Magconn Technology)"
+        ]
+      },
+      {
+        "date": "11/2025",
+        "items": [
+          "Đồng sáng lập SaDec X – nền tảng nông nghiệp số ứng dụng AI",
+          "Cung cấp công nghệ cho các chương trình nghiên cứu tại Viện DAS – Viện Trí tuệ Nhân tạo & Chiến lược số"
+        ]
+      },
+      {
+        "date": "01/2026",
+        "items": [
+          "Thành lập Hyper Ventures – quỹ đầu tư công nghệ cho các dự án AI",
+          "Ban hành chính sách đối tác Hyper Ventures",
+          "Ra mắt HYPER TEACH và HYPER SCHOOL"
+        ]
+      },
+      {
+        "date": "02/2026",
+        "items": ["Ký kết hợp tác chiến lược với Kính Vạn Hoa – Creative Lab"]
+      }
+    ]
+  },
   "about": {
     "title": "Về Hyper One",
     "description": "Hyper One được xây dựng từ niềm tin rằng AI phải phục vụ con người. Chúng tôi phát triển các nền tảng giúp doanh nghiệp Việt tự động hóa, vận hành hiệu quả hơn và nâng cao năng lực cạnh tranh bằng công nghệ phù hợp.",
@@ -168,8 +280,12 @@
   "position": "CEO & Founder",
   "quote": "Tôi tin rằng tương lai thuộc về những người kiên định với giá trị đúng đắn. Hyper One theo đuổi AI có đạo đức, có trách nhiệm và mang lại giá trị thật cho con người.",
   "shortQuote": "AI có đạo đức, vì con người.",
-  "bio1": "Lữ Minh Trí là ai? Một hành trình đa lục địa, nhiều vai trò và những lựa chọn táo bạo đã định hình nên tư duy hệ thống và triết lý AI vì con người của anh.",
-  "bio2": "Lữ Minh Trí là Đồng Sáng Lập AI Wiz Kids và SaDec X, hai dự án công nghệ giáo dục trí tuệ nhân tạo và nông nghiệp ứng dụng trí tuệ nhân tạo. Trước khi trở về Việt Nam, anh có nhiều năm làm việc tại Nhật Bản và Singapore trong các vị trí đòi hỏi tư duy hệ thống và tính kỷ luật, bao gồm Trưởng Thiết Kế, Quản Lý Dự Án và Trợ lý Chủ tịch tại Futher Up (Oka Bain Japan). Anh đồng thời là cựu Sáng Lập và Giám đốc Quốc gia Oka&Co Interior Singapore, nơi anh xây dựng đội ngũ và triển khai nhiều dự án thiết kế và công nghệ tại Đông Nam Á. Bên cạnh đó, anh có gần một thập kỷ đi qua hơn 30 quốc gia, từ châu Âu, Pakistan, Ấn Độ, Trung Quốc, Indonesia đến Malaysia để tham gia giao dịch thương mại và khảo sát thị trường, qua đó hình thành góc nhìn toàn cầu về vận hành doanh nghiệp và mô hình tăng trưởng. Hành trình trở về Việt Nam mở ra một chương mới khi anh sáng lập Hyper One với định hướng phát triển các nền tảng trí tuệ nhân tạo, hệ thống tự động hoá tư duy và công nghệ vận hành, tập trung giải quyết những bài toán thật của doanh nghiệp và mô hình hoá tri thức trong kỷ nguyên AI. Kinh nghiệm đa quốc gia cùng tư duy chiến lược giúp anh định hình triết lý AI vì con người — nền tảng cho cách Hyper One tiếp cận AI có đạo đức, có trách nhiệm và ứng dụng thực tiễn."
+  "bio1": "Lữ Minh Trí có hơn 15 năm kinh nghiệm trong lĩnh vực công nghệ thông tin và dữ liệu. Anh là Đồng sáng lập AI Wiz Kids và SaDec X, hai tổ chức ứng dụng trí tuệ nhân tạo trong giáo dục và nông nghiệp.",
+  "bio2": "Anh từng làm việc nhiều năm tại Nhật Bản và Singapore trong các vai trò liên quan đến thiết kế hệ thống, quản lý dự án và điều phối vận hành môi trường đòi hỏi tính kỷ luật cao và tư duy hệ thống. Trong gần một thập kỷ, anh có cơ hội làm việc và khảo sát thị trường tại hơn 30 quốc gia, qua đó tích lũy kinh nghiệm thực tế về vận hành doanh nghiệp trong nhiều bối cảnh khác nhau.",
+  "bio3": "Anh là nhân vật được Kinh tế Sài Gòn phỏng vấn về đạo đức dữ liệu và an toàn thông tin y tế tại Việt Nam trong bài viết “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?” (13/01/2026).",
+  "sourceLabel": "Tham khảo",
+  "sourceTitle": "Kinh tế Sài Gòn – “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?” (13/01/2026)",
+  "sourceUrl": "https://thesaigontimes.vn/bao-gio-het-canh-nguoi-benh-bi-ban-dung-du-lieu/"
 }
 
 
@@ -456,7 +572,8 @@
   },
     "common": {
     "showMore": "Xem Thêm",
-    "showLess": "Thu Gọn"
+    "showLess": "Thu Gọn",
+    "companyInfo": "Thông Tin Công Ty"
 
   },
   
@@ -477,7 +594,3 @@
 }
 
 }
-
-
-
-

@@ -24,6 +24,118 @@
     "contactUs": "Contacto",
     "scrollDown": "Desplazar"
   },
+  "company": {
+    "kicker": "INFORMACIÓN DE LA EMPRESA E HISTORIA — HYPER ONE CO., LTD",
+    "title": "INFORMACIÓN DE LA EMPRESA E HISTORIA",
+    "subtitle": "Resumen, áreas de actividad y hitos clave de desarrollo de HYPER ONE. HYPER ONE nació con un deseo sencillo pero firme: ayudar a las empresas vietnamitas a entrar en la era de la IA con confianza y responsabilidad. Construimos plataformas que permiten a las PYMEs automatizar, operar mejor y mejorar su competitividad.",
+    "backHome": "Volver al inicio",
+    "sections": {
+      "overview": "Resumen",
+      "businessAreas": "Áreas de actividad",
+      "history": "Historia de desarrollo"
+    },
+    "overview": [
+      { "label": "Nombre de la empresa", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "Nombre internacional", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "Nombre abreviado", "value": "HYPER ONE CO., LTD" },
+      { "label": "Código fiscal", "value": "0318921926" },
+      { "label": "Representante legal", "value": "Lữ Minh Trí" },
+      {
+        "label": "Dirección registrada inicial (04/2025 – 30/06/2025)",
+        "value": "68 Nguyen Hue, Barrio Ben Nghe, Distrito 1, Ciudad Ho Chi Minh, Vietnam"
+      },
+      {
+        "label": "Dirección tras ajuste administrativo (desde 01/07/2025)",
+        "value": "68 Nguyen Hue, Barrio Sai Gon, Ciudad Ho Chi Minh, Vietnam"
+      },
+      { "label": "Autoridad fiscal", "value": "Oficina Fiscal 1, Ciudad Ho Chi Minh" },
+      { "label": "Fundación", "value": "04/2025" },
+      { "label": "Capital social", "value": "1.000.000.000 VND" },
+      {
+        "label": "Actividad principal",
+        "value": "Servicios de tecnología de la información y servicios informáticos relacionados."
+      }
+    ],
+    "businessAreas": [
+      "Cofundador y socio tecnológico estratégico integral",
+      "Soluciones de IA integradas para PYMEs",
+      "Distribución y suministro de soluciones tecnológicas",
+      "Investigación y desarrollo de productos digitales con IA",
+      "Formación y transferencia de capacidades en IA",
+      "Desarrollo del ecosistema tecnológico"
+    ],
+    "history": [
+      {
+        "date": "04/2025",
+        "items": [
+          "Constitución de la empresa en el Distrito 1, Ciudad Ho Chi Minh",
+          "Se establece la orientación de IA ética y centrada en las personas",
+          "Creación del Departamento de Desarrollo del Ecosistema Tecnológico"
+        ]
+      },
+      {
+        "date": "05/2025",
+        "items": [
+          "Creación del Departamento de I+D de Productos Digitales con IA",
+          "Lanzamiento de HYPER ACADEMY – unidad de formación y transferencia de capacidades en IA"
+        ]
+      },
+      {
+        "date": "06/2025",
+        "items": [
+          "Creación del Departamento de Soluciones de IA Integradas para PYMEs",
+          "Creación del Departamento de Distribución y Suministro Tecnológico"
+        ]
+      },
+      {
+        "date": "07/2025",
+        "items": [
+          "Lanzamiento de HYPER BOT y HYPER CLOUD",
+          "Emisión de la política de Cofundador y Socio Tecnológico Estratégico"
+        ]
+      },
+      {
+        "date": "08/2025",
+        "items": [
+          "Lanzamiento de HYPER ME – plataforma de identidad digital",
+          "Creación de HYPER LABS – unidad de investigación en ética y aplicaciones de IA"
+        ]
+      },
+      {
+        "date": "09/2025",
+        "items": [
+          "Cofundación de AI School – AI Wiz Kids",
+          "Lanzamiento de Hyper SmartHome – solución de hogar inteligente"
+        ]
+      },
+      {
+        "date": "10/2025",
+        "items": [
+          "Seleccionada como una de las 5 representantes tecnológicas de Vietnam en Tech Fusion Night",
+          "Firma de alianza estratégica con SPS Inc. (Magconn Technology)"
+        ]
+      },
+      {
+        "date": "11/2025",
+        "items": [
+          "Cofundación de SaDec X – plataforma agrícola digital con IA",
+          "Suministro de tecnología para programas de investigación en el Instituto DAS – Instituto de IA y Estrategia Digital"
+        ]
+      },
+      {
+        "date": "01/2026",
+        "items": [
+          "Creación de Hyper Ventures – fondo de inversión en tecnología para proyectos de IA",
+          "Emisión de la política de socios de Hyper Ventures",
+          "Lanzamiento de HYPER TEACH y HYPER SCHOOL"
+        ]
+      },
+      {
+        "date": "02/2026",
+        "items": ["Firma de alianza estratégica con Kính Vạn Hoa – Creative Lab"]
+      }
+    ]
+  },
   "about": {
     "title": "Acerca de HYPER ONE",
     "description": "HYPER ONE nació con un deseo sencillo pero firme: ayudar a las empresas vietnamitas a entrar en la era de la IA con confianza y responsabilidad. Construimos plataformas que permiten a las PYMEs automatizar, operar mejor y mejorar su competitividad.",
@@ -168,8 +280,12 @@
   "position": "CEO & Founder",
   "quote": "Creo que el futuro pertenece a quienes permanecen fieles a los valores correctos. Hyper One persigue una IA ética, responsable y verdaderamente orientada al ser humano.",
   "shortQuote": "IA ética, para las personas.",
-  "bio1": "¿Quién es Lu Minh Tri? Un recorrido por múltiples continentes, diversos roles y decisiones valientes han dado forma a su pensamiento sistémico y a su filosofía de IA centrada en el ser humano.",
-  "bio2": "Lu Minh Tri es Cofundador de AI Wiz Kids y SaDec X, dos iniciativas dedicadas a la educación en IA y a la agricultura impulsada por inteligencia artificial. Antes de regresar a Vietnam, trabajó varios años en Japón y Singapur en cargos que requerían pensamiento sistémico y un alto nivel de disciplina, incluyendo Director de Diseño, Gestor de Proyectos y Asistente del Presidente en Futher Up (Oka Bain Japan). También fue Fundador y Director Nacional de Oka&Co Interior en Singapur, donde formó equipos y lideró múltiples proyectos de diseño y tecnología en el Sudeste Asiático. Además, pasó casi una década viajando por más de 30 países —desde Europa, Pakistán e India hasta China, Indonesia y Malasia— para realizar transacciones comerciales y estudios de mercado, adquiriendo así una visión global sobre la operación empresarial y los modelos de crecimiento. Su regreso a Vietnam marcó un nuevo capítulo con la creación de Hyper One, orientado al desarrollo de plataformas de IA, sistemas de automatización del pensamiento y tecnologías operativas enfocadas en resolver problemas reales y modelar conocimiento en la era de la IA. Su experiencia multinacional y pensamiento estratégico han moldeado su filosofía de “IA para las personas”, base del enfoque ético, responsable y práctico que Hyper One adopta frente a la inteligencia artificial."
+  "bio1": "Lữ Minh Trí tiene más de 15 años de experiencia en tecnología de la información y datos. Es cofundador de AI Wiz Kids y SaDec X, dos organizaciones que aplican IA en educación y agricultura.",
+  "bio2": "Trabajó muchos años en Japón y Singapur en funciones relacionadas con diseño de sistemas, gestión de proyectos y coordinación operativa, entornos que exigen alta disciplina y pensamiento sistémico. Durante casi una década, tuvo oportunidades de trabajar e investigar mercados en más de 30 países, acumulando experiencia práctica en operaciones empresariales en distintos contextos.",
+  "bio3": "Fue entrevistado por Kinh tế Sài Gòn sobre ética de datos y seguridad de la información médica en Vietnam en el artículo “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?” (13/01/2026).",
+  "sourceLabel": "Fuente",
+  "sourceTitle": "Kinh tế Sài Gòn – “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?” (13/01/2026)",
+  "sourceUrl": "https://thesaigontimes.vn/bao-gio-het-canh-nguoi-benh-bi-ban-dung-du-lieu/"
 }
 
 
@@ -454,7 +570,8 @@
   },
   "common": {
   "showMore": "Ver más",
-  "showLess": "Ver menos"
+  "showLess": "Ver menos",
+  "companyInfo": "Información de la Empresa"
 }, 
 
   "mou": {
@@ -475,7 +592,3 @@
 
 
 }
-
-
-
-

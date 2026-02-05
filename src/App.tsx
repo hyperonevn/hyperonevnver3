@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 // 🌐 CONTEXT & UI
-import { LanguageProvider } from './context/LanguageContext';
 import { ParticleBackground } from './components/ui/ParticleBackground';
 
 // 🌐 CORE LAYOUT
@@ -61,12 +60,11 @@ export function App() {
   }, []);
 
   return (
-    <LanguageProvider>
-      <div className="relative min-h-screen bg-black text-white overflow-hidden">
-        <ParticleBackground />
+    <div className="relative min-h-screen bg-black text-white overflow-hidden">
+      <ParticleBackground />
 
-        <div className="relative z-10">
-          <Header />
+      <div className="relative z-10">
+        <Header />
 
           <main>
             {/* HERO */}
@@ -136,9 +134,8 @@ export function App() {
             <ContactSection />
           </main>
 
-          <Footer />
-        </div>
+        <Footer />
       </div>
-    </LanguageProvider>
+    </div>
   );
 }

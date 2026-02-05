@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
 import { MenuIcon, XIcon } from "lucide-react";
 import { FlagSwitcher } from "./ui/FlagSwitcher";
@@ -58,6 +59,12 @@ export const Header: React.FC = () => {
                 {item.name}
               </a>
             ))}
+            <Link
+              to="/company"
+              className="text-sm font-semibold text-[#00E0FF] border border-[#00E0FF]/50 px-3 py-1.5 rounded-full hover:bg-[#00E0FF]/10 transition"
+            >
+              {t("common.companyInfo")}
+            </Link>
             {/* Flag Switcher */}
             <FlagSwitcher />
           </nav>
@@ -94,6 +101,13 @@ export const Header: React.FC = () => {
                   {item.name}
                 </a>
               ))}
+              <Link
+                to="/company"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-base font-semibold text-[#00E0FF] border border-[#00E0FF]/50 px-3 py-2 rounded-full hover:bg-[#00E0FF]/10 transition"
+              >
+                {t("common.companyInfo")}
+              </Link>
             </nav>
           </div>
         </div>

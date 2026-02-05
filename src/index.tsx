@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './index.css'
 import { render } from 'react-dom'
-import { App } from './App'
+import { AppRouter } from './AppRouter'
 import Intro from './Intro'
 
 const metaTags = [
@@ -40,7 +40,7 @@ const Root = () => {
   return (
     <>
       {!showApp && <Intro onFinish={() => setShowApp(true)} />}
-      {showApp && <App />}
+      {showApp && <AppRouter />}
     </>
   )
 }

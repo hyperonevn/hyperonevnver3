@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../../context/LanguageContext';
 import { TypewriterText } from '../ui/TypewriterText';
 import { ArrowDownIcon } from 'lucide-react';
@@ -23,7 +24,6 @@ export const HeroSection: React.FC = () => {
 
       {/* Content */}
       <div className="container mx-auto px-6 text-center relative z-10 flex flex-col items-center">
-
         {/* LOGO BLOCK */}
         <div
           className="
@@ -98,6 +98,18 @@ export const HeroSection: React.FC = () => {
           >
             {t('hero.contactUs')}
           </a>
+
+          <Link
+            to="/company"
+            className="
+              px-6 py-2.5 rounded-full border border-white/30 text-white
+              bg-white/10 hover:bg-white/20
+              hover:shadow-[0_0_18px_rgba(255,255,255,0.25)]
+              transition-all duration-300
+            "
+          >
+            {t('common.companyInfo')}
+          </Link>
         </div>
       </div>
 

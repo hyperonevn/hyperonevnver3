@@ -24,6 +24,118 @@
     "contactUs": "お問い合わせ",
     "scrollDown": "スクロール"
   },
+  "company": {
+    "kicker": "会社情報と沿革 — HYPER ONE CO., LTD",
+    "title": "会社情報と沿革",
+    "subtitle": "HYPER ONEの概要、事業領域、主要な発展の歩み。HYPER ONE は、ベトナム企業がAI時代へ安全かつ確信をもって進むための支えとなることを目的に生まれました。中小企業が自動化し、運営効率を高め、競争力を強めるための実用的なプラットフォームを開発しています。",
+    "backHome": "ホームへ戻る",
+    "sections": {
+      "overview": "概要",
+      "businessAreas": "事業領域",
+      "history": "発展の歩み"
+    },
+    "overview": [
+      { "label": "会社名", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "国際名", "value": "HYPER ONE COMPANY LIMITED" },
+      { "label": "略称", "value": "HYPER ONE CO., LTD" },
+      { "label": "税コード", "value": "0318921926" },
+      { "label": "法定代表者", "value": "Lữ Minh Trí" },
+      {
+        "label": "初回登録住所（04/2025 – 30/06/2025）",
+        "value": "68 Nguyen Hue, Ben Nghe Ward, District 1, Ho Chi Minh City, Vietnam"
+      },
+      {
+        "label": "行政区調整後の住所（01/07/2025～）",
+        "value": "68 Nguyen Hue, Sai Gon Ward, Ho Chi Minh City, Vietnam"
+      },
+      { "label": "税務管理機関", "value": "Tax Office 1, Ho Chi Minh City" },
+      { "label": "設立", "value": "04/2025" },
+      { "label": "資本金", "value": "1,000,000,000 VND" },
+      {
+        "label": "主な事業",
+        "value": "ITサービスおよび関連するコンピュータサービス。"
+      }
+    ],
+    "businessAreas": [
+      "共同創業・包括的戦略テクノロジーパートナー",
+      "中小企業向け統合AIソリューション",
+      "テクノロジーの流通・供給",
+      "AI応用デジタル製品の研究開発",
+      "AI教育と能力移転",
+      "テクノロジー・エコシステムの構築"
+    ],
+    "history": [
+      {
+        "date": "04/2025",
+        "items": [
+          "ホーチミン市1区で会社設立",
+          "倫理的かつ人間中心のAI開発方針を策定",
+          "テクノロジー・エコシステム開発部門を設立"
+        ]
+      },
+      {
+        "date": "05/2025",
+        "items": [
+          "AIデジタル製品の研究開発部門を設立",
+          "HYPER ACADEMY（AI教育・能力移転）を設立"
+        ]
+      },
+      {
+        "date": "06/2025",
+        "items": [
+          "中小企業向け統合AIソリューション部門を設立",
+          "テクノロジー流通・供給部門を設立"
+        ]
+      },
+      {
+        "date": "07/2025",
+        "items": [
+          "HYPER BOT と HYPER CLOUD をリリース",
+          "共同創業・戦略テクノロジーパートナー方針を策定"
+        ]
+      },
+      {
+        "date": "08/2025",
+        "items": [
+          "HYPER ME（デジタルIDプラットフォーム）をリリース",
+          "HYPER LABS（AI倫理と応用研究）を設立"
+        ]
+      },
+      {
+        "date": "09/2025",
+        "items": [
+          "AI School – AI Wiz Kids を共同設立",
+          "Hyper SmartHome（スマートホームソリューション）をリリース"
+        ]
+      },
+      {
+        "date": "10/2025",
+        "items": [
+          "Tech Fusion Nightにベトナム代表5社の1社として選出",
+          "SPS Inc.（Magconn Technology）と戦略的提携を締結"
+        ]
+      },
+      {
+        "date": "11/2025",
+        "items": [
+          "SaDec X（AI農業デジタルプラットフォーム）を共同設立",
+          "DAS Institute（AI・デジタル戦略研究所）の研究プログラムに技術提供"
+        ]
+      },
+      {
+        "date": "01/2026",
+        "items": [
+          "Hyper Ventures（AI投資ファンド）を設立",
+          "Hyper Venturesパートナー方針を策定",
+          "HYPER TEACH と HYPER SCHOOL をリリース"
+        ]
+      },
+      {
+        "date": "02/2026",
+        "items": ["Kính Vạn Hoa – Creative Lab と戦略的提携を締結"]
+      }
+    ]
+  },
   "about": {
     "title": "HYPER ONE について",
     "description": "HYPER ONE は、ベトナム企業がAI時代へ安全かつ確信をもって進むための支えとなることを目的に生まれました。中小企業が自動化し、運営効率を高め、競争力を強めるための実用的なプラットフォームを開発しています。",
@@ -170,8 +282,12 @@
   "position": "CEO & Founder",
   "quote": "私は、未来は正しい価値観を貫く者の手に渡ると信じています。Hyper One は、人間のために、倫理的で責任ある AI を追求します。",
   "shortQuote": "倫理的なAI、人のために。",
-  "bio1": "ル・ミン・チ とは誰か──多大陸にわたる旅路、多様な役割、大胆な選択。それらは彼のシステム思考と「人のためのAI」という哲学を形づくりました。",
-  "bio2": "ル・ミン・チ は、AI 教育プラットフォームである AI Wiz Kids と、AI を活用したアグリテック事業 SaDec X の共同創業者です。帰国前、彼は日本とシンガポールで、システム思考と高い規律性が求められる役職を歴任し、Futher Up（Oka Bain Japan）ではデザイン責任者、プロジェクトマネージャー、会長補佐を務めました。また、シンガポールの Oka&Co Interior の創業者兼カントリーディレクターとしてチームを立ち上げ、東南アジアにおける数多くのデザイン・テクノロジー案件を主導しました。さらに、彼は約10年をかけて30カ国以上（欧州、パキスタン、インド、中国、インドネシア、マレーシアなど）を巡り、商取引や市場調査に従事し、企業運営と成長モデルに関するグローバルな視点を培いました。ベトナムへ戻った後、Hyper One を創設し、AI プラットフォーム、思考自動化システム、運用テクノロジーを開発し、企業の実際の課題解決とナレッジモデリングに取り組んでいます。多国籍での経験と戦略的思考は、彼が掲げる「人間のためのAI」という哲学の基盤となり、Hyper One における倫理的・責任ある AI アプローチを支えています。"
+  "bio1": "ルー・ミン・チーはITとデータ分野で15年以上の経験があります。教育と農業でAIを応用する組織、AI Wiz KidsとSaDec Xの共同創設者です。",
+  "bio2": "日本とシンガポールで、システム設計、プロジェクト管理、運用調整に関わる役割を長年担当し、高い規律とシステム思考が求められる環境で経験を積みました。約10年にわたり30カ国以上での業務や市場調査の機会があり、多様な文脈での事業運営の実務経験を蓄積しました。",
+  "bio3": "ベトナムのデータ倫理と医療情報の安全性について、Kinh tế Sài Gònの「Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?」（2026/01/13）でインタビューを受けました。",
+  "sourceLabel": "出典",
+  "sourceTitle": "Kinh tế Sài Gòn – “Bao giờ hết cảnh người bệnh bị ‘bán đứng’ dữ liệu?” (13/01/2026)",
+  "sourceUrl": "https://thesaigontimes.vn/bao-gio-het-canh-nguoi-benh-bi-ban-dung-du-lieu/"
 }
 
 ,
@@ -454,7 +570,8 @@
   },
   "common": {
   "showMore": "もっと見る",
-  "showLess": "閉じる"
+  "showLess": "閉じる",
+  "companyInfo": "会社情報"
 },
 
   "mou": {
@@ -474,10 +591,6 @@
 
 
 }
-
-
-
-
 
 
 
